@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Sticky Squish.wav-75bf9495aa961efe757507a9bc0d6d0a.sample"
+
+[deps]
+
+source_file="res://art/Audio Effects/Sticky Squish.wav"
+dest_files=[ "res://.import/Sticky Squish.wav-75bf9495aa961efe757507a9bc0d6d0a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

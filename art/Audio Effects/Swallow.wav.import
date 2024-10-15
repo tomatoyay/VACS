@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Swallow.wav-2e11b17c7bced6c6054c1a38c77b9eaa.sample"
+
+[deps]
+
+source_file="res://art/Audio Effects/Swallow.wav"
+dest_files=[ "res://.import/Swallow.wav-2e11b17c7bced6c6054c1a38c77b9eaa.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

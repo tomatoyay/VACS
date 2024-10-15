@@ -1,0 +1,2765 @@
+{
+	"events": [
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/Orven Apartment.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"condition": ">=",
+			"definition": "1723308340-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Alright, now that [tootroot] is taken care of, I gotta get ready too.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](I might need to get another job while I’m waiting for them to get back to me.)\n[i]sigh"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](I'll need to ask good questions tomorrow.)"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1725217814-366",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Running into Something Thud.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????\n[color=#ffed29](Oh! Could it be?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Door Opening.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Tootroot.wav",
+			"volume": -5
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Lettuce Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "Oh my gods! Look at the lettuce head on this tootroot!\nShe looks incredible!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Happy",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "What a lovely shade of green you got!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I’m so proud of you. [tootroot], you’ve grown so much!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Neutral",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "[i]Lettuce[/i] celebrate with more lettuce!\nAnd I’ll get a cool bath!"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Peach Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "[tootroot]! Oh my gods!\nThe peaches on you are HUGE! Are you gonna topple over???"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Happy",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha[/i], I guess not! You’re perfectly balanced."
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[i]Haha[/i], I see the need for a WHOLE tree now. You gotta support these giants!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Neutral",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "I’m sure you’re tired, so I’ll get you more peaches, and I’ll get a cool bath going, too."
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Tomato Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[tootroot]! Look at all these tomatoes!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Happy",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "What a BOUNTY of tomatoes! And they all look so full and ripe!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "You look adorable, I love this pop of color on you."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Very fashionable."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Neutral",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Come inside! I’ll get you some more tomatoes and I’ll draw a cool bath for you."
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Bath.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/Orven Apartment.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laugh",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Lettuce Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Peach Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Tomato Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Party Favor.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Congrats on your successful crop!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Glad you’re doing so well."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Neutral",
+			"text": "???"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Neutral",
+			"text": "???"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Neutral",
+			"text": "???"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Hm?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I’m okay, [i]haha[/i], don’t worry."
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned Lettuce",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned Peach",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned Tomato",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Do you want more food or another bath?\nMaybe more pets!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Okay, okay…I’m getting furloughed."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "And I don’t really know what that means, or what’s going to happen after.\nSo, I’m nervous."
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Like, I’m definitely happy that I’m not fired, but still… not having income is going to be tough."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Also, assuming I get to keep the apartment, which is a huge “IF.”"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[i]sigh"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Neutral",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Neutral",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Neutral",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "???"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Whoa! What?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot Rustling.wav",
+			"volume": -5
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 1,
+			"animation_repeat": 2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "……"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "Do you want me to try your crop?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[i]Haha[/i], sure. I'd be honored."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Now, this shouldn’t hurt."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Pluck Sound.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Let’s see how amazing it is!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Wow."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[tootroot], this is incredible! It’s beyond fresh!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "And I feel so energized!\nNow I see why apothecaries use your crops so much for their medicines."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "You’re so cool.\nThanks for making me feel better, [tootroot]."
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Neutral",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Neutral",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Neutral",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Visit tomorrow?"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Love you!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1709698079.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1725217814-366",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"condition": "==",
+			"definition": "1723308340-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Running into Something Thud.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????\n[color=#ffed29](Could it be?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Door Opening.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "!!!!!!\nHey, [tootroot]! Welcome back!"
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Tootroot.wav",
+			"volume": -5
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Lettuce Seedling Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Look at you! Wow, one day and you’re halfway bloomed."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "You gained a couple inches on you!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Come in!\nI’ll get you some more lettuce, and I’ll get a cool bath going too! "
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Peach Seedling Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Excuse me, miss, what are you doing back…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "WITH A TREE!?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha[/i], I guess that makes sense if you’re going to grow a peach. But I can’t believe this was done in one day!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Seedling Neutral",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But come in, come in!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "You’re going to need good food and a nice bath to support that ecosystem you got on your back!"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Tomato Seedling Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "I’m so glad you came back to visit!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Dang, you must’ve been sprouting a new leaf every couple hours."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "It’s paying off, you look great. You’re so leafy!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Seedling Neutral",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "But come in, come in!\nI’ll get you some more tomatoes, draw a cool bath, and I’ll be sure to get some good scratches in, too."
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Bath.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/Orven Apartment.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Lettuce Seedling Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Peach Seedling Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Tootroot Tomato Seedling Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "What am I going to do…"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned Lettuce Seedling",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned Peach Seedling",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned Tomato Seedling",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I hope getting furloughed means I get to keep the apartment.\nI mean, it’s not like they’ll hire a new person, right?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "So, there’s no harm in letting me stay, right?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Yeah, you’re right. Even if I do stay, I’ll need some way of paying off bills."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[i]Ughh."
+		},
+		{
+			"condition": ">",
+			"definition": "1702933074-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Maybe Rondeau needs help at ABP?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "==",
+			"definition": "1702933074-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Maybe one of the cafes is hiring?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[i]sigh\nWell, let’s hope that the “gift” they’re giving me tomorrow can cover me until I start making money again."
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Well, I gotta get ready for work. Come back tomorrow?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Lettuce Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Peach Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Tootroot Tomato Seedling Happy",
+			"text": "[i]smile"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See you, [tootroot]."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1709698079.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">=",
+			"definition": "1723308340-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Alright, now that [tootroot] is taken care of, I gotta get ready too.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](I might need to get another job while I’m waiting for them to get back to me.)\n[i]sigh"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](I'll need to ask good questions tomorrow.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "3C Night"
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Orven's House (Jazz).wav",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Kitchen fx.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 6
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Sizzling.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Washing Dishes.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/Orven Apartment Dark.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Ringing.wav",
+			"volume": 0
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 1,
+			"animation_repeat": 20,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](Did Gramma forget to say something?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Ringing.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Phone Pickup.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is Orven?"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Frowning",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"condition": "",
+			"definition": "1703279733-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, Orvo."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703279733-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, Orbro."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Herb! What’s up?"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Thinking",
+			"question": "Nothing, man…except for you being suspended!!! Dude, I can’t believe it."
+		},
+		{
+			"choice": "I know…",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I know, man, it sucks."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Management just gets to do whatever they want, and I just have to take it."
+		},
+		{
+			"choice": "But what can I do, right?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I can’t believe it, either...but what can I do about it, right?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "It is how it is…"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "I guess...\nBut, how does THIS help morale?\nIt’s like they’re picking on the newest guy…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I mean, it makes sense—it would be weird to pick on someone more senior."
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "What am I going to do without you, man??"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Herb, you’re friends with everyone at work, you’ll be fine!!\nYou don’t have to sit outside with me anymore, you can be in the lounge with everyone."
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Frowning",
+			"text": "But, I’ve come to like those stairs…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "It’s [i]our[/i] stairs, you can’t sit there without me.\nYou gotta go back, join the boys at lunch!"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Relaxed",
+			"text": "It would feel weird without you…\nI remember I almost took you out with the door that first day."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Yeah, you almost killed my lunch!"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "NO ONE EATS THERE, DUDE."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "You do!"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[i]Haha[/i], now I do.\nBut for the company, not for the step."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I just like looking at the city."
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Relaxed",
+			"text": "It is a pretty city."
+		},
+		{
+			"condition": "",
+			"definition": "1703279733-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Orvo, I’ll miss you!!!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703279733-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Orbro, I’ll miss you!!!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I’ll miss you too, man."
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Relaxed",
+			"text": "We gotta hang at the Tavern."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "For sure."
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thumbs Up",
+			"text": "Okay…I just wanted to make sure we would still hang.\nAnd check how you were doing."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Yeah...\nHey, if they’re hiring at the Tavern, then you’ll see me for sure!"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh, right! You could chef it up there!"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thumbs Up",
+			"text": "That would be sick, I’d have someone to give me stuff on the house!\nMaybe this is for the best…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Hey!"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Relaxed",
+			"text": "[i]Haha[/i]! I’m joking, I’m joking.\nOkay, glad to hear you’re okay…\nI’ll see you soon?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Yeah, man, probably tomorrow, even!"
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh, sweet, seriously?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "I have to go in to pick up their \"furlough gift.\""
+		},
+		{
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "Weird…okay?\nI’ll see you, then!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See you, man."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Phone Hangup.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1712972726.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/Orven Apartment.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](So lucky to have Herb as a friend.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I guess I get ready for bed and ready to start my furlough period.)"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shower.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"change_timeline": "timeline-1709698079.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1709698073.json",
+		"name": "Conflicted 3C"
+	}
+}

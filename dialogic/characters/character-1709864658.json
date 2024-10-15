@@ -1,0 +1,45 @@
+{
+	"color": "#ffffffff",
+	"description": "Southside doctor.",
+	"display_name": "Dr. Ki",
+	"display_name_bool": true,
+	"id": "character-1709864658.json",
+	"mirror_portraits": false,
+	"name": "Dr. Ki",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 600,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Dr. Ki/Dr. Ki No Mask.png"
+		},
+		{
+			"name": "Mask",
+			"path": "res://art/Characters/Dr. Ki/Dr. Ki Mask.png"
+		},
+		{
+			"name": "Alert Mask",
+			"path": "res://art/Characters/Dr. Ki/Alert Ki Mask.png"
+		},
+		{
+			"name": "Head Cocked Mask",
+			"path": "res://art/Characters/Dr. Ki/Head Cocked Ki Mask.png"
+		},
+		{
+			"name": "Determined",
+			"path": "res://art/Characters/Dr. Ki/Determined Ki No Mask.png"
+		},
+		{
+			"name": "Grossed Out",
+			"path": "res://art/Characters/Dr. Ki/Grossed Out Ki No Mask.png"
+		},
+		{
+			"name": "Nostalgic",
+			"path": "res://art/Characters/Dr. Ki/Nostalgic Ki No Mask.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

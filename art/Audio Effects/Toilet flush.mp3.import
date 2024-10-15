@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Toilet flush.mp3-88468133982d1675e8c4283ecc5416a2.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Toilet flush.mp3"
+dest_files=[ "res://import/Toilet flush.mp3-88468133982d1675e8c4283ecc5416a2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,1228 @@
+{
+	"events": [
+		{
+			"background": "res://art/Background/Orven Apartment.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Orven's House (Jazz).wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"condition": ">=",
+			"definition": "1723308340-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[tootroot], that was Gramma on the phone.\nShe always knows what to say and how to make me feel better."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Stomach Growl.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oops! [tootroot], it’s time for dinner!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "I’ll get nice veggies for youuu…"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "And for me?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "DAIRY."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Not Angry Confused",
+			"question": "What? It’s my comfort food!"
+		},
+		{
+			"choice": "Grilled cheese sandwich and tomato soup… with ice-cream later",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I want something warm and rich, without it being bloating.)\n[color=#ffed29](And something simple—I don’t really wanna deal with all the dishes right now.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](Time for the staple, grilled cheese and tomato soup!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "[color=#ffed29](And maybe (definitely) some ice-cream after.)"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Kitchen fx.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 7
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Smug",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Gotta love the classics.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trombone Yum.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[wave amp=50.0 freq=5.0 connected=1][i]MMM! Mmm! MMM!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[tootroot], if you don’t use at least three cheeses, you’re not doing grilled cheeses justice."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I hope you’re enjoying another round of lettuce!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I hope you’re enjoying another round of peaches!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308756-787",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I hope you’re enjoying another round of tomatoes!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "[i]smile"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I hope she starts sprouting soon…)\n[color=#ffed29](And Grampa?)"
+		},
+		{
+			"choice": "ONLY ICE-CREAM",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1703290078-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](It’s been a tough day, it’s time to crack open that ice-cream tub.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Smug",
+			"question": "[color=#ffed29](And I’m glad I’m pulling out this beautiful chocolate chunky ice-cream.)"
+		},
+		{
+			"choice": "I’m going to regret this.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](And I may be lactose-intolerant.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Utensils Clinking.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[color=#ffed29](But ice-cream is too yummy for me to care right now.)"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Don’t judge! I gave you something yummy!\nI get something yummy too!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Just…a better kind of yummy."
+		},
+		{
+			"choice": "There’s no way I regret this!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](This is probably the best thing about adulting!)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Utensils Clinking.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[color=#ffed29](Delicious ice-cream not AFTER dinner, but FOR dinner!)\n[color=#ffed29](I am invincible!!!)"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Don’t look at me like that, [tootroot]!  \nI’ve been responsible enough to care for you!\nI can be a mess on the side…"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trombone Yum.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[wave amp=50.0 freq=5.0 connected=1][i]MMM! Mmm! MMM!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Grampa, I hope there’s marshmallows up there, cuz I know chocolate covered almonds and chocolate ice-cream GOTTA be there.)\n[color=#ffed29](Ugh, this is insane. I’m so happy.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](And Grampa?)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](Keep watching over Gramma for me, Grampa.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](I hate thinking she’s in our home by herself.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I mean, I know she’s got her group of old lady friends, but still….)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](And if you could watch over me, too?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](I need help, as you can probably tell, [i]haha.[/i])"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](Keep me on a good path.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](I love you, Grampa…I miss you.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Trying to be the person you and Gramma are so proud of, and I hope you guys both know that.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](But anyways!)\n[color=#ffed29](One eye on Gramma, one eye on me!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](I’ll talk to you soon.)"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "[i]smile"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I gotta shower, but after that, the tub is all yours!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Goodnight, [tootroot]!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"change_timeline": "timeline-1703207702.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723308340-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](Talking to Gramma is always the right choice.)\n[color=#ffed29](I feel a lot better now.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Stomach Growl.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Well! Nothing like a good cry and talk with Gramma to get me hungry.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "[color=#ffed29](Time for comfort food.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#ffed29](It’s time for DAIRY.)"
+		},
+		{
+			"choice": "Grilled cheese sandwich and tomato soup…with ice-cream later.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I want something warm and rich, without it being bloating.)\n[color=#ffed29](And something simple—I don’t really wanna deal with all the dishes right now.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](Time for the staple, grilled cheese and tomato soup!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "[color=#ffed29](And maybe (definitely) some ice-cream after.)"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Kitchen fx.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 7
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Smug",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Gotta love the classics.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trombone Yum.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[wave amp=50.0 freq=5.0 connected=1][i]MMM! Mmm! MMM!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "[color=#ffed29](If you don’t use at least three cheeses, you’re not doing grilled cheeses justice.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[color=#ffed29](And the soup-sandwich combo is just too good!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Grampa, you may not have been as good of a cook as Gramma, but this recipe is honestly the best I’ve ever had for grilled cheese sandwiches and tomato basil soup.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[color=#ffed29](It feels like home.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](And while I’m thinking about home.)"
+		},
+		{
+			"choice": "ONLY ICE-CREAM.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1703290078-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](It’s been a tough day, it’s time to crack open that ice-cream tub.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Smug",
+			"question": "[color=#ffed29](And I’m glad I’m pulling out this beautiful chocolate chunky ice-cream.)"
+		},
+		{
+			"choice": "I’m going to regret this.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](And I may be lactose-intolerant.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Utensils Clinking.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[color=#ffed29](But ice-cream is too yummy for me to care right now.)\n[color=#ffed29](Plus, I live by myself, so it’s not like anyone else has to deal with this…)"
+		},
+		{
+			"choice": "There’s no way I regret this!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](This is probably the best thing about adulting!)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Utensils Clinking.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[color=#ffed29](Delicious ice-cream not AFTER dinner, but FOR dinner!)\n[color=#ffed29](I am invincible!!!)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trombone Yum.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "[wave amp=50.0 freq=5.0 connected=1][i]MMM! Mmm! MMM!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Grampa, I hope there’s marshmallows up there, cuz I know chocolate covered almonds and chocolate ice-cream GOTTA be there.)\n[color=#ffed29](Ugh, this is insane. I’m so happy.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](And Grampa?)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](Keep watching over Gramma for me, Grampa.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](I hate thinking she’s in our home by herself.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I mean, I know she’s got her group of old lady friends, but still….)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](And if you could watch over me, too?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](I need help, as you can probably tell, [i]haha.[/i])"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](Keep me on a good path.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](I love you, Grampa…I miss you.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Trying to be the person you and Gramma are so proud of, and I hope you guys both know that.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](But anyways!)\n[color=#ffed29](One eye on Gramma, one eye on me!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](I’ll talk to you soon.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"change_timeline": "timeline-1703207702.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1703146256.json",
+		"name": "Day 1 Night 1-2"
+	}
+}

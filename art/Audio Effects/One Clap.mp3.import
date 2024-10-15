@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/One Clap.mp3-d62d831dad22b55f230e9424318262f3.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/One Clap.mp3"
+dest_files=[ "res://import/One Clap.mp3-d62d831dad22b55f230e9424318262f3.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/shuffling.mp3-bb65d2061d83f96d573a3ede33f1fd6c.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/shuffling.mp3"
+dest_files=[ "res://import/shuffling.mp3-bb65d2061d83f96d573a3ede33f1fd6c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

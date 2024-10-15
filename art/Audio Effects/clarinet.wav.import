@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://import/clarinet.wav-8f48e38e5e88819919d7f8ac2a26a639.sample"
+
+[deps]
+
+source_file="res://art/Audio Effects/clarinet.wav"
+dest_files=[ "res://import/clarinet.wav-8f48e38e5e88819919d7f8ac2a26a639.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

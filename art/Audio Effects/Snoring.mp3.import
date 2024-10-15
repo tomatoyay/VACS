@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Snoring.mp3-e34424db13293a8a14cd46e1b1cefcb5.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Snoring.mp3"
+dest_files=[ "res://import/Snoring.mp3-e34424db13293a8a14cd46e1b1cefcb5.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

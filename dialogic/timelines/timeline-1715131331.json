@@ -1,0 +1,86 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nothing like carbs to soothe the soul, and no better place for that than ABP!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"condition": "",
+			"definition": "1702933074-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"change_timeline": "timeline-1696612915.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1702933074-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1703146457.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1715131331.json",
+		"name": "ABP Intro"
+	}
+}

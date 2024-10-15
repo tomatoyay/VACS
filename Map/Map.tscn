@@ -1,0 +1,1133 @@
+[gd_scene load_steps=34 format=2]
+
+[ext_resource path="res://art/Background/map.png" type="Texture" id=1]
+[ext_resource path="res://art/ABP Icon.png" type="Texture" id=2]
+[ext_resource path="res://Map/Map.gd" type="Script" id=3]
+[ext_resource path="res://art/Orven Apartment Icon Pressed.png" type="Texture" id=4]
+[ext_resource path="res://art/ABP Icon Pressed.png" type="Texture" id=5]
+[ext_resource path="res://addons/dialogic/Example Assets/backgrounds/background-2.png" type="Texture" id=6]
+[ext_resource path="res://art/OST/Town (Night).ogg" type="AudioStream" id=7]
+[ext_resource path="res://art/Orven Apartment Icon.png" type="Texture" id=8]
+[ext_resource path="res://fonts/Overlock/Overlock-Bold.ttf" type="DynamicFontData" id=9]
+[ext_resource path="res://addons/dialogic/Example Assets/Fonts/Overlock/Overlock.tres" type="DynamicFont" id=10]
+[ext_resource path="res://art/Audio Effects/Unfolding Map.wav" type="AudioStream" id=11]
+
+[sub_resource type="StyleBoxTexture" id=36]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 2958, 2072 )
+
+[sub_resource type="StyleBoxTexture" id=30]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 2958, 2072 )
+
+[sub_resource type="StyleBoxTexture" id=37]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 2958, 2072 )
+
+[sub_resource type="StyleBoxTexture" id=34]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 2958, 2072 )
+
+[sub_resource type="StyleBoxTexture" id=35]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 2958, 2072 )
+
+[sub_resource type="DynamicFont" id=22]
+size = 40
+font_data = ExtResource( 9 )
+
+[sub_resource type="StyleBoxTexture" id=23]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 1175, 263 )
+
+[sub_resource type="Animation" id=24]
+resource_name = "ABP Hover"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("ABP_Label:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1202.31, 567.508 ), Vector2( 1127.01, 479.844 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:rect_size")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 291, 203 ), Vector2( 481, 299 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath(".:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=25]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1202.31, 567.508 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rect_size")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 291, 203 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("ABP_Label:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath(".:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="StyleBoxTexture" id=38]
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 3738, 1595 )
+
+[sub_resource type="StyleBoxTexture" id=40]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 3738, 1595 )
+
+[sub_resource type="StyleBoxTexture" id=41]
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 3738, 1595 )
+
+[sub_resource type="StyleBoxTexture" id=42]
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 3738, 1595 )
+
+[sub_resource type="StyleBoxTexture" id=39]
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 3738, 1595 )
+
+[sub_resource type="DynamicFont" id=26]
+size = 40
+font_data = ExtResource( 9 )
+
+[sub_resource type="StyleBoxTexture" id=27]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 1175, 263 )
+
+[sub_resource type="Animation" id=28]
+resource_name = "Orven Home Hover"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Orven_Home_Label:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rect_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 978.849, 516.755 ), Vector2( 893.837, 461.389 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:rect_size")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 253, 110 ), Vector2( 388, 203 ) ]
+}
+
+[sub_resource type="Animation" id=29]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 978.849, 516.755 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rect_size")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 253, 110 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Orven_Home_Label:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+
+[sub_resource type="DynamicFont" id=17]
+size = 40
+font_data = ExtResource( 9 )
+
+[sub_resource type="StyleBoxTexture" id=18]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 1175, 263 )
+
+[sub_resource type="Animation" id=6]
+resource_name = "Map Open"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Map:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Map_Unfurl:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=7]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Map:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Map_Unfurl:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+
+[node name="Map" type="Control"]
+show_behind_parent = true
+script = ExtResource( 3 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1280.0
+margin_bottom = 721.0
+color = Color( 0.94902, 0.92549, 0.878431, 0 )
+
+[node name="Map" type="Sprite" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+scale = Vector2( 0.411708, 0.433474 )
+z_index = 2
+texture = ExtResource( 1 )
+centered = false
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Ventreville" type="Label" parent="Map"]
+margin_left = 43.35
+margin_top = 44.8222
+margin_right = 870.35
+margin_bottom = 591.822
+size_flags_vertical = 1
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 10 )
+text = "The Map of 
+Ventreville"
+align = 1
+valign = 1
+
+[node name="ABP" type="Button" parent="Map"]
+margin_left = 1202.31
+margin_top = 567.508
+margin_right = 1493.31
+margin_bottom = 770.508
+rect_scale = Vector2( 1.05, 1.05 )
+mouse_default_cursor_shape = 2
+custom_styles/hover = SubResource( 36 )
+custom_styles/pressed = SubResource( 30 )
+custom_styles/focus = SubResource( 37 )
+custom_styles/disabled = SubResource( 34 )
+custom_styles/normal = SubResource( 35 )
+icon_align = 1
+expand_icon = true
+
+[node name="ABP_Label" type="Label" parent="Map/ABP"]
+visible = false
+anchor_top = -0.325
+anchor_right = 0.962
+anchor_bottom = -0.065
+margin_left = -18.4941
+margin_top = 9.14308
+margin_right = 6.37784
+margin_bottom = 6.40308
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 22 )
+custom_styles/normal = SubResource( 23 )
+text = "All Bread Patisseries (Main)"
+align = 1
+valign = 1
+
+[node name="ABP_Animation" type="AnimationPlayer" parent="Map/ABP"]
+"anims/ABP Hover" = SubResource( 24 )
+anims/RESET = SubResource( 25 )
+
+[node name="Orven_Home" type="Button" parent="Map"]
+margin_left = 978.849
+margin_top = 516.755
+margin_right = 1231.85
+margin_bottom = 626.755
+mouse_default_cursor_shape = 2
+custom_styles/hover = SubResource( 38 )
+custom_styles/pressed = SubResource( 40 )
+custom_styles/focus = SubResource( 41 )
+custom_styles/disabled = SubResource( 42 )
+custom_styles/normal = SubResource( 39 )
+icon_align = 1
+expand_icon = true
+
+[node name="Orven_Home_Label" type="Label" parent="Map/Orven_Home"]
+visible = false
+margin_left = 38.8625
+margin_top = -73.8221
+margin_right = 349.862
+margin_bottom = 0.177856
+size_flags_vertical = 5
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 26 )
+custom_styles/normal = SubResource( 27 )
+text = "Home"
+align = 1
+valign = 1
+
+[node name="Orven_Home_Anim" type="AnimationPlayer" parent="Map/Orven_Home"]
+"anims/Orven Home Hover" = SubResource( 28 )
+anims/RESET = SubResource( 29 )
+
+[node name="Avidine_Factory" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = -5.73224
+margin_top = 0.232513
+margin_right = -4.12537
+margin_bottom = -0.22345
+flat = true
+
+[node name="Factory_Label" type="Label" parent="Map/Avidine_Factory"]
+visible = false
+margin_left = -31.5759
+margin_top = -105.614
+margin_right = 269.424
+margin_bottom = -27.6148
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Avidine Factory"
+align = 1
+valign = 1
+
+[node name="Shop" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = -32.008
+margin_top = 320.241
+margin_right = -104.401
+margin_bottom = 250.785
+flat = true
+
+[node name="Shop_Label" type="Label" parent="Map/Shop"]
+visible = false
+margin_left = -70.8806
+margin_top = -103.457
+margin_right = 230.119
+margin_bottom = -25.4565
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Shop"
+align = 1
+valign = 1
+
+[node name="Police_Station" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = -292.008
+margin_top = 509.241
+margin_right = -242.401
+margin_bottom = 439.785
+flat = true
+
+[node name="Police_Label" type="Label" parent="Map/Police_Station"]
+visible = false
+margin_left = -27.0532
+margin_top = -105.853
+margin_right = 273.947
+margin_bottom = -27.8532
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Police Station"
+align = 1
+valign = 1
+
+[node name="Mortuary" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = -287.485
+margin_top = 751.253
+margin_right = -359.879
+margin_bottom = 681.797
+flat = true
+
+[node name="Mortuary_Label" type="Label" parent="Map/Mortuary"]
+visible = false
+margin_left = -70.8806
+margin_top = -103.457
+margin_right = 230.119
+margin_bottom = -25.4565
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Mortuary"
+align = 1
+valign = 1
+
+[node name="Liz" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 181.294
+margin_top = 436.75
+margin_right = 135.901
+margin_bottom = 385.294
+flat = true
+
+[node name="Liz_Label" type="Label" parent="Map/Liz"]
+visible = false
+margin_left = -102.014
+margin_top = -99.1984
+margin_right = 293.986
+margin_bottom = -21.1984
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Liz's Bluebird Bakery"
+align = 1
+valign = 1
+
+[node name="Orphanage" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 700.992
+margin_top = 411.241
+margin_right = 791.599
+margin_bottom = 396.785
+flat = true
+
+[node name="Orphanage_Label" type="Label" parent="Map/Orphanage"]
+visible = false
+margin_left = 19.5186
+margin_top = -129.056
+margin_right = 320.518
+margin_bottom = -51.0554
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Orphanage"
+align = 1
+valign = 1
+
+[node name="Church" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 622.992
+margin_top = 208.241
+margin_right = 550.599
+margin_bottom = 230.785
+flat = true
+
+[node name="Church_Label" type="Label" parent="Map/Church"]
+visible = false
+margin_left = -320.253
+margin_top = -115.225
+margin_right = 473.747
+margin_bottom = -37.2252
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Church of Sovereign Father and Holy Mother"
+align = 1
+valign = 1
+
+[node name="Hospital" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 375.992
+margin_top = -98.759
+margin_right = 262.599
+margin_bottom = -124.215
+flat = true
+
+[node name="Hospital_Label" type="Label" parent="Map/Hospital"]
+visible = false
+margin_left = -70.8806
+margin_top = -103.457
+margin_right = 230.119
+margin_bottom = -25.4565
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Hospital"
+align = 1
+valign = 1
+
+[node name="Avidine_Manor" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 559.992
+margin_top = -275.759
+margin_right = 536.599
+margin_bottom = -226.215
+flat = true
+
+[node name="Manor_Label" type="Label" parent="Map/Avidine_Manor"]
+visible = false
+margin_left = -67.7984
+margin_top = -76.4653
+margin_right = 233.201
+margin_bottom = 1.53522
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Avidine Manor"
+align = 1
+valign = 1
+
+[node name="Jones_Apotheca" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 630.992
+margin_top = 14.241
+margin_right = 592.599
+margin_bottom = 18.785
+flat = true
+
+[node name="Apotheca_Label" type="Label" parent="Map/Jones_Apotheca"]
+visible = false
+margin_left = -70.8806
+margin_top = -103.457
+margin_right = 230.119
+margin_bottom = -25.4565
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Jones Apotheca"
+align = 1
+valign = 1
+
+[node name="Construction_Site" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = -108.008
+margin_top = 870.241
+margin_right = -201.401
+margin_bottom = 902.785
+flat = true
+
+[node name="Construction_Label" type="Label" parent="Map/Construction_Site"]
+visible = false
+margin_left = -87.1791
+margin_top = -101.291
+margin_right = 238.821
+margin_bottom = -23.2908
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Construction Site"
+align = 1
+valign = 1
+
+[node name="School_Southside" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 185.992
+margin_top = 999.241
+margin_right = 238.599
+margin_bottom = 980.785
+flat = true
+
+[node name="School_South_Label" type="Label" parent="Map/School_Southside"]
+visible = false
+margin_left = -41.1322
+margin_top = -101.102
+margin_right = 313.868
+margin_bottom = -23.1019
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "School (Southside)"
+align = 1
+valign = 1
+
+[node name="School_Northside" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 1154.99
+margin_top = 67.241
+margin_right = 1214.6
+margin_bottom = 25.785
+flat = true
+
+[node name="School_North_Label" type="Label" parent="Map/School_Northside"]
+visible = false
+margin_left = -23.9966
+margin_top = -119.563
+margin_right = 326.003
+margin_bottom = -41.5627
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "School (Northside)"
+align = 1
+valign = 1
+
+[node name="Zirgfir_Manor" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 1081.99
+margin_top = -317.759
+margin_right = 1112.6
+margin_bottom = -352.215
+flat = true
+
+[node name="Zirgfir_Label" type="Label" parent="Map/Zirgfir_Manor"]
+visible = false
+margin_left = -23.8635
+margin_top = 138.555
+margin_right = 277.136
+margin_bottom = 216.556
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Zirgfir Manor"
+align = 1
+valign = 1
+
+[node name="Bank" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 1332.99
+margin_top = -197.759
+margin_right = 1384.6
+margin_bottom = -235.215
+flat = true
+
+[node name="Bank_Label" type="Label" parent="Map/Bank"]
+visible = false
+margin_left = -2.82616
+margin_top = -112.94
+margin_right = 298.173
+margin_bottom = -34.9398
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Bank"
+align = 1
+valign = 1
+
+[node name="Police_Station2" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 1446.99
+margin_top = -52.759
+margin_right = 1576.6
+margin_bottom = -92.215
+flat = true
+
+[node name="Police2_Label" type="Label" parent="Map/Police_Station2"]
+visible = false
+margin_left = 9.47705
+margin_top = -121.831
+margin_right = 347.477
+margin_bottom = -43.8307
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Police Station"
+align = 1
+valign = 1
+
+[node name="Municipal_Buildlings" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 999.992
+margin_top = 192.241
+margin_right = 1117.6
+margin_bottom = 159.785
+flat = true
+
+[node name="Municipal_Label" type="Label" parent="Map/Municipal_Buildlings"]
+visible = false
+margin_left = -26.8752
+margin_top = -106.146
+margin_right = 376.125
+margin_bottom = -28.1461
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Municipal Buildings"
+align = 1
+valign = 1
+
+[node name="Shop2" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 712.992
+margin_top = 896.241
+margin_right = 619.599
+margin_bottom = 807.785
+flat = true
+
+[node name="Shop2_Label" type="Label" parent="Map/Shop2"]
+visible = false
+margin_left = -58.0619
+margin_top = -97.3005
+margin_right = 206.938
+margin_bottom = -19.3005
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Shop"
+align = 1
+valign = 1
+
+[node name="ABP2" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 1285.99
+margin_top = 328.241
+margin_right = 1216.6
+margin_bottom = 237.785
+flat = true
+
+[node name="ABP2_Label" type="Label" parent="Map/ABP2"]
+visible = false
+margin_left = -27.0
+margin_top = -106.0
+margin_right = 192.0
+margin_bottom = -28.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "ABP"
+align = 1
+valign = 1
+
+[node name="ABP3" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 965.992
+margin_top = 67.241
+margin_right = 891.599
+margin_bottom = -13.215
+flat = true
+
+[node name="ABP3_Label" type="Label" parent="Map/ABP3"]
+visible = false
+margin_left = -27.0
+margin_top = -106.0
+margin_right = 184.0
+margin_bottom = -28.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "ABP"
+align = 1
+valign = 1
+
+[node name="Valentine_Apartments" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 1684.99
+margin_top = 441.241
+margin_right = 1802.6
+margin_bottom = 549.785
+flat = true
+
+[node name="Val_Apt_Label" type="Label" parent="Map/Valentine_Apartments"]
+visible = false
+margin_left = -26.8752
+margin_top = -106.146
+margin_right = 376.125
+margin_bottom = -28.1461
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Valentine Apartments"
+align = 1
+valign = 1
+
+[node name="Valentine_Mill" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 1701.99
+margin_top = 321.241
+margin_right = 1651.6
+margin_bottom = 270.785
+flat = true
+
+[node name="Val_Mill_Label" type="Label" parent="Map/Valentine_Mill"]
+visible = false
+margin_left = -82.7861
+margin_top = -108.264
+margin_right = 257.214
+margin_bottom = -30.2642
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Valentine Mill"
+align = 1
+valign = 1
+
+[node name="ABP4" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 929.396
+margin_top = 849.693
+margin_right = 860.003
+margin_bottom = 759.237
+flat = true
+
+[node name="ABP4_Label" type="Label" parent="Map/ABP4"]
+visible = false
+margin_left = -27.0
+margin_top = -106.0
+margin_right = 192.0
+margin_bottom = -28.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "ABP"
+align = 1
+valign = 1
+
+[node name="Dr_Ki_Clinic" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 579.992
+margin_top = 958.241
+margin_right = 510.599
+margin_bottom = 957.785
+flat = true
+
+[node name="Ki_Clinic_Label" type="Label" parent="Map/Dr_Ki_Clinic"]
+visible = false
+margin_left = -61.0807
+margin_top = -108.548
+margin_right = 215.919
+margin_bottom = -30.5476
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Dr. Ki's Clinic"
+align = 1
+valign = 1
+
+[node name="Apartments2" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 426.992
+margin_top = 870.241
+margin_right = 357.599
+margin_bottom = 811.785
+flat = true
+
+[node name="Apartments_Label" type="Label" parent="Map/Apartments2"]
+visible = false
+margin_left = -31.955
+margin_top = -108.212
+margin_right = 223.045
+margin_bottom = -30.2117
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Apartments"
+align = 1
+valign = 1
+
+[node name="Shop3" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 270.992
+margin_top = 836.241
+margin_right = 184.599
+margin_bottom = 759.785
+flat = true
+
+[node name="Shop3_Label" type="Label" parent="Map/Shop3"]
+visible = false
+margin_left = -27.0
+margin_top = -106.0
+margin_right = 192.0
+margin_bottom = -28.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Shop"
+align = 1
+valign = 1
+
+[node name="Tavern" type="Button" parent="Map"]
+anchor_left = 0.312
+anchor_top = 0.219
+anchor_right = 0.389
+anchor_bottom = 0.315
+margin_left = 197.992
+margin_top = -165.759
+margin_right = 68.599
+margin_bottom = -202.215
+flat = true
+
+[node name="Tavern_Label" type="Label" parent="Map/Tavern"]
+visible = false
+margin_left = -57.99
+margin_top = -105.722
+margin_right = 161.01
+margin_bottom = -27.7223
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+text = "Tavern"
+align = 1
+valign = 1
+
+[node name="MapMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Map_Animation" type="AnimationPlayer" parent="."]
+"anims/Map Open" = SubResource( 6 )
+anims/RESET = SubResource( 7 )
+
+[node name="Map_Unfurl" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+
+[connection signal="mouse_entered" from="Map/ABP" to="." method="_on_ABP_mouse_entered"]
+[connection signal="mouse_exited" from="Map/ABP" to="." method="_on_ABP_mouse_exited"]
+[connection signal="pressed" from="Map/ABP" to="." method="_on_ABP_pressed"]
+[connection signal="mouse_entered" from="Map/Orven_Home" to="." method="_on_Orven_Home_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Orven_Home" to="." method="_on_Orven_Home_mouse_exited"]
+[connection signal="pressed" from="Map/Orven_Home" to="." method="_on_Orven_Home_pressed"]
+[connection signal="mouse_entered" from="Map/Avidine_Factory" to="." method="_on_Avidine_Factory_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Avidine_Factory" to="." method="_on_Avidine_Factory_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Shop" to="." method="_on_Shop_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Shop" to="." method="_on_Shop_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Police_Station" to="." method="_on_Police_Station_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Police_Station" to="." method="_on_Police_Station_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Mortuary" to="." method="_on_Mortuary_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Mortuary" to="." method="_on_Mortuary_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Liz" to="." method="_on_Liz_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Liz" to="." method="_on_Liz_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Orphanage" to="." method="_on_Orphanage_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Orphanage" to="." method="_on_Orphanage_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Church" to="." method="_on_Church_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Church" to="." method="_on_Church_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Hospital" to="." method="_on_Hospital_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Hospital" to="." method="_on_Hospital_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Avidine_Manor" to="." method="_on_Avidine_Manor_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Avidine_Manor" to="." method="_on_Avidine_Manor_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Jones_Apotheca" to="." method="_on_Jones_Apotheca_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Jones_Apotheca" to="." method="_on_Jones_Apotheca_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Construction_Site" to="." method="_on_Construction_Site_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Construction_Site" to="." method="_on_Construction_Site_mouse_exited"]
+[connection signal="mouse_entered" from="Map/School_Southside" to="." method="_on_School_Southside_mouse_entered"]
+[connection signal="mouse_exited" from="Map/School_Southside" to="." method="_on_School_Southside_mouse_exited"]
+[connection signal="mouse_entered" from="Map/School_Northside" to="." method="_on_School_Northside_mouse_entered"]
+[connection signal="mouse_exited" from="Map/School_Northside" to="." method="_on_School_Northside_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Zirgfir_Manor" to="." method="_on_Zirgfir_Manor_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Zirgfir_Manor" to="." method="_on_Zirgfir_Manor_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Bank" to="." method="_on_Bank_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Bank" to="." method="_on_Bank_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Police_Station2" to="." method="_on_Police_Station2_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Police_Station2" to="." method="_on_Police_Station2_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Municipal_Buildlings" to="." method="_on_Municipal_Buildlings_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Municipal_Buildlings" to="." method="_on_Municipal_Buildlings_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Shop2" to="." method="_on_Shop2_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Shop2" to="." method="_on_Shop2_mouse_exited"]
+[connection signal="mouse_entered" from="Map/ABP2" to="." method="_on_ABP2_mouse_entered"]
+[connection signal="mouse_exited" from="Map/ABP2" to="." method="_on_ABP2_mouse_exited"]
+[connection signal="mouse_entered" from="Map/ABP3" to="." method="_on_ABP3_mouse_entered"]
+[connection signal="mouse_exited" from="Map/ABP3" to="." method="_on_ABP3_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Valentine_Apartments" to="." method="_on_Valentine_Apartments_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Valentine_Apartments" to="." method="_on_Valentine_Apartments_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Valentine_Mill" to="." method="_on_Valentine_Mill_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Valentine_Mill" to="." method="_on_Valentine_Mill_mouse_exited"]
+[connection signal="mouse_entered" from="Map/ABP4" to="." method="_on_ABP4_mouse_entered"]
+[connection signal="mouse_exited" from="Map/ABP4" to="." method="_on_ABP4_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Dr_Ki_Clinic" to="." method="_on_Dr_Ki_Clinic_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Dr_Ki_Clinic" to="." method="_on_Dr_Ki_Clinic_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Apartments2" to="." method="_on_Apartments2_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Apartments2" to="." method="_on_Apartments2_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Shop3" to="." method="_on_Shop3_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Shop3" to="." method="_on_Shop3_mouse_exited"]
+[connection signal="mouse_entered" from="Map/Tavern" to="." method="_on_Tavern_mouse_entered"]
+[connection signal="mouse_exited" from="Map/Tavern" to="." method="_on_Tavern_mouse_exited"]

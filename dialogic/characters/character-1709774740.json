@@ -1,0 +1,33 @@
+{
+	"color": "#ffffffff",
+	"description": "Son of the Avidines.",
+	"display_name": "Matty",
+	"display_name_bool": true,
+	"id": "character-1709774740.json",
+	"mirror_portraits": false,
+	"name": "Matty Avidine",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 380,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Matty/Matty.png"
+		},
+		{
+			"name": "Excited",
+			"path": "res://art/Characters/Matty/Excited Matty.png"
+		},
+		{
+			"name": "Shy",
+			"path": "res://art/Characters/Matty/Shy Matty.png"
+		},
+		{
+			"name": "Unhappy",
+			"path": "res://art/Characters/Matty/Shy Matty.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Sleuth Swing.mp3-111a2b1cabf106d0f16ea3823c265540.mp3str"
+
+[deps]
+
+source_file="res://art/OST/Sleuth Swing.mp3"
+dest_files=[ "res://import/Sleuth Swing.mp3-111a2b1cabf106d0f16ea3823c265540.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

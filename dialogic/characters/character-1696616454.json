@@ -1,0 +1,85 @@
+{
+	"color": "#ff125a0e",
+	"description": "A tall, assured man.",
+	"display_name": "Ret Avidine",
+	"display_name_bool": true,
+	"id": "character-1696616454.json",
+	"mirror_portraits": false,
+	"name": "Ret Avidine",
+	"nickname": "Mister Avidine",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Ret/Ret Avidine.png"
+		},
+		{
+			"name": "Neutral",
+			"path": "res://art/Characters/Ret/Neutral Ret.png"
+		},
+		{
+			"name": "Serious Angled",
+			"path": "res://art/Characters/Ret/Serious Angled Ret.png"
+		},
+		{
+			"name": "Serious Straight",
+			"path": "res://art/Characters/Ret/Serious Straight Ret.png"
+		},
+		{
+			"name": "Warm",
+			"path": "res://art/Characters/Ret/Warm Ret.png"
+		},
+		{
+			"name": "Cheeky",
+			"path": "res://art/Characters/Ret/Cheeky.png"
+		},
+		{
+			"name": "Hand Out",
+			"path": "res://art/Characters/Ret/Hand Out.png"
+		},
+		{
+			"name": "Looking at You",
+			"path": "res://art/Characters/Ret/Looking at You.png"
+		},
+		{
+			"name": "Trailer 0",
+			"path": "res://art/Characters/Ret/Trailer 0.png"
+		},
+		{
+			"name": "Cheeky Tired",
+			"path": "res://art/Characters/Ret/Cheeky Tired.png"
+		},
+		{
+			"name": "Cold Tired Ret",
+			"path": "res://art/Characters/Ret/Cold Tired Ret.png"
+		},
+		{
+			"name": "Hand Out Tired",
+			"path": "res://art/Characters/Ret/Hand Out Tired.png"
+		},
+		{
+			"name": "Looking at You Tired",
+			"path": "res://art/Characters/Ret/Looking at You Tired.png"
+		},
+		{
+			"name": "Neutral Tired",
+			"path": "res://art/Characters/Ret/Neutral Tired.png"
+		},
+		{
+			"name": "Trailer 0 Tired",
+			"path": "res://art/Characters/Ret/Trailer 0 Tired.png"
+		},
+		{
+			"name": "Disappointed Tired",
+			"path": "res://art/Characters/Ret/Cold Tired Ret.png"
+		},
+		{
+			"name": "Eyebrow Quirked Tired",
+			"path": "res://art/Characters/Ret/Looking at You Tired.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

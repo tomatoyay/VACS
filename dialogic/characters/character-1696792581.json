@@ -1,0 +1,69 @@
+{
+	"color": "#ffffffff",
+	"description": "The best man.",
+	"display_name": "Rondeau",
+	"display_name_bool": true,
+	"id": "character-1696792581.json",
+	"mirror_portraits": false,
+	"name": "Rondeau Impoli",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Rondeau/Rondeau.png"
+		},
+		{
+			"name": "Proud",
+			"path": "res://art/Characters/Rondeau/Proud Rondeau.png"
+		},
+		{
+			"name": "Serious Open Mouth",
+			"path": "res://art/Characters/Rondeau/Serious Open Mouth Rondeau.png"
+		},
+		{
+			"name": "Serious",
+			"path": "res://art/Characters/Rondeau/Serious Rondeau.png"
+		},
+		{
+			"name": "Surprised",
+			"path": "res://art/Characters/Rondeau/Surprised Rondeau.png"
+		},
+		{
+			"name": "Surprised Side Eye",
+			"path": "res://art/Characters/Rondeau/Surprised Side Eye Rondeau.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Rondeau/Angry Rondeau.png"
+		},
+		{
+			"name": "Concerned",
+			"path": "res://art/Characters/Rondeau/Concerned Rondeau.png"
+		},
+		{
+			"name": "Confused",
+			"path": "res://art/Characters/Rondeau/Confused Rondeau.png"
+		},
+		{
+			"name": "Excited",
+			"path": "res://art/Characters/Rondeau/Excited Rondeau.png"
+		},
+		{
+			"name": "Laugh",
+			"path": "res://art/Characters/Rondeau/Laugh Rondeau.png"
+		},
+		{
+			"name": "Reminisce",
+			"path": "res://art/Characters/Rondeau/Reminisce Rondeau.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://art/Characters/Rondeau/Sad Rondeau.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

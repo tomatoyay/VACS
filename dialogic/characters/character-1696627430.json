@@ -1,0 +1,53 @@
+{
+	"color": "#ffffffff",
+	"description": "A shifty man.",
+	"display_name": "Mr. Gungand",
+	"display_name_bool": true,
+	"id": "character-1696627430.json",
+	"mirror_portraits": false,
+	"name": "Sion Gungand",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 650,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Sion/Mr. Gungand.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Sion/Angry Mr Gungand.png"
+		},
+		{
+			"name": "Devious",
+			"path": "res://art/Characters/Sion/Devious Mr Gungand.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://art/Characters/Sion/Happy Mr Gungand.png"
+		},
+		{
+			"name": "Angry Bloody",
+			"path": "res://art/Characters/Sion/Angry Bloody Mr Gungand.png"
+		},
+		{
+			"name": "Devious Bloody",
+			"path": "res://art/Characters/Sion/Devious Bloody Mr Gungand.png"
+		},
+		{
+			"name": "Dismissive",
+			"path": "res://art/Characters/Sion/Dismissive Mr Gungand.png"
+		},
+		{
+			"name": "Warm",
+			"path": "res://art/Characters/Sion/Warm Mr Gungand.png"
+		},
+		{
+			"name": "Bloody",
+			"path": "res://art/Characters/Sion/Bloody Mr Gungand.png"
+		}
+	],
+	"scale": 20,
+	"theme": "theme-1703127736.cfg"
+}

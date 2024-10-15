@@ -1,0 +1,41 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Determined",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](\"Due to the urgency of this product, and the amount this grant is providing, this grant is subject to the following conditions.\")"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Oh, that's why it's so much money.)\n[color=#ffed29](They're trying to speed up finding a cure for the [b]Devil's Lung.)"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1715313488.json",
+		"name": "GLetter_2"
+	}
+}

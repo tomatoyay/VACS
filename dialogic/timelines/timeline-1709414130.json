@@ -1,0 +1,188 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Not Angry Confused",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Looks like there are unopened letters in the trash…)"
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!\n[color=#ffed29](These are all letters from Mr. Throck and Mr. Babinski!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](Probably on how to improve production…)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I should take these.)\n[color=#ffed29](Let’s open them up and read them.)"
+		},
+		{
+			"definition": "1715314431-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Sent from Mr. Babinski and Mr. Throckmorton Jones.)"
+		},
+		{
+			"condition": "",
+			"definition": "1709414229-366",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Maybe these are the apothecary brothers Miss Odiche was talking about?)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1703204287-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#ffed29](Should I take these?)"
+		},
+		{
+			"choice": "Yes, they were trashed.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1715314431-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I mean, they were in the trash.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](I’m just early in emptying it!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](Let’s open them up and read them.)"
+		},
+		{
+			"choice": "No, it’s still Mr. Gungand’s.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1703114167-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Probably not right…it’s still Mr. Gungand’s property.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](Oh well.)"
+		},
+		{
+			"definition": "1715322050-918",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1709414130.json",
+		"name": "Garbage"
+	}
+}

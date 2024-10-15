@@ -1,0 +1,693 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1696610748.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking on Hardwood Floor.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/Factory Floor Intro.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Factory.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"definition": "1707100537-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Miss Odiche?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "The young Orvo, have you sought my company for comfort in these trying times?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I guess?\nMiss Odiche, I want to know why the approval was denied."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "The apothecaries' notes are relayed to Sion, and then I relay the actionable steps to production."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](The same response as earlier…)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Can I see the documents?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "How audacious! No!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Those are proprietary!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Determined",
+			"question": "[color=#ffed29](If she won’t give me the reports, I have to get the information through her.)"
+		},
+		{
+			"choice": "Miss Odiche, what are we going to do?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Then what are we going to do?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "We will be victorious! As always!\nThere is no obstacle that can keep us down, as we are the fated victors in this trial by fire!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Are there any active steps we can take to make this “victory” more likely?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "These steps are already in place!  \nYou need not worry, young Orbo."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](Orbo again.)"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Stick to what has been set before you, and your welcomed future will soon arrive!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](No luck—maybe I can get more info from Mister Gungand.)"
+		},
+		{
+			"choice": "Quick Wit",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Hmm, if I want more information, I think I’m going to have to cater my words to Miss Odiche. She likes it when I sound like her.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](But I gotta make sure I’m pushing for more info, because Miss Odiche can talk for a while about nothing…)"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "quick_wit",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "What do you wish from me, young Orbo?"
+		},
+		{
+			"choice": "The personage who contests us!",
+			"condition": "",
+			"default": false,
+			"definition": "",
+			"event_id": "quick_wit_choice",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "I’m just wondering who would be so audacious that they might contest with us!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "I mean, we’re trying to do good in this world!\nWhat more can we do?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Indeed! The crusade we champion is for health!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Unfortunately, those who do not understand are disinterested in the our pleading. \nBut by law, we are unable to progress without their approval."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I can’t believe it…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Indeed, [u]those brothers[/u] are truly troublesome!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!\n[color=#ffed29](Brothers.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](There probably aren’t that many apothecas run by brothers in the city.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I won’t push further. I don’t want her to catch on.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Well, I’m sure things will work out!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "As it always does for victors!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking on Hardwood Floor.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I should probably talk to Mister Gungand, as well.)"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "I, uh…guess I could use some comfort?",
+			"condition": "",
+			"default": false,
+			"definition": "",
+			"event_id": "quick_wit_choice",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Uh…I guess I could use comfort?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Young Orcho!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](Herb would’ve loved that…Wait, how is it getting worse?)"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Hear the soothing truth of the situation:"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "That destiny and fate are woven together in a rope that we wield!\nThere is no fearing any harm from a rope—the user only needs to focus on mastering the technique around getting the rope to do as it wants."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/squawk.mp3",
+			"volume": 3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "It is understanding the rope and then coaxing it to do your bidding."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Chicken Cluck.wav",
+			"volume": 5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "We are not snake charmers! This process will not bite back at us!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "Are you soothed?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I think I’m confused…"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/squawk.mp3",
+			"volume": 3
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "No snakes! Just rope!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I just think it might be more comforting to discuss this in more grounded terms?\nLike, I don’t get why people keep using metaphors and abstracts."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Surely, there are like, actual things that are being asked of us, and actual entities and people who we have to work with?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Clear those thoughts from your head, child!\nThese are the beginnings of doubt and despair."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "And we cannot afford to despair, that hopelessness is a sticky trap that few can emerge from without help…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Looks like she’s not going to tell me anything useful—Maybe I can get something from Mr. Gungand.)"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Timeout",
+			"condition": "",
+			"default": true,
+			"definition": "1703209169-787",
+			"event_id": "quick_wit_choice",
+			"value": "3"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "I see that you need naught from your industrious manager!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](Uh oh, I waited too long.)"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Farewell, young Orville! Duty calls!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I guess that leaves Mr. Gungand…)"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Quick Wit End"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Mr. Gungand!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Orven Zanry…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If you have some time, I wanted to talk to you."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": " ...I wanted to talk to you about…"
+		},
+		{
+			"change_timeline": "timeline-1703124941.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1703125831.json",
+		"name": "Day 1 Miss Odiche"
+	}
+}

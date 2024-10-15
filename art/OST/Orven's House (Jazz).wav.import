@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://import/Orven's House (Jazz).wav-30589f3157cb21b54b98dde224bdcbed.sample"
+
+[deps]
+
+source_file="res://art/OST/Orven's House (Jazz).wav"
+dest_files=[ "res://import/Orven's House (Jazz).wav-30589f3157cb21b54b98dde224bdcbed.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

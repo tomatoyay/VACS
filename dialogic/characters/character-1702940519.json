@@ -1,0 +1,41 @@
+{
+	"color": "#ffffffff",
+	"description": "Is that Blight?",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1702940519.json",
+	"mirror_portraits": false,
+	"name": "Blight ??",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Blight/Blight.png"
+		},
+		{
+			"name": "Irritated",
+			"path": "res://art/Characters/Blight/Irritated Confused Blight.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Blight/Angry Blight.png"
+		},
+		{
+			"name": "Looking Away",
+			"path": "res://art/Characters/Blight/Looking Away Blight.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://art/Characters/Blight/Happy Blight.png"
+		},
+		{
+			"name": "Sly",
+			"path": "res://art/Characters/Blight/Sly Blight.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

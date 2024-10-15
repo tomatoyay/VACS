@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Sniffling.mp3-9dc4cc16265f26e95f6ae94173d89afd.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Sniffling.mp3"
+dest_files=[ "res://import/Sniffling.mp3-9dc4cc16265f26e95f6ae94173d89afd.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

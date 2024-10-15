@@ -1,0 +1,546 @@
+[gd_scene load_steps=26 format=2]
+
+[ext_resource path="res://Tootroot/Tootroot0.gd" type="Script" id=1]
+[ext_resource path="res://art/Background/Orven Apartment.png" type="Texture" id=2]
+[ext_resource path="res://art/OST/Orven's House (Jazz).wav" type="AudioStream" id=3]
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sink_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=1]
+resource_name = "Sink_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sink_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "Cupboard_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Cupboard_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Cupboard_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "Counter_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Counter_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Counter_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "Bed_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Bed_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Bed_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "Carpet_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Carpet_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Carpet_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Table_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "Table_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Table_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+resource_name = "Door_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Door_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=14]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Door_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+resource_name = "Phonograph_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Phonograph_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=16]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Phonograph_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=17]
+resource_name = "Iron_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Iron_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Iron_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=19]
+resource_name = "Photo_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Photo_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=20]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Photo_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=21]
+resource_name = "Orven_Home_Transition"
+tracks/0/type = "value"
+tracks/0/path = NodePath("OrvenApartment:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=22]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("OrvenApartment:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="Tootroot0" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="OrvenApartment" type="Sprite" parent="."]
+position = Vector2( 643, 364 )
+scale = Vector2( 0.334896, 0.335185 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sink" type="Area2D" parent="OrvenApartment"]
+
+[node name="Sink_Collision" type="CollisionPolygon2D" parent="OrvenApartment/Sink"]
+visible = false
+polygon = PoolVector2Array( -1911, 42.1168, -1863, 30.0834, -1836, 63.1753, -1824, 171.476, -1791, 171.476, -1785, 288.802, -1212, 264.735, -1122, 303.844, -1098, 376.044, -1053, 418.161, -1035, 568.579, -1050, 887.465, -1098, 782.173, -1098, 743.064, -1161, 770.139, -1233, 950.641, -1551, 1040.89, -1764, 1031.87, -1878, 980.724, -1917, 881.448 )
+
+[node name="Sink_Hover" type="Polygon2D" parent="OrvenApartment/Sink"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -1917, 33.0918, -1869, 27.0751, -1827, 72.2004, -1827, 159.443, -1794, 177.493, -1779, 297.827, -1224, 267.744, -1119, 303.844, -1104, 367.019, -1059, 406.128, -1038, 562.563, -1053, 890.474, -1095, 779.164, -1095, 740.056, -1143, 761.114, -1212, 929.582, -1263, 962.674, -1401, 1013.82, -1581, 1034.87, -1752, 1028.86, -1860, 992.758, -1914, 893.482 )
+
+[node name="Sink_Animation" type="AnimationPlayer" parent="OrvenApartment/Sink"]
+anims/RESET = SubResource( 2 )
+anims/Sink_Hover = SubResource( 1 )
+
+[node name="Cupboards" type="Area2D" parent="OrvenApartment"]
+position = Vector2( -1572, -568.58 )
+
+[node name="Cupboard_Collision" type="CollisionPolygon2D" parent="OrvenApartment/Cupboards"]
+visible = false
+polygon = PoolVector2Array( -318, -505.404, -312, 354.986, 30, 339.944, 84, 321.894, 105, 367.02, 138, 309.861, 177, 273.76, 177, 210.585, 219, 168.468, 222, -261.727, 147, -508.412 )
+
+[node name="Cupboard_Hover" type="Polygon2D" parent="OrvenApartment/Cupboards"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -312, -505.404, -318, 354.986, 36, 339.944, 90, 324.903, 108, 364.011, 132, 309.861, 177, 282.786, 177, 204.568, 222, 165.46, 222, -273.76, 153, -502.396 )
+
+[node name="Cupboard_Anim" type="AnimationPlayer" parent="OrvenApartment/Cupboards"]
+anims/Cupboard_Hover = SubResource( 3 )
+anims/RESET = SubResource( 4 )
+
+[node name="Counter" type="Area2D" parent="OrvenApartment"]
+
+[node name="Counter_Collision" type="CollisionPolygon2D" parent="OrvenApartment/Counter"]
+visible = false
+polygon = PoolVector2Array( -1689, 27.0751, -1578, -120.334, -1302, -123.343, -1263, 15.0416 )
+
+[node name="Counter_Hover" type="Polygon2D" parent="OrvenApartment/Counter"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -1692, 27.0751, -1578, -120.334, -1299, -123.343, -1263, 15.0416 )
+
+[node name="Counter_Anim" type="AnimationPlayer" parent="OrvenApartment/Counter"]
+anims/Counter_Hover = SubResource( 5 )
+anims/RESET = SubResource( 6 )
+
+[node name="Bed" type="Area2D" parent="OrvenApartment"]
+position = Vector2( 741, 78.2172 )
+
+[node name="Bed_Collision" type="CollisionPolygon2D" parent="OrvenApartment/Bed"]
+visible = false
+polygon = PoolVector2Array( -321, -270.752, -204, -309.861, -63, -312.869, 12, -285.794, 51, -186.518, 51, -87.2424, 84, -75.209, 156, -96.2675, 309, -54.1505, 303, 255.71, 234, 252.702, -321, 45.1254 )
+
+[node name="Bed_Hover" type="Polygon2D" parent="OrvenApartment/Bed"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -321, -273.76, -138, -318.886, 9, -294.819, 39, -246.685, 54, -177.493, 54, -87.2424, 81, -78.2173, 162, -99.2759, 306, -60.1672, 300, 255.71, 252, 255.71, -330, 39.1086 )
+
+[node name="Bed_Anim" type="AnimationPlayer" parent="OrvenApartment/Bed"]
+anims/Bed_Hover = SubResource( 7 )
+anims/RESET = SubResource( 8 )
+
+[node name="Carpet" type="Area2D" parent="OrvenApartment"]
+position = Vector2( -255, 493.37 )
+
+[node name="Carpet_Collision" type="CollisionPolygon2D" parent="OrvenApartment/Carpet"]
+visible = false
+polygon = PoolVector2Array( -639, -240.669, -696, -234.652, -720, -210.585, -717, -171.476, -459, 451.254, -396, 487.354, -282, 484.345, 807, 222.618, 831, 195.543, 801, 171.476, 384, -99.2758, 339, -84.234, 66, -279.777, 60, -51.1421, -354, 12.0334, -642, -153.426 )
+
+[node name="Carpet_Hover" type="Polygon2D" parent="OrvenApartment/Carpet"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -639, -243.677, -687, -237.66, -720, -213.593, -720, -186.518, -459, 451.254, -390, 490.362, -297, 487.354, 804, 225.627, 828, 192.535, 795, 165.46, 390, -96.2675, 345, -87.2423, 63, -276.769, 63, -54.1504, -351, 12.0334, -645, -153.426 )
+
+[node name="Carpet_Anim" type="AnimationPlayer" parent="OrvenApartment/Carpet"]
+anims/Carpet_Hover = SubResource( 9 )
+anims/RESET = SubResource( 10 )
+
+[node name="Table" type="Area2D" parent="OrvenApartment"]
+position = Vector2( -537, 129.359 )
+
+[node name="Table_Collision" type="CollisionPolygon2D" parent="OrvenApartment/Table"]
+visible = false
+polygon = PoolVector2Array( -267, -342.953, -309, -318.886, -315, -285.794, -333, -276.769, -327, -204.568, -339, -180.501, -357, 216.602, -63, 367.02, 339, 300.836, 351, -135.376, 297, -216.602, 300, -270.752, 273, -303.844, 270, -321.894, 234, -345.961, 132, -297.827, 132, -249.694, 105, -252.702, 108, -225.627, 87, -243.677, -210, -219.61, -216, -279.777, -234, -288.802, -234, -312.869 )
+
+[node name="Table_Hover" type="Polygon2D" parent="OrvenApartment/Table"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -267, -339.944, -312, -315.877, -309, -279.777, -333, -279.777, -333, -195.543, -339, -177.493, -354, 213.593, -63, 370.028, 342, 303.844, 348, -123.343, 306, -204.568, 309, -273.76, 279, -294.819, 279, -312.869, 228, -345.961, 159, -315.877, 159, -300.836, 126, -291.811, 135, -255.71, 105, -246.685, 111, -225.627, 87, -237.66, -213, -219.61, -207, -270.752, -234, -288.802, -234, -312.869 )
+
+[node name="Table_Anim" type="AnimationPlayer" parent="OrvenApartment/Table"]
+anims/RESET = SubResource( 12 )
+anims/Table_Hover = SubResource( 11 )
+
+[node name="Door" type="Area2D" parent="OrvenApartment"]
+position = Vector2( -1077, -174.485 )
+
+[node name="Door_Collision" type="CollisionPolygon2D" parent="OrvenApartment/Door"]
+visible = false
+polygon = PoolVector2Array( -192, -397.103, 174, -391.086, 168, 397.103, -180, 409.136 )
+
+[node name="Door_Hover" type="Polygon2D" parent="OrvenApartment/Door"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -192, -391.086, 168, -385.07, 162, 400.111, -174, 406.128 )
+
+[node name="Door_Anim" type="AnimationPlayer" parent="OrvenApartment/Door"]
+anims/Door_Hover = SubResource( 13 )
+anims/RESET = SubResource( 14 )
+
+[node name="Phonograph" type="Area2D" parent="OrvenApartment"]
+position = Vector2( -30, -252.702 )
+
+[node name="Phonograph_Collision" type="CollisionPolygon2D" parent="OrvenApartment/Phonograph"]
+visible = false
+polygon = PoolVector2Array( -27, -210.585, -66, -204.568, -114, -168.468, -156, -102.284, -162, -39.1086, -138, 6.01672, -93, 12.0334, -33, -27.0752, 39, -24.0668, 57, 9.02509, 48, 18.0502, -18, 24.0669, -36, 21.0585, -69, 48.1337, -123, 57.1588, -111, 72.2006, -111, 135.376, -126, 135.376, -114, 147.409, 15, 171.476, 162, 144.401, 108, 129.359, 111, 57.1588, 72, 48.1337, 75, -12.0334, 69, -33.0919, 48, -60.1671, 21, -84.2339, 18, -102.284, 27, -138.384, 21, -168.468, 0, -198.552 )
+
+[node name="Phonograph_Hover" type="Polygon2D" parent="OrvenApartment/Phonograph"]
+position = Vector2( 924, -159.443 )
+color = Color( 1, 1, 1, 0 )
+offset = Vector2( -924, 159.443 )
+polygon = PoolVector2Array( 3, -186.518, -33, -207.577, -72, -204.568, -111, -174.485, -150, -108.301, -162, -54.1504, -156, -18.0501, -129, 12.0334, -84, 3.00836, -36, -27.0752, -3, -30.0836, 36, -24.0668, 60, 6.01672, 48, 18.0502, -15, 27.0753, -24, 21.0585, -36, 21.0585, -39, 36.1003, -30, 45.1254, -66, 48.1337, -72, 57.1588, -129, 60.1672, -108, 72.2006, -108, 135.376, -126, 138.384, -111, 147.409, 12, 171.476, 162, 144.401, 108, 132.368, 114, 54.1505, 72, 48.1337, 75, -21.0585, 66, -45.1253, 39, -63.1755, 21, -90.2507, 15, -105.292, 27, -138.384, 21, -168.468 )
+
+[node name="Phonograph_Anim" type="AnimationPlayer" parent="OrvenApartment/Phonograph"]
+anims/Phonograph_Hover = SubResource( 15 )
+anims/RESET = SubResource( 16 )
+
+[node name="IronBoard" type="Area2D" parent="OrvenApartment"]
+position = Vector2( 1470, 391.086 )
+
+[node name="Iron_Collision" type="CollisionPolygon2D" parent="OrvenApartment/IronBoard"]
+visible = false
+polygon = PoolVector2Array( 447, -138.384, -540, -42.1169, -561, -6.01672, -561, 36.1003, -210, 141.393, -123, 246.685, -324, 589.638, -294, 610.696, -93, 276.769, 60, 466.295, -39, 685.905, 0, 685.905, 147, 388.078, 324, 577.605, 366, 589.638, 417, 553.538, 174, 318.886, 234, 165.46, 387, -9.02502, 447, -36.1002 )
+
+[node name="Iron_Hover" type="Polygon2D" parent="OrvenApartment/IronBoard"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( 447, -144.401, -549, -39.1086, -564, -9.02502, -561, 33.0919, -213, 141.393, -123, 240.669, -327, 577.605, -288, 610.696, -93, 279.777, 66, 469.304, -36, 685.905, 18, 685.905, 144, 391.086, 324, 580.613, 366, 586.63, 411, 553.538, 174, 321.894, 255, 144.401, 387, -12.0333, 450, -33.0919 )
+
+[node name="Iron_Anim" type="AnimationPlayer" parent="OrvenApartment/IronBoard"]
+anims/Iron_Hover = SubResource( 17 )
+anims/RESET = SubResource( 18 )
+
+[node name="Photo" type="Area2D" parent="OrvenApartment"]
+position = Vector2( 1722, -523.454 )
+
+[node name="Photo_Collision" type="CollisionPolygon2D" parent="OrvenApartment/Photo"]
+visible = false
+polygon = PoolVector2Array( -159, -336.936, 24, -306.852, 150, -123.343, 159, 9.02502, 105, 183.51, 39, 303.844, -120, 312.869, -114, 108.301, -159, -57.1588 )
+
+[node name="Photo_Hover" type="Polygon2D" parent="OrvenApartment/Photo"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -159, -336.936, 24, -306.852, 147, -123.343, 159, 15.0417, 105, 186.518, 39, 300.836, -117, 312.869, -114, 111.309, -159, -57.1588 )
+
+[node name="Photo_Anim" type="AnimationPlayer" parent="OrvenApartment/Photo"]
+anims/Photo_Hover = SubResource( 19 )
+anims/RESET = SubResource( 20 )
+
+[node name="Orven_Home_Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Orven_Home_Anim" type="AnimationPlayer" parent="."]
+anims/Orven_Home_Transition = SubResource( 21 )
+anims/RESET = SubResource( 22 )
+
+[connection signal="input_event" from="OrvenApartment/Sink" to="." method="_on_Sink_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/Sink" to="." method="_on_Sink_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/Sink" to="." method="_on_Sink_mouse_exited"]
+[connection signal="input_event" from="OrvenApartment/Cupboards" to="." method="_on_Cupboards_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/Cupboards" to="." method="_on_Cupboards_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/Cupboards" to="." method="_on_Cupboards_mouse_exited"]
+[connection signal="input_event" from="OrvenApartment/Counter" to="." method="_on_Counter_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/Counter" to="." method="_on_Counter_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/Counter" to="." method="_on_Counter_mouse_exited"]
+[connection signal="input_event" from="OrvenApartment/Bed" to="." method="_on_Bed_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/Bed" to="." method="_on_Bed_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/Bed" to="." method="_on_Bed_mouse_exited"]
+[connection signal="input_event" from="OrvenApartment/Carpet" to="." method="_on_Carpet_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/Carpet" to="." method="_on_Carpet_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/Carpet" to="." method="_on_Carpet_mouse_exited"]
+[connection signal="input_event" from="OrvenApartment/Table" to="." method="_on_Table_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/Table" to="." method="_on_Table_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/Table" to="." method="_on_Table_mouse_exited"]
+[connection signal="input_event" from="OrvenApartment/Door" to="." method="_on_Door_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/Door" to="." method="_on_Door_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/Door" to="." method="_on_Door_mouse_exited"]
+[connection signal="input_event" from="OrvenApartment/Phonograph" to="." method="_on_Phonograph_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/Phonograph" to="." method="_on_Phonograph_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/Phonograph" to="." method="_on_Phonograph_mouse_exited"]
+[connection signal="input_event" from="OrvenApartment/IronBoard" to="." method="_on_IronBoard_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/IronBoard" to="." method="_on_IronBoard_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/IronBoard" to="." method="_on_IronBoard_mouse_exited"]
+[connection signal="input_event" from="OrvenApartment/Photo" to="." method="_on_Photo_input_event"]
+[connection signal="mouse_entered" from="OrvenApartment/Photo" to="." method="_on_Photo_mouse_entered"]
+[connection signal="mouse_exited" from="OrvenApartment/Photo" to="." method="_on_Photo_mouse_exited"]

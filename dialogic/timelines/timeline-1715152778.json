@@ -1,0 +1,83 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Determined",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](\"You declined our previous offer to appeal to the government to fund the apotheca’s dissection and study [b]Gungandium[/b], but I am once again offering this alternative if you do not have the time or resources to do so in the Avidine factory.\")"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Oh, this is the expensive process Mr. Babinski mentioned. I guess they can appeal for the funding to get the testing done.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Wow, they're willing to go this far.)\n[color=#ffed29](What are we doing here???)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](\"You declined our previous offer to appeal to the government to fund the apotheca’s dissection and study [b]Gungandium[/b], but I am once again offering this alternative if you do not have the time or resources to do so in the Avidine factory.\")"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](Why doesn't Mr. Gungand say what the compound is made of?)\n[color=#ffed29](Why won't he let them figure it out???)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](That's not a good sign.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1715152778.json",
+		"name": "BLetter_4"
+	}
+}

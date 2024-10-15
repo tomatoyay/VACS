@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Alarm Off.mp3-6a72d99606c5f5fc62399af27cea3e56.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Alarm Off.mp3"
+dest_files=[ "res://.import/Alarm Off.mp3-6a72d99606c5f5fc62399af27cea3e56.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

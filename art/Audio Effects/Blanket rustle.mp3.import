@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Blanket rustle.mp3-059a0bd576bc68fae0756e6bb7c17b72.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Blanket rustle.mp3"
+dest_files=[ "res://import/Blanket rustle.mp3-059a0bd576bc68fae0756e6bb7c17b72.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/School Bell Ringing.wav-5d2194461fcc7c68d645bfa450e2eed6.sample"
+
+[deps]
+
+source_file="res://art/Audio Effects/School Bell Ringing.wav"
+dest_files=[ "res://.import/School Bell Ringing.wav-5d2194461fcc7c68d645bfa450e2eed6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

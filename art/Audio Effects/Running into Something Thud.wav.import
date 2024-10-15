@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Running into Something Thud.wav-dece6ae1c888680db374a35ebe139a89.sample"
+
+[deps]
+
+source_file="res://art/Audio Effects/Running into Something Thud.wav"
+dest_files=[ "res://.import/Running into Something Thud.wav-dece6ae1c888680db374a35ebe139a89.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

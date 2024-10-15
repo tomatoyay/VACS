@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/papers_rustle_short.mp3-9bab241009af88f48ee922941ab0553e.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/papers_rustle_short.mp3"
+dest_files=[ "res://import/papers_rustle_short.mp3-9bab241009af88f48ee922941ab0553e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,681 @@
+{
+	"events": [
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh, Orvo! I meant to tell you."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Relaxed",
+			"text": "I heard from some guys that we’re going to be submitting our reviews to [b][i]different[/i] apothecaries[/b] for review."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "What??? \nWhy???"
+		},
+		{
+			"definition": "1703204287-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Frowning",
+			"question": "I heard that the one we’re sending it to might have it out for us."
+		},
+		{
+			"choice": "Where did you hear that?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Who did you hear that from?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shrug",
+			"text": "Just some guys in production, but I’m pretty sure Mr. Gungand and Miss Odiche say the same thing."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "I’m going to talk to Miss Odiche, then."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "What for???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I just wanna see what’s up, you know?\nWhy’d they make this call?\nShouldn’t we just be trying to make our product as safe as possible?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Frowning",
+			"text": "Our product IS safe."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Is it??? Do you know that???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "Of course! Why would they be making us make something unsafe???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Why did [b]Remedium[/b] fail THREE times?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Because they aren’t FAIR."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "Orven, what’s your deal??? Do you not trust our supervisors [i]that much[/i]??"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "You’re just a production line guy, like me.\nWE DON’T NEED TO KNOW."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "What the heck, Orven, you were chill with it yesterday."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Frowning",
+			"text": "Come on, let’s get to work."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I’m doing this because I care, Orvo.\nI don’t want you getting fired or something. Or taking on work you shouldn’t. You get that, right?  "
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shrug",
+			"text": "We wanna do our jobs the best we can.\nAnd that’s all we can do."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Yeah, Herb.\nThanks, man."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Frowning",
+			"text": "Come on, bro."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1707104748.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "I guess?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1703114167-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "I guess that would make sense as to why we failed three times in a row…"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "Right???\nBro, how can we succeed if the game is rigged against us?\n......"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Let’s get to it?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Yeah, I guess for us, it’s just time to work."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thumbs Up",
+			"text": " And we’ll kill it as always!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1707691789.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "That’s not true!",
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Herb, that isn’t true. "
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Frowning",
+			"text": "What makes you say that?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "There’s no way that an agency certified by the Magic and Medicine Academy could have a personal vendetta, those things are regulated!"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "Well, that’s why we’re looking for an agency [b]outside of the MMA."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "!!!!!!\nWhat???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shrug",
+			"text": "Well, that’s what I’ve heard."
+		},
+		{
+			"definition": "1703204287-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "That we can do this without that seal and the product can get out and help people faster."
+		},
+		{
+			"choice": "This is BAD.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Herb…I feel like that’s really bad."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shrug",
+			"text": "Why? Why would us getting approved be bad???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Doesn’t it feel like that would be unsafe?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "Only if our product is unsafe. Which it ISN’T."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Are you sure???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "YES???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "Orven, why would Miss Odiche or Mr. Gungand, or I don’t know, MISTER AVIDINE, be asking us to make something unsafe???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "IF IT’S SAFE, THEN WHY ARE WE TRYING TO AVOID THE SAFETY PEOPLE???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "WE AREN’T. WE’RE GOING TO SAFETY PEOPLE WHO AREN’T UNDER SOME AGENDA."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "To people who AREN’T CERTIFIED???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WHAT’S YOUR DEAL, ORVEN???\nWHY DON’T YOU TRUST US AND OUR SUPERVISORS???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "They’re doing their job, and we do OURS."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BUT—"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "But NOTHING!!!\nIT’S NOT YOUR JOB, ORVEN..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Frowning",
+			"text": "What the heck, Orven, you were chill with it yesterday.\nCome on, let’s get to work."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I’m doing this because I care, Orvo.\nI don’t want you getting fired or something. Or taking on work you shouldn’t. You get that, right?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shrug",
+			"text": "We wanna do our jobs the best we can.\nAnd that’s all we can do."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, Herb.\nThanks, man."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Come on, bro."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1707104748.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "This is good?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1703114167-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "This is good?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Relaxed",
+			"text": "Yeah, man! Getting our life-saving product out there!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Right…right, and that’s a good thing!"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thumbs Up",
+			"text": "Heck yeah!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Mhmm."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Come on, let’s do what we do best!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yeah…\nYeah!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1707691789.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707701477.json",
+		"name": "Herb 2"
+	}
+}

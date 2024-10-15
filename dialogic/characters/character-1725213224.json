@@ -1,0 +1,33 @@
+{
+	"color": "#ffffffff",
+	"description": "On the phone.",
+	"display_name": "Throckmorton",
+	"display_name_bool": true,
+	"id": "character-1725213224.json",
+	"mirror_portraits": false,
+	"name": "Throck Phone",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 200,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Throckmorton Jones/Throckmorton Phone.png"
+		},
+		{
+			"name": "Suspicious",
+			"path": "res://art/Characters/Throckmorton Jones/Suspicious Throck Phone.png"
+		},
+		{
+			"name": "Eyes Closed",
+			"path": "res://art/Characters/Throckmorton Jones/Eyes Closed Throck Phone.png"
+		},
+		{
+			"name": "Eyes Wide",
+			"path": "res://art/Characters/Throckmorton Jones/Surprised Throck Phone.png"
+		}
+	],
+	"scale": 16,
+	"theme": ""
+}

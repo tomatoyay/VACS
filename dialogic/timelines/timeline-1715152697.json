@@ -1,0 +1,71 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Determined",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " [color=#ffed29](\"I understand that you see correspondence with us as tiresome, but please, for the sake of [b]Remedium[/b] and for the city, I urge you to heed our advice.\")"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "  [color=#ffed29](Definitely Mr. Babinski writing this letter.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " [color=#ffed29](\"I understand that you see correspondence with us as tiresome, but please, for the sake of [b]Remedium[/b] and for the city, I urge you to heed our advice.\")"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " [color=#ffed29](\"They sound like good people...why haven't we been talking with them???)"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1715152697.json",
+		"name": "BLetter_2"
+	}
+}

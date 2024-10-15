@@ -1,0 +1,59 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Determined",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](\"The initial acceptance and agreement for the Ventreville location of the church was not in accordance with the Asterkarte or the greater church body.\")"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](\"The decisions made by Father Sue Tique have been disavowed as heresy!\")\n[color=#ffed29](WOW, the Father of the church backing [b]Remedium[/b] was considered heresy?)\n[color=#ffed29](I guess that makes sense, I wouldn't expect the church to be involved in this at all.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](\"And as this is the second instance of heresy committed by Father Sue Tique, she has been stripped of her divine power to make final decisions as the Father of the church.\")"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](Second instance?)\n[color=#ffed29](Dang, Tique, my Gramma should talk to you about the Divine Parenthood.)\n[color=#ffed29](She'll straighten out your theology like she's straightening out the wrinkles in her shirts.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Decisively and with some forceful shaking.)"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1715310996.json",
+		"name": "CLetter_6"
+	}
+}

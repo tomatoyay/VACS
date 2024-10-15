@@ -1,0 +1,45 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1725573328.json",
+	"mirror_portraits": false,
+	"name": "ABP Items",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Items/ABP/Bread of the Day.png"
+		},
+		{
+			"name": "Bread of the Day",
+			"path": "res://art/Items/ABP/Bread of the Day.png"
+		},
+		{
+			"name": "Bread Soup",
+			"path": "res://art/Items/ABP/Bread Soup.png"
+		},
+		{
+			"name": "Cheese Three Ways",
+			"path": "res://art/Items/ABP/Cheese Three Ways.png"
+		},
+		{
+			"name": "Crunchy Crouton Salad",
+			"path": "res://art/Items/ABP/Crunchy Crouton Salad.png"
+		},
+		{
+			"name": "Green Green Garlic Bread",
+			"path": "res://art/Items/ABP/Green Green Garlic Bread.png"
+		},
+		{
+			"name": "Slop and Flop",
+			"path": "res://art/Items/ABP/Slop and Flop.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}

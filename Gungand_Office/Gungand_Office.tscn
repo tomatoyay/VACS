@@ -1,0 +1,3099 @@
+[gd_scene load_steps=110 format=2]
+
+[ext_resource path="res://art/Background/Sion_Office.png" type="Texture" id=1]
+[ext_resource path="res://art/OST/White Noise.wav" type="AudioStream" id=2]
+[ext_resource path="res://Gungand_Office/Gungand_Office.gd" type="Script" id=3]
+[ext_resource path="res://art/Items/Throckmorton Letter.png" type="Texture" id=4]
+[ext_resource path="res://art/Audio Effects/papers_rustle_short.mp3" type="AudioStream" id=5]
+[ext_resource path="res://Gungand_Office/Throckmorton_Letter.gd" type="Script" id=6]
+[ext_resource path="res://Gungand_Office/Babinski_Letter.gd" type="Script" id=7]
+[ext_resource path="res://art/Items/Babinksi Letter.PNG" type="Texture" id=8]
+[ext_resource path="res://Gungand_Office/Church_Rejection_Letter.gd" type="Script" id=9]
+[ext_resource path="res://art/Items/Church Letter.PNG" type="Texture" id=10]
+[ext_resource path="res://art/Items/Grant Letter.PNG" type="Texture" id=11]
+[ext_resource path="res://Gungand_Office/Grant_Letter.gd" type="Script" id=12]
+[ext_resource path="res://art/Items/Maud Letter.png" type="Texture" id=13]
+[ext_resource path="res://Gungand_Office/Maud_Note.gd" type="Script" id=14]
+
+[sub_resource type="Animation" id=26]
+resource_name = "Bookshelf_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Bookshelf_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=27]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Bookshelf_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=124]
+resource_name = "Calendar_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Calendar_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=125]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Calendar_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=127]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Right_Drawer_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=126]
+resource_name = "Right_Drawer_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Right_Drawer_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=128]
+resource_name = "Left_Drawer_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Left_Drawer_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=129]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Left_Drawer_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=130]
+resource_name = "Garbage_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Garbage_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=131]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Garbage_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=132]
+resource_name = "Floor_Hover"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Floor_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=133]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Floor_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=57]
+resource_name = "Letter1_Animation"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=58]
+resource_name = "Letter1_Close"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=59]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=60]
+resource_name = "Letter2_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=61]
+resource_name = "Letter2_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=62]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=63]
+resource_name = "Letter3_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=64]
+resource_name = "Letter3_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=65]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=66]
+resource_name = "Letter4_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=67]
+resource_name = "Letter4_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=68]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=69]
+resource_name = "Letter5_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=70]
+resource_name = "Letter5_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=71]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=73]
+resource_name = "Babinski_Letter"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1621, 664 ), Vector2( 640, 368 ) ]
+}
+tracks/1/type = "audio"
+tracks/1/path = NodePath("../Papers_Rustle")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"clips": [ {
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource( 5 )
+} ],
+"times": PoolRealArray( 0 )
+}
+
+[sub_resource type="Animation" id=72]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1621, 664 ) ]
+}
+
+[sub_resource type="Animation" id=31]
+resource_name = "Letter1_Animation"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=32]
+resource_name = "Letter1_Close"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=33]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=34]
+resource_name = "Letter2_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=35]
+resource_name = "Letter2_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=36]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=37]
+resource_name = "Letter3_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=38]
+resource_name = "Letter3_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=39]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=40]
+resource_name = "Letter4_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=41]
+resource_name = "Letter4_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=42]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=43]
+resource_name = "Letter5_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=44]
+resource_name = "Letter5_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=45]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=56]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1621, 664 ) ]
+}
+
+[sub_resource type="Animation" id=55]
+resource_name = "Throck_Letter"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1621, 664 ), Vector2( 640, 368 ) ]
+}
+tracks/1/type = "audio"
+tracks/1/path = NodePath("../Papers_Rustle")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"clips": [ {
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource( 5 )
+} ],
+"times": PoolRealArray( 0 )
+}
+
+[sub_resource type="Animation" id=74]
+resource_name = "Letter1_Animation"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=75]
+resource_name = "Letter1_Close"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=76]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=77]
+resource_name = "Letter2_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=78]
+resource_name = "Letter2_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=79]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=80]
+resource_name = "Letter3_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=81]
+resource_name = "Letter3_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=82]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=83]
+resource_name = "Letter4_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=84]
+resource_name = "Letter4_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=85]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=86]
+resource_name = "Letter5_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=87]
+resource_name = "Letter5_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=88]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=91]
+resource_name = "Letter6_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=92]
+resource_name = "Letter6_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=93]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=94]
+resource_name = "Letter5_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=95]
+resource_name = "Letter7_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=96]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=97]
+resource_name = "Letter5_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=98]
+resource_name = "Letter8_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=99]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=100]
+resource_name = "Letter5_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=101]
+resource_name = "Letter9_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=102]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=90]
+resource_name = "Church_Letter"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1872, 712 ), Vector2( 640, 360 ) ]
+}
+tracks/1/type = "audio"
+tracks/1/path = NodePath("../Papers_Rustle")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"clips": [ {
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource( 5 )
+} ],
+"times": PoolRealArray( 0 )
+}
+
+[sub_resource type="Animation" id=89]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1872, 712 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../Papers_Rustle:stream")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ ExtResource( 5 ) ]
+}
+
+[sub_resource type="Animation" id=103]
+resource_name = "Letter1_Animation"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=104]
+resource_name = "Letter1_Close"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=105]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:flat")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=106]
+resource_name = "Letter2_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=107]
+resource_name = "Letter2_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=108]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=109]
+resource_name = "Letter3_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=110]
+resource_name = "Letter3_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=111]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=112]
+resource_name = "Letter4_Hide"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 0, 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=113]
+resource_name = "Letter4_Show"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=114]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=119]
+resource_name = "Grant_Letter"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1621, 664 ), Vector2( 640, 368 ) ]
+}
+tracks/1/type = "audio"
+tracks/1/path = NodePath("../Papers_Rustle")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"clips": [ {
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource( 5 )
+} ],
+"times": PoolRealArray( 0 )
+}
+
+[sub_resource type="Animation" id=118]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1621, 664 ) ]
+}
+
+[sub_resource type="Animation" id=120]
+resource_name = "Maud_Note"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1558, 512 ), Vector2( 644, 374 ) ]
+}
+tracks/1/type = "audio"
+tracks/1/path = NodePath("../Papers_Rustle")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"clips": [ {
+"end_offset": 0.0,
+"start_offset": 0.0,
+"stream": ExtResource( 5 )
+} ],
+"times": PoolRealArray( 0 )
+}
+
+[sub_resource type="Animation" id=121]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 1558, 512 ) ]
+}
+
+[sub_resource type="Animation" id=122]
+resource_name = "Note_Button_Animation"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=123]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=134]
+resource_name = "Fade In"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=135]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="Gungand_Office" type="Node2D"]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 0, 2 )
+z_index = 1
+script = ExtResource( 3 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_top = -2.0
+margin_right = 1280.0
+margin_bottom = 718.0
+mouse_filter = 2
+
+[node name="SionOffice" type="Sprite" parent="."]
+position = Vector2( 640, 358 )
+scale = Vector2( 0.333629, 0.333775 )
+texture = ExtResource( 1 )
+
+[node name="Bookshelf" type="Area2D" parent="SionOffice"]
+position = Vector2( -1143.28, -7.55591 )
+z_index = 1
+
+[node name="Bookshelf_Collision2D" type="CollisionPolygon2D" parent="SionOffice/Bookshelf"]
+visible = false
+polygon = PoolVector2Array( -778.016, -1044.05, -134.88, -1054.6, 308.726, -859.861, 242.785, -587.222, 254.774, 470.377, 506.551, 533.293, 482.572, 1084.56, -776.311, 1078.57 )
+
+[node name="Bookshelf_Hover" type="Polygon2D" parent="SionOffice/Bookshelf"]
+position = Vector2( -4.70203, -1.43205 )
+scale = Vector2( 1.00813, 1.00493 )
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -769.105, -1032.18, -115.01, -1032.18, 308.726, -856.865, 245.782, -572.242, 261.638, 477.015, 483.867, 552.833, 485.569, 1087.56, -766.132, 1084.58 )
+
+[node name="Bookshelf_Animation" type="AnimationPlayer" parent="SionOffice/Bookshelf"]
+anims/Bookshelf_Hover = SubResource( 26 )
+anims/RESET = SubResource( 27 )
+
+[node name="Calendar" type="Area2D" parent="SionOffice"]
+position = Vector2( 975.839, 199.17 )
+z_index = 1
+
+[node name="Calendar_Collision2D" type="CollisionPolygon2D" parent="SionOffice/Calendar"]
+visible = false
+polygon = PoolVector2Array( -34.6743, -37.3843, -10.6956, -61.3525, 82.2222, -61.3525, 118.19, -70.3406, 226.094, -19.4081, 223.097, -4.42798, 178.137, 7.55615, 91.2141, 22.5364, 55.2461, 28.5284, 19.2778, 61.4847, 13.2832, 136.385, -28.6794, 124.401, -34.6743, 142.378, -52.6582, 118.409, -136.584, 130.393, -166.557, 163.35, -166.557, 100.433, -127.592, 64.4807, -106.61, 22.5364, -88.6265, -31.3922, -58.6531, -40.3802 )
+
+[node name="Calendar_Hover" type="Polygon2D" parent="SionOffice/Calendar"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -34.6743, -40.3802, -10.6956, -61.3525, 4.29126, -64.3485, 76.2273, -64.3485, 118.19, -70.3406, 226.094, -19.4081, 211.108, -7.42395, 226.094, -10.42, 211.108, 1.56409, 79.2246, 22.5364, 28.27, 49.5006, 19.2778, 61.4847, 10.2859, 103.429, 10.2859, 136.385, -7.69824, 133.389, -25.6821, 124.401, -28.6794, 139.381, -52.6582, 118.409, -142.579, 130.393, -166.557, 160.354, -163.56, 100.433, -124.594, 58.4886, -112.605, 40.5126, -103.613, -1.43188, -85.6292, -31.3922, -58.6531, -40.3802 )
+
+[node name="Calendar_Animation" type="AnimationPlayer" parent="SionOffice/Calendar"]
+anims/Calendar_Hover = SubResource( 124 )
+anims/RESET = SubResource( 125 )
+
+[node name="Right_Drawer" type="Area2D" parent="SionOffice"]
+position = Vector2( 563.5, 146.806 )
+z_index = 1
+
+[node name="Right_Drawer_Collision2D" type="CollisionPolygon2D" parent="SionOffice/Right_Drawer"]
+visible = false
+polygon = PoolVector2Array( -188.833, -47.9365, -116.896, -68.9087, 320.715, -17.9762, 320.715, 26.9642, 239.787, 56.9246, -191.83, -5.99207 )
+
+[node name="Right_Drawer_Hover" type="Polygon2D" parent="SionOffice/Right_Drawer"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -191.83, -47.9365, -119.894, -65.9127, 323.713, -14.9802, 320.715, 29.9602, 236.79, 56.9246, -194.827, -5.99207 )
+
+[node name="Right_Drawer_Animation" type="AnimationPlayer" parent="SionOffice/Right_Drawer"]
+anims/RESET = SubResource( 127 )
+anims/Right_Drawer_Hover = SubResource( 126 )
+
+[node name="Left_Drawer" type="Area2D" parent="SionOffice"]
+position = Vector2( -163.151, 301.035 )
+z_index = 1
+
+[node name="Left_Drawer_Collision2D" type="CollisionPolygon2D" parent="SionOffice/Left_Drawer"]
+visible = false
+polygon = PoolVector2Array( -601.172, -70.3406, -118.6, -160.221, -112.605, -85.3207, -595.177, 7.55627 )
+
+[node name="Left_Drawer_Hover" type="Polygon2D" parent="SionOffice/Left_Drawer"]
+position = Vector2( -352.392, -73.3365 )
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -248.779, 2.99597, 233.793, -83.8889, 239.787, -8.98816, -242.785, 80.8928 )
+
+[node name="Left_Drawer_Animation" type="AnimationPlayer" parent="SionOffice/Left_Drawer"]
+anims/Left_Drawer_Hover = SubResource( 128 )
+anims/RESET = SubResource( 129 )
+
+[node name="Garbage" type="Area2D" parent="SionOffice"]
+position = Vector2( 1124, 680.099 )
+z_index = 1
+
+[node name="Garbage_Collision2D" type="CollisionPolygon2D" parent="SionOffice/Garbage"]
+visible = false
+polygon = PoolVector2Array( -74.9336, -143.809, 50.9548, -146.806, 65.9414, -134.821, 62.9441, -113.849, 107.904, -104.861, 107.904, -98.869, 137.878, -113.849, 137.878, -89.8809, 158.859, -89.8809, 158.859, -74.9008, 176.843, -65.9127, 176.843, -53.9286, 149.867, 113.849, 179.841, 149.802, 236.79, 167.778, 239.787, 173.77, 290.742, 191.746, 242.785, 221.706, 239.787, 248.671, 245.782, 272.639, 116.896, 290.615, 95.915, 302.599, -77.9309, 239.682, -146.87, 212.718, -113.899, 194.742, -143.872, 170.774, -149.867, -71.9048, -113.899, -95.8729, -119.894, -110.853, -92.9175, -113.849, -92.9175, -122.837, -74.9336, -116.845, -68.939, -131.825, -80.9282, -137.817 )
+
+[node name="Garbage_Hover" type="Polygon2D" parent="SionOffice/Garbage"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -77.9309, -143.809, 47.9575, -146.805, 68.939, -134.821, 62.9441, -113.849, 98.9124, -110.853, 107.904, -98.8689, 143.872, -113.849, 128.886, -86.8848, 155.862, -86.8848, 155.862, -74.9008, 173.846, -65.9126, 179.841, -50.9325, 149.867, 113.849, 179.841, 143.809, 233.792, 170.773, 257.771, 185.754, 293.74, 194.742, 242.785, 224.702, 236.79, 245.674, 248.779, 275.634, 128.886, 284.622, 122.891, 296.607, 98.9124, 293.61, 86.9229, 311.587, -77.9309, 239.682, -149.867, 212.718, -122.891, 212.718, -119.894, 191.746, -143.872, 170.773, -152.865, -71.9047, -131.883, -89.8809, -110.902, -92.8768, -116.896, -113.849, -92.9175, -116.845, -68.9387, -116.845, -68.9387, -131.825 )
+
+[node name="Garbage_Animation" type="AnimationPlayer" parent="SionOffice/Garbage"]
+anims/Garbage_Hover = SubResource( 130 )
+anims/RESET = SubResource( 131 )
+
+[node name="Floor" type="Area2D" parent="SionOffice"]
+position = Vector2( 512.545, 608.194 )
+z_index = 1
+
+[node name="Floor_Collision2D" type="CollisionPolygon2D" parent="SionOffice/Floor"]
+visible = false
+polygon = PoolVector2Array( -38.9656, -14.98, 140.875, -53.9283, 158.859, -41.9442, 257.771, -74.9006, 371.67, -53.9283, 212.811, 47.9366, 164.854, 410.456, 254.774, 440.417, 287.745, 416.448, 311.723, 416.448, 329.708, 389.484, 569.495, 398.472, 716.365, 458.393, 701.378, 467.381, -716.365, 470.377, -683.394, 404.464, -917.187, 389.484, -701.378, 278.631, -617.452, 284.623, -614.455, 314.583, -521.537, 320.575, -395.649, 404.464, -377.665, 128.829, -203.819, 89.8811, -140.875, 104.861 )
+
+[node name="Floor_Hover" type="Polygon2D" parent="SionOffice/Floor"]
+position = Vector2( 2343.92, -608.194 )
+color = Color( 1, 1, 1, 0 )
+offset = Vector2( -1171.96, 305.595 )
+polygon = PoolVector2Array( -1013.1, 260.655, -911.191, 224.702, -806.284, 254.663, -959.149, 353.532, -1004.11, 719.047, -914.189, 743.016, -878.221, 722.043, -857.239, 734.027, -842.252, 695.079, -617.452, 701.071, -464.587, 755, -515.542, 760.992, -467.585, 778.968, -1897.32, 775.972, -1852.36, 713.055, -2083.15, 719.047, -2047.18, 698.075, -2086.15, 686.091, -1876.34, 587.222, -1795.41, 596.21, -1783.42, 620.178, -1687.5, 629.166, -1561.61, 713.055, -1555.62, 428.432, -1375.78, 392.48, -1315.83, 410.456, -1204.93, 290.615, -1037.08, 251.667 )
+
+[node name="Floor_Animation" type="AnimationPlayer" parent="SionOffice/Floor"]
+anims/Floor_Hover = SubResource( 132 )
+anims/RESET = SubResource( 133 )
+
+[node name="Sion_Office_Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -30.0
+bus = "Music"
+
+[node name="Tween" type="Tween" parent="."]
+
+[node name="Documents" type="Control" parent="."]
+process_priority = 1
+visible = false
+margin_top = -2.0
+margin_right = 1283.0
+margin_bottom = 723.0
+input_pass_on_modal_close_click = false
+
+[node name="Babinski_Letter" type="Sprite" parent="Documents"]
+position = Vector2( 1621, 664 )
+scale = Vector2( 0.33, 0.33 )
+z_index = 2
+texture = ExtResource( 8 )
+script = ExtResource( 7 )
+
+[node name="Letter1_Button" type="Button" parent="Documents/Babinski_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -313.0
+margin_top = -1104.0
+margin_right = 332.0
+margin_bottom = -843.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter1_Animation" type="AnimationPlayer" parent="Documents/Babinski_Letter/Letter1_Button"]
+anims/Letter1_Animation = SubResource( 57 )
+anims/Letter1_Close = SubResource( 58 )
+anims/RESET = SubResource( 59 )
+
+[node name="Letter2_Button" type="Button" parent="Documents/Babinski_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -753.0
+margin_top = -766.0
+margin_right = 738.0
+margin_bottom = -454.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter2_Animation" type="AnimationPlayer" parent="Documents/Babinski_Letter/Letter2_Button"]
+anims/Letter2_Hide = SubResource( 60 )
+anims/Letter2_Show = SubResource( 61 )
+anims/RESET = SubResource( 62 )
+
+[node name="Letter3_Button" type="Button" parent="Documents/Babinski_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -751.0
+margin_top = -399.0
+margin_right = 751.0
+margin_bottom = -103.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter3_Animation" type="AnimationPlayer" parent="Documents/Babinski_Letter/Letter3_Button"]
+anims/Letter3_Hide = SubResource( 63 )
+anims/Letter3_Show = SubResource( 64 )
+anims/RESET = SubResource( 65 )
+
+[node name="Letter4_Button" type="Button" parent="Documents/Babinski_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -751.0
+margin_top = -55.0
+margin_right = 746.0
+margin_bottom = 116.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter4_Animation" type="AnimationPlayer" parent="Documents/Babinski_Letter/Letter4_Button"]
+anims/Letter4_Hide = SubResource( 66 )
+anims/Letter4_Show = SubResource( 67 )
+anims/RESET = SubResource( 68 )
+
+[node name="Letter5_Button" type="Button" parent="Documents/Babinski_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -748.0
+margin_top = 193.0
+margin_right = 732.0
+margin_bottom = 894.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter5_Animation" type="AnimationPlayer" parent="Documents/Babinski_Letter/Letter5_Button"]
+anims/Letter5_Hide = SubResource( 69 )
+anims/Letter5_Show = SubResource( 70 )
+anims/RESET = SubResource( 71 )
+
+[node name="Babinski_Letter_Animation" type="AnimationPlayer" parent="Documents/Babinski_Letter"]
+anims/Babinski_Letter = SubResource( 73 )
+anims/RESET = SubResource( 72 )
+
+[node name="Throckmorton_Letter" type="Sprite" parent="Documents"]
+position = Vector2( 1621, 664 )
+scale = Vector2( 0.33, 0.33 )
+z_index = 2
+texture = ExtResource( 4 )
+script = ExtResource( 6 )
+
+[node name="Letter1_Button" type="Button" parent="Documents/Throckmorton_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -306.0
+margin_top = -1104.0
+margin_right = 321.0
+margin_bottom = -846.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter1_Animation" type="AnimationPlayer" parent="Documents/Throckmorton_Letter/Letter1_Button"]
+anims/Letter1_Animation = SubResource( 31 )
+anims/Letter1_Close = SubResource( 32 )
+anims/RESET = SubResource( 33 )
+
+[node name="Letter2_Button" type="Button" parent="Documents/Throckmorton_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -772.0
+margin_top = -631.0
+margin_right = 743.0
+margin_bottom = -457.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter2_Animation" type="AnimationPlayer" parent="Documents/Throckmorton_Letter/Letter2_Button"]
+anims/Letter2_Hide = SubResource( 34 )
+anims/Letter2_Show = SubResource( 35 )
+anims/RESET = SubResource( 36 )
+
+[node name="Letter3_Button" type="Button" parent="Documents/Throckmorton_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -748.0
+margin_top = -418.0
+margin_right = 732.0
+margin_bottom = -13.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter3_Animation" type="AnimationPlayer" parent="Documents/Throckmorton_Letter/Letter3_Button"]
+anims/Letter3_Hide = SubResource( 37 )
+anims/Letter3_Show = SubResource( 38 )
+anims/RESET = SubResource( 39 )
+
+[node name="Letter4_Button" type="Button" parent="Documents/Throckmorton_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -769.0
+margin_top = 64.0
+margin_right = 732.0
+margin_bottom = 257.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter4_Animation" type="AnimationPlayer" parent="Documents/Throckmorton_Letter/Letter4_Button"]
+anims/Letter4_Hide = SubResource( 40 )
+anims/Letter4_Show = SubResource( 41 )
+anims/RESET = SubResource( 42 )
+
+[node name="Letter5_Button" type="Button" parent="Documents/Throckmorton_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -759.0
+margin_top = 267.0
+margin_right = 732.0
+margin_bottom = 460.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter5_Animation" type="AnimationPlayer" parent="Documents/Throckmorton_Letter/Letter5_Button"]
+anims/Letter5_Hide = SubResource( 43 )
+anims/Letter5_Show = SubResource( 44 )
+anims/RESET = SubResource( 45 )
+
+[node name="Throck_Letter_Animation" type="AnimationPlayer" parent="Documents/Throckmorton_Letter"]
+anims/RESET = SubResource( 56 )
+anims/Throck_Letter = SubResource( 55 )
+
+[node name="Church_Rejection_Letter" type="Sprite" parent="Documents"]
+position = Vector2( 1872, 712 )
+scale = Vector2( 0.22, 0.19 )
+z_index = 2
+texture = ExtResource( 10 )
+script = ExtResource( 9 )
+
+[node name="Letter1_Button" type="Button" parent="Documents/Church_Rejection_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -622.0
+margin_top = -1822.0
+margin_right = 622.0
+margin_bottom = -1333.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter1_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter/Letter1_Button"]
+anims/Letter1_Animation = SubResource( 74 )
+anims/Letter1_Close = SubResource( 75 )
+anims/RESET = SubResource( 76 )
+
+[node name="Letter2_Button" type="Button" parent="Documents/Church_Rejection_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -2578.0
+margin_top = -1289.0
+margin_right = -45.0
+margin_bottom = -1111.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter2_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter/Letter2_Button"]
+anims/Letter2_Hide = SubResource( 77 )
+anims/Letter2_Show = SubResource( 78 )
+anims/RESET = SubResource( 79 )
+
+[node name="Letter3_Button" type="Button" parent="Documents/Church_Rejection_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -2578.0
+margin_top = -1111.0
+margin_right = 2578.0
+margin_bottom = -756.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter3_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter/Letter3_Button"]
+anims/Letter3_Hide = SubResource( 80 )
+anims/Letter3_Show = SubResource( 81 )
+anims/RESET = SubResource( 82 )
+
+[node name="Letter4_Button" type="Button" parent="Documents/Church_Rejection_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -2577.78
+margin_top = -755.556
+margin_right = 2578.22
+margin_bottom = -355.556
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter4_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter/Letter4_Button"]
+anims/Letter4_Hide = SubResource( 83 )
+anims/Letter4_Show = SubResource( 84 )
+anims/RESET = SubResource( 85 )
+
+[node name="Letter5_Button" type="Button" parent="Documents/Church_Rejection_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -2578.0
+margin_top = -337.0
+margin_right = 2545.0
+margin_bottom = -222.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter5_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter/Letter5_Button"]
+anims/Letter5_Hide = SubResource( 86 )
+anims/Letter5_Show = SubResource( 87 )
+anims/RESET = SubResource( 88 )
+
+[node name="Letter6_Button" type="Button" parent="Documents/Church_Rejection_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -2578.0
+margin_top = -222.0
+margin_right = 2578.0
+margin_bottom = 178.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter6_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter/Letter6_Button"]
+anims/Letter6_Hide = SubResource( 91 )
+anims/Letter6_Show = SubResource( 92 )
+anims/RESET = SubResource( 93 )
+
+[node name="Letter7_Button" type="Button" parent="Documents/Church_Rejection_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -2578.0
+margin_top = 178.0
+margin_right = 2578.0
+margin_bottom = 533.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter7_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter/Letter7_Button"]
+anims/Letter5_Hide = SubResource( 94 )
+anims/Letter7_Show = SubResource( 95 )
+anims/RESET = SubResource( 96 )
+
+[node name="Letter8_Button" type="Button" parent="Documents/Church_Rejection_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -2578.0
+margin_top = 800.0
+margin_right = 2578.0
+margin_bottom = 1200.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter8_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter/Letter8_Button"]
+anims/Letter5_Hide = SubResource( 97 )
+anims/Letter8_Show = SubResource( 98 )
+anims/RESET = SubResource( 99 )
+
+[node name="Letter9_Button" type="Button" parent="Documents/Church_Rejection_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -2578.0
+margin_top = 1244.0
+margin_right = 2311.0
+margin_bottom = 1777.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter9_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter/Letter9_Button"]
+anims/Letter5_Hide = SubResource( 100 )
+anims/Letter9_Show = SubResource( 101 )
+anims/RESET = SubResource( 102 )
+
+[node name="Church_Letter_Animation" type="AnimationPlayer" parent="Documents/Church_Rejection_Letter"]
+anims/Church_Letter = SubResource( 90 )
+anims/RESET = SubResource( 89 )
+
+[node name="Grant_Letter" type="Sprite" parent="Documents"]
+position = Vector2( 1621, 664 )
+scale = Vector2( 0.31, 0.31 )
+z_index = 2
+texture = ExtResource( 11 )
+script = ExtResource( 12 )
+
+[node name="Letter1_Button" type="Button" parent="Documents/Grant_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -780.0
+margin_top = -763.0
+margin_right = 767.0
+margin_bottom = -553.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter1_Animation" type="AnimationPlayer" parent="Documents/Grant_Letter/Letter1_Button"]
+anims/Letter1_Animation = SubResource( 103 )
+anims/Letter1_Close = SubResource( 104 )
+anims/RESET = SubResource( 105 )
+
+[node name="Letter2_Button" type="Button" parent="Documents/Grant_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -772.0
+margin_top = -492.0
+margin_right = 706.0
+margin_bottom = -386.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter2_Animation" type="AnimationPlayer" parent="Documents/Grant_Letter/Letter2_Button"]
+anims/Letter2_Hide = SubResource( 106 )
+anims/Letter2_Show = SubResource( 107 )
+anims/RESET = SubResource( 108 )
+
+[node name="Letter3_Button" type="Button" parent="Documents/Grant_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -762.0
+margin_top = -386.0
+margin_right = 740.0
+margin_bottom = -164.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter3_Animation" type="AnimationPlayer" parent="Documents/Grant_Letter/Letter3_Button"]
+anims/Letter3_Hide = SubResource( 109 )
+anims/Letter3_Show = SubResource( 110 )
+anims/RESET = SubResource( 111 )
+
+[node name="Letter4_Button" type="Button" parent="Documents/Grant_Letter"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -798.0
+margin_top = 660.0
+margin_right = -32.0
+margin_bottom = 1152.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Letter4_Animation" type="AnimationPlayer" parent="Documents/Grant_Letter/Letter4_Button"]
+anims/Letter4_Hide = SubResource( 112 )
+anims/Letter4_Show = SubResource( 113 )
+anims/RESET = SubResource( 114 )
+
+[node name="Grant_Letter_Animation" type="AnimationPlayer" parent="Documents/Grant_Letter"]
+anims/Grant_Letter = SubResource( 119 )
+anims/RESET = SubResource( 118 )
+
+[node name="Maud_Note" type="Sprite" parent="Documents"]
+position = Vector2( 1558, 512 )
+scale = Vector2( 0.18, 0.18 )
+z_index = 2
+texture = ExtResource( 13 )
+script = ExtResource( 14 )
+
+[node name="Maud_Note_Animation" type="AnimationPlayer" parent="Documents/Maud_Note"]
+anims/Maud_Note = SubResource( 120 )
+anims/RESET = SubResource( 121 )
+
+[node name="Note_Button" type="Button" parent="Documents/Maud_Note"]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = -1123.0
+margin_top = -819.0
+margin_right = 1089.0
+margin_bottom = 907.0
+mouse_default_cursor_shape = 2
+input_pass_on_modal_close_click = false
+flat = true
+
+[node name="Note_Animation" type="AnimationPlayer" parent="Documents/Maud_Note/Note_Button"]
+anims/Note_Button_Animation = SubResource( 122 )
+anims/RESET = SubResource( 123 )
+
+[node name="Papers_Rustle" type="AudioStreamPlayer" parent="Documents"]
+stream = ExtResource( 5 )
+bus = "SFX"
+
+[node name="FadeAnim" type="AnimationPlayer" parent="."]
+"anims/Fade In" = SubResource( 134 )
+anims/RESET = SubResource( 135 )
+
+[connection signal="input_event" from="SionOffice/Bookshelf" to="." method="_on_Bookshelf_input_event"]
+[connection signal="mouse_entered" from="SionOffice/Bookshelf" to="." method="_on_Bookshelf_mouse_entered"]
+[connection signal="mouse_exited" from="SionOffice/Bookshelf" to="." method="_on_Bookshelf_mouse_exited"]
+[connection signal="input_event" from="SionOffice/Calendar" to="." method="_on_Calendar_input_event"]
+[connection signal="mouse_entered" from="SionOffice/Calendar" to="." method="_on_Calendar_mouse_entered"]
+[connection signal="mouse_exited" from="SionOffice/Calendar" to="." method="_on_Calendar_mouse_exited"]
+[connection signal="input_event" from="SionOffice/Right_Drawer" to="." method="_on_Right_Drawer_input_event"]
+[connection signal="mouse_entered" from="SionOffice/Right_Drawer" to="." method="_on_Right_Drawer_mouse_entered"]
+[connection signal="mouse_exited" from="SionOffice/Right_Drawer" to="." method="_on_Right_Drawer_mouse_exited"]
+[connection signal="input_event" from="SionOffice/Left_Drawer" to="." method="_on_Left_Drawer_input_event"]
+[connection signal="mouse_entered" from="SionOffice/Left_Drawer" to="." method="_on_Left_Drawer_mouse_entered"]
+[connection signal="mouse_exited" from="SionOffice/Left_Drawer" to="." method="_on_Left_Drawer_mouse_exited"]
+[connection signal="input_event" from="SionOffice/Garbage" to="." method="_on_Garbage_input_event"]
+[connection signal="mouse_entered" from="SionOffice/Garbage" to="." method="_on_Garbage_mouse_entered"]
+[connection signal="mouse_exited" from="SionOffice/Garbage" to="." method="_on_Garbage_mouse_exited"]
+[connection signal="input_event" from="SionOffice/Floor" to="." method="_on_Floor_input_event"]
+[connection signal="mouse_entered" from="SionOffice/Floor" to="." method="_on_Floor_mouse_entered"]
+[connection signal="mouse_exited" from="SionOffice/Floor" to="." method="_on_Floor_mouse_exited"]
+[connection signal="mouse_entered" from="Documents/Babinski_Letter/Letter1_Button" to="Documents/Babinski_Letter" method="_on_Letter1_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Babinski_Letter/Letter1_Button" to="Documents/Babinski_Letter" method="_on_Letter1_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Babinski_Letter/Letter1_Button" to="Documents/Babinski_Letter" method="_on_Letter1_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Babinski_Letter/Letter2_Button" to="Documents/Babinski_Letter" method="_on_Letter2_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Babinski_Letter/Letter2_Button" to="Documents/Babinski_Letter" method="_on_Letter2_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Babinski_Letter/Letter2_Button" to="Documents/Babinski_Letter" method="_on_Letter2_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Babinski_Letter/Letter3_Button" to="Documents/Babinski_Letter" method="_on_Letter3_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Babinski_Letter/Letter3_Button" to="Documents/Babinski_Letter" method="_on_Letter3_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Babinski_Letter/Letter3_Button" to="Documents/Babinski_Letter" method="_on_Letter3_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Babinski_Letter/Letter4_Button" to="Documents/Babinski_Letter" method="_on_Letter4_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Babinski_Letter/Letter4_Button" to="Documents/Babinski_Letter" method="_on_Letter4_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Babinski_Letter/Letter4_Button" to="Documents/Babinski_Letter" method="_on_Letter4_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Babinski_Letter/Letter5_Button" to="Documents/Babinski_Letter" method="_on_Letter5_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Babinski_Letter/Letter5_Button" to="Documents/Babinski_Letter" method="_on_Letter5_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Babinski_Letter/Letter5_Button" to="Documents/Babinski_Letter" method="_on_Letter5_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Throckmorton_Letter/Letter1_Button" to="Documents/Throckmorton_Letter" method="_on_Letter1_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Throckmorton_Letter/Letter1_Button" to="Documents/Throckmorton_Letter" method="_on_Letter1_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Throckmorton_Letter/Letter1_Button" to="Documents/Throckmorton_Letter" method="_on_Letter1_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Throckmorton_Letter/Letter2_Button" to="Documents/Throckmorton_Letter" method="_on_Letter2_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Throckmorton_Letter/Letter2_Button" to="Documents/Throckmorton_Letter" method="_on_Letter2_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Throckmorton_Letter/Letter2_Button" to="Documents/Throckmorton_Letter" method="_on_Letter2_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Throckmorton_Letter/Letter3_Button" to="Documents/Throckmorton_Letter" method="_on_Letter3_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Throckmorton_Letter/Letter3_Button" to="Documents/Throckmorton_Letter" method="_on_Letter3_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Throckmorton_Letter/Letter3_Button" to="Documents/Throckmorton_Letter" method="_on_Letter3_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Throckmorton_Letter/Letter4_Button" to="Documents/Throckmorton_Letter" method="_on_Letter4_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Throckmorton_Letter/Letter4_Button" to="Documents/Throckmorton_Letter" method="_on_Letter4_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Throckmorton_Letter/Letter4_Button" to="Documents/Throckmorton_Letter" method="_on_Letter4_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Throckmorton_Letter/Letter5_Button" to="Documents/Throckmorton_Letter" method="_on_Letter5_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Throckmorton_Letter/Letter5_Button" to="Documents/Throckmorton_Letter" method="_on_Letter5_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Throckmorton_Letter/Letter5_Button" to="Documents/Throckmorton_Letter" method="_on_Letter5_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Church_Rejection_Letter/Letter1_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter1_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Church_Rejection_Letter/Letter1_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter1_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Church_Rejection_Letter/Letter1_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter1_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Church_Rejection_Letter/Letter2_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter2_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Church_Rejection_Letter/Letter2_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter2_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Church_Rejection_Letter/Letter2_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter2_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Church_Rejection_Letter/Letter3_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter3_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Church_Rejection_Letter/Letter3_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter3_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Church_Rejection_Letter/Letter3_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter3_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Church_Rejection_Letter/Letter4_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter4_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Church_Rejection_Letter/Letter4_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter4_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Church_Rejection_Letter/Letter4_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter4_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Church_Rejection_Letter/Letter5_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter5_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Church_Rejection_Letter/Letter5_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter5_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Church_Rejection_Letter/Letter5_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter5_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Church_Rejection_Letter/Letter6_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter6_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Church_Rejection_Letter/Letter6_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter6_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Church_Rejection_Letter/Letter6_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter6_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Church_Rejection_Letter/Letter7_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter7_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Church_Rejection_Letter/Letter7_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter7_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Church_Rejection_Letter/Letter7_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter7_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Church_Rejection_Letter/Letter8_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter8_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Church_Rejection_Letter/Letter8_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter8_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Church_Rejection_Letter/Letter8_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter8_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Church_Rejection_Letter/Letter9_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter9_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Church_Rejection_Letter/Letter9_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter9_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Church_Rejection_Letter/Letter9_Button" to="Documents/Church_Rejection_Letter" method="_on_Letter9_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Grant_Letter/Letter1_Button" to="Documents/Grant_Letter" method="_on_Letter1_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Grant_Letter/Letter1_Button" to="Documents/Grant_Letter" method="_on_Letter1_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Grant_Letter/Letter1_Button" to="Documents/Grant_Letter" method="_on_Letter1_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Grant_Letter/Letter2_Button" to="Documents/Grant_Letter" method="_on_Letter2_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Grant_Letter/Letter2_Button" to="Documents/Grant_Letter" method="_on_Letter2_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Grant_Letter/Letter2_Button" to="Documents/Grant_Letter" method="_on_Letter2_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Grant_Letter/Letter3_Button" to="Documents/Grant_Letter" method="_on_Letter3_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Grant_Letter/Letter3_Button" to="Documents/Grant_Letter" method="_on_Letter3_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Grant_Letter/Letter3_Button" to="Documents/Grant_Letter" method="_on_Letter3_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Grant_Letter/Letter4_Button" to="Documents/Grant_Letter" method="_on_Letter4_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Grant_Letter/Letter4_Button" to="Documents/Grant_Letter" method="_on_Letter4_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Grant_Letter/Letter4_Button" to="Documents/Grant_Letter" method="_on_Letter4_Button_pressed"]
+[connection signal="mouse_entered" from="Documents/Maud_Note/Note_Button" to="Documents/Maud_Note" method="_on_Note_Button_mouse_entered"]
+[connection signal="mouse_exited" from="Documents/Maud_Note/Note_Button" to="Documents/Maud_Note" method="_on_Note_Button_mouse_exited"]
+[connection signal="pressed" from="Documents/Maud_Note/Note_Button" to="Documents/Maud_Note" method="_on_Note_Button_pressed"]

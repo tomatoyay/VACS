@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Trumpet Fanfare Fail.mp3-68cb4aab921512a3d8032af947d54ae3.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Trumpet Fanfare Fail.mp3"
+dest_files=[ "res://.import/Trumpet Fanfare Fail.mp3-68cb4aab921512a3d8032af947d54ae3.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

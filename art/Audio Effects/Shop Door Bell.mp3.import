@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Shop Door Bell.mp3-046b301f298b9adb9b9a89185f29aff3.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Shop Door Bell.mp3"
+dest_files=[ "res://.import/Shop Door Bell.mp3-046b301f298b9adb9b9a89185f29aff3.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

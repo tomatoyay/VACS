@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "Maud's code name.",
+	"display_name": "\"M\"",
+	"display_name_bool": true,
+	"id": "character-1717791035.json",
+	"mirror_portraits": false,
+	"name": "Knife",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 90,
+	"offset_y": -90,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Items/Karambit Knife.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}

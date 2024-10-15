@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Big Sizzle.mp3-e54328c32895d5f870271914076a0921.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Big Sizzle.mp3"
+dest_files=[ "res://import/Big Sizzle.mp3-e54328c32895d5f870271914076a0921.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

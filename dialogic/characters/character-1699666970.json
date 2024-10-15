@@ -1,0 +1,37 @@
+{
+	"color": "#ffffffff",
+	"description": "Rondeau as \"Boss\"",
+	"display_name": "\"Boss\"",
+	"display_name_bool": true,
+	"id": "character-1699666970.json",
+	"mirror_portraits": false,
+	"name": "Rondeau \"Boss\"",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Rondeau/Rondeau.png"
+		},
+		{
+			"name": "Excited",
+			"path": "res://art/Characters/Rondeau/Excited Rondeau.png"
+		},
+		{
+			"name": "Reminisce",
+			"path": "res://art/Characters/Rondeau/Reminisce Rondeau.png"
+		},
+		{
+			"name": "Laugh",
+			"path": "res://art/Characters/Rondeau/Laugh Rondeau.png"
+		},
+		{
+			"name": "Proud",
+			"path": "res://art/Characters/Rondeau/Proud Rondeau.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

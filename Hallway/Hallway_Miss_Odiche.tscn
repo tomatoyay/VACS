@@ -1,0 +1,814 @@
+[gd_scene load_steps=30 format=2]
+
+[ext_resource path="res://art/OST/White Noise.wav" type="AudioStream" id=1]
+[ext_resource path="res://Hallway_Miss_Odiche.gd" type="Script" id=2]
+[ext_resource path="res://art/Back_arrow.png" type="Texture" id=3]
+[ext_resource path="res://art/Background/Sion_Hallway.png" type="Texture" id=6]
+
+[sub_resource type="Animation" id=5]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:offset")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 641.432, 363.522 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0.333629, 0.333775 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "Zoomed_Hallway_In"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 641.432, 363.522 ), Vector2( 661.804, 335.565 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.333629, 0.333775 ), Vector2( 0.648019, 0.638366 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "Zoomed_Hallway_Out"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 661.804, 335.565 ), Vector2( 641.432, 363.522 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.648019, 0.638366 ), Vector2( 0.334, 0.334 ) ]
+}
+
+[sub_resource type="Animation" id=17]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=16]
+resource_name = "Window_Animation_On"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+resource_name = "Painting_Animation_On"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=19]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=20]
+resource_name = "Door_Crack_On"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=21]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=22]
+resource_name = "Doorknob_Animation"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=23]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=24]
+resource_name = "BackArrow_Animation_On"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("BackArrow_Area2D/BackArrow_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=25]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("BackArrow_Area2D/BackArrow_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=1]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "Zoomed_Animation"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "Zoomed_Button_End"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:flat")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0.439216 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "Carpet_Animation_On"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Carpet_Hover:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Carpet_Collision2D:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Carpet_Collision2D:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Carpet_Hover:color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "Radiator_Animation_On"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "Lamp_Animation_On"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 0, 0, 0, 0.439216 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=26]
+resource_name = "Fade In"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=28]
+resource_name = "Fade Out"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=27]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ) ]
+}
+
+[node name="Hallway_Odiche" type="Node2D"]
+process_priority = 2
+modulate = Color( 0, 0, 0, 1 )
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+visible = false
+margin_right = 1280.0
+margin_bottom = 720.0
+mouse_filter = 2
+
+[node name="SionHallway" type="Sprite" parent="."]
+position = Vector2( 641.432, 363.522 )
+scale = Vector2( 0.333629, 0.333775 )
+texture = ExtResource( 6 )
+
+[node name="ZoomedHallway" type="Control" parent="SionHallway"]
+anchor_right = 1.003
+anchor_bottom = 1.005
+margin_left = -1922.59
+margin_top = -1089.12
+margin_right = -1925.11
+margin_bottom = -1103.92
+mouse_filter = 2
+
+[node name="ZoomedHallwayAnimation" type="AnimationPlayer" parent="SionHallway/ZoomedHallway"]
+root_node = NodePath("../..")
+anims/RESET = SubResource( 5 )
+anims/Zoomed_Hallway_In = SubResource( 4 )
+anims/Zoomed_Hallway_Out = SubResource( 6 )
+
+[node name="Window" type="Button" parent="SionHallway/ZoomedHallway"]
+margin_left = 1474.69
+margin_top = 1138.49
+margin_right = 1647.69
+margin_bottom = 1280.49
+mouse_default_cursor_shape = 2
+flat = true
+
+[node name="Window_Animation" type="AnimationPlayer" parent="SionHallway/ZoomedHallway/Window"]
+anims/RESET = SubResource( 17 )
+anims/Window_Animation_On = SubResource( 16 )
+
+[node name="Painting" type="Button" parent="SionHallway/ZoomedHallway"]
+margin_left = 2525.01
+margin_top = 969.992
+margin_right = 2733.01
+margin_bottom = 1263.99
+mouse_default_cursor_shape = 2
+flat = true
+
+[node name="Painting_Animation" type="AnimationPlayer" parent="SionHallway/ZoomedHallway/Painting"]
+anims/Painting_Animation_On = SubResource( 18 )
+anims/RESET = SubResource( 19 )
+
+[node name="Door_Crack" type="Button" parent="SionHallway/ZoomedHallway"]
+margin_left = 1411.75
+margin_top = 1527.98
+margin_right = 1711.75
+margin_bottom = 1646.98
+mouse_default_cursor_shape = 2
+flat = true
+
+[node name="Door_Crack_Animation" type="AnimationPlayer" parent="SionHallway/ZoomedHallway/Door_Crack"]
+anims/Door_Crack_On = SubResource( 20 )
+anims/RESET = SubResource( 21 )
+
+[node name="Doorknob" type="Button" parent="SionHallway/ZoomedHallway"]
+margin_left = 1425.01
+margin_top = 1273.99
+margin_right = 1455.01
+margin_bottom = 1315.99
+mouse_default_cursor_shape = 2
+flat = true
+
+[node name="Doorknob_Animation" type="AnimationPlayer" parent="SionHallway/ZoomedHallway/Doorknob"]
+anims/Doorknob_Animation = SubResource( 22 )
+anims/RESET = SubResource( 23 )
+
+[node name="BackArrow" type="Sprite" parent="SionHallway/ZoomedHallway"]
+visible = false
+show_behind_parent = true
+position = Vector2( 1213.93, 1551.94 )
+scale = Vector2( 0.0467856, 0.0824982 )
+z_index = 2
+texture = ExtResource( 3 )
+
+[node name="BackArrow_Area2D" type="Area2D" parent="SionHallway/ZoomedHallway/BackArrow"]
+show_behind_parent = true
+position = Vector2( -30.3765, -19.438 )
+z_index = 2
+
+[node name="BackArrow_Collision2D" type="CollisionPolygon2D" parent="SionHallway/ZoomedHallway/BackArrow/BackArrow_Area2D"]
+visible = false
+polygon = PoolVector2Array( -1372.96, -108.697, -573.515, -108.697, -364.964, -706.531, 139.034, -706.531, 382.343, -141.306, 1129.65, -130.437, 1008, -32.6094, 1199.17, -32.6094, -104.275, 1010.88, -1320.82, -10.8696, -1164.41, -10.8696 )
+
+[node name="BackArrow_Hover" type="Polygon2D" parent="SionHallway/ZoomedHallway/BackArrow/BackArrow_Area2D"]
+show_behind_parent = true
+position = Vector2( -225.922, 55.7227 )
+scale = Vector2( 0.896002, 1 )
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -1214.83, -166.945, -419.58, -177.815, -167.427, -775.648, 414.466, -764.779, 627.826, -210.424, 1500.66, -199.554, 1345.49, -79.9878, 1539.46, -79.9878, 84.7266, 952.634, -1253.63, -79.9878, -1079.06, -79.9878 )
+
+[node name="BackArrow_Animation" type="AnimationPlayer" parent="SionHallway/ZoomedHallway/BackArrow/BackArrow_Area2D"]
+root_node = NodePath("../..")
+anims/BackArrow_Animation_On = SubResource( 24 )
+anims/RESET = SubResource( 25 )
+
+[node name="Zoomed_Button" type="Button" parent="SionHallway"]
+margin_left = -1011.4
+margin_top = -370.076
+margin_right = 981.604
+margin_bottom = 627.924
+mouse_default_cursor_shape = 2
+flat = true
+
+[node name="Zoomed_Animation" type="AnimationPlayer" parent="SionHallway/Zoomed_Button"]
+anims/RESET = SubResource( 1 )
+anims/Zoomed_Animation = SubResource( 2 )
+anims/Zoomed_Button_End = SubResource( 3 )
+
+[node name="Carpet_Area2D" type="Area2D" parent="SionHallway"]
+modulate = Color( 0, 0, 0, 1 )
+show_behind_parent = true
+position = Vector2( -16.2816, 813.356 )
+z_index = 1
+
+[node name="Carpet_Collision2D" type="CollisionPolygon2D" parent="SionHallway/Carpet_Area2D"]
+visible = false
+position = Vector2( 16.2816, -813.356 )
+polygon = PoolVector2Array( -1496.97, 1080, -627.739, 585.658, 631.144, 588.654, 1320.53, 1083 )
+
+[node name="Carpet_Animation" type="AnimationPlayer" parent="SionHallway/Carpet_Area2D"]
+anims/Carpet_Animation_On = SubResource( 8 )
+anims/RESET = SubResource( 9 )
+
+[node name="Carpet_Hover" type="Polygon2D" parent="SionHallway/Carpet_Area2D"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -1462.7, 266.647, -605.463, -230.694, 644.428, -218.71, 1330.82, 263.651 )
+
+[node name="Radiator_Area2D" type="Area2D" parent="SionHallway"]
+show_behind_parent = true
+position = Vector2( 1290.56, 549.706 )
+z_index = 1
+
+[node name="Radiator_Animation" type="AnimationPlayer" parent="SionHallway/Radiator_Area2D"]
+root_node = NodePath("../Radiator_Hover")
+anims/RESET = SubResource( 11 )
+anims/Radiator_Animation_On = SubResource( 10 )
+
+[node name="Radiator_Collision2D" type="CollisionPolygon2D" parent="SionHallway/Radiator_Area2D"]
+visible = false
+position = Vector2( -1290.56, -549.706 )
+polygon = PoolVector2Array( 1119.71, 723.475, 1125.71, 696.511, 1119.71, 369.944, 1242.6, 348.972, 1536.34, 387.92, 1545.33, 405.896, 1527.35, 414.884, 1524.35, 819.348, 1542.34, 840.321, 1539.34, 852.305, 1494.38, 849.309, 1491.38, 822.344, 1470.4, 810.36, 1431.43, 825.34, 1410.45, 810.36, 1413.45, 852.305, 1377.48, 849.309, 1368.49, 825.34, 1383.48, 816.352, 1383.48, 792.384, 1149.68, 711.491, 1146.69, 735.459 )
+
+[node name="Radiator_Hover" type="Polygon2D" parent="SionHallway/Radiator_Area2D"]
+position = Vector2( -1290.56, -549.706 )
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( 1119.71, 717.483, 1125.71, 696.511, 1122.71, 366.948, 1242.6, 348.972, 1539.34, 390.916, 1542.34, 411.888, 1527.35, 411.888, 1521.35, 819.348, 1542.34, 834.328, 1542.34, 855.301, 1491.38, 846.313, 1494.38, 819.348, 1473.4, 813.356, 1410.45, 816.352, 1407.46, 852.305, 1374.48, 846.313, 1368.49, 825.34, 1383.48, 816.352, 1383.48, 789.388, 1143.69, 705.499, 1152.68, 720.479, 1143.69, 732.464, 1119.71, 726.471 )
+
+[node name="Lamp_Area2D" type="Area2D" parent="SionHallway"]
+show_behind_parent = true
+position = Vector2( -1547.92, -540.849 )
+z_index = 1
+
+[node name="Lamp_Collision2D" type="CollisionPolygon2D" parent="SionHallway/Lamp_Area2D"]
+visible = false
+polygon = PoolVector2Array( -374.667, -215.714, 5.99506, -215.714, 17.9844, -89.8809, 53.9525, -65.9127, 56.9499, -35.9523, 170.849, 17.9762, 44.9605, 26.9643, 44.9605, 116.845, 5.99506, 131.825, -23.9784, 128.829, -47.9571, 101.865, -44.9597, 26.9643, -155.861, 26.9643, -155.861, 8.9881, -44.9597, -41.9444, -41.9624, -68.9087, -17.9837, -86.8849, -20.981, -176.766, -32.9704, -182.758, -374.667, -179.762 )
+
+[node name="Lamp_Hover" type="Polygon2D" parent="SionHallway/Lamp_Area2D"]
+color = Color( 1, 1, 1, 0 )
+polygon = PoolVector2Array( -374.667, -212.718, 5.99506, -212.718, 14.9871, -185.754, 20.9818, -86.8849, 35.9685, -71.9047, 50.9552, -65.9127, 53.9525, -38.9484, 164.854, 11.9841, 149.867, 20.9722, 44.9605, 26.9643, 44.9605, 110.853, 20.9818, 128.829, -8.99164, 131.825, -38.9651, 116.845, -47.9571, 92.877, -44.9597, 26.9643, -146.869, 26.9643, -158.859, 8.9881, -41.9624, -41.9444, -44.9597, -68.9087, -14.9863, -83.8888, -17.9837, -173.77, -32.9704, -182.758, -374.667, -182.758 )
+
+[node name="Lamp_Animation" type="AnimationPlayer" parent="SionHallway/Lamp_Area2D"]
+root_node = NodePath("../Lamp_Hover")
+anims/Lamp_Animation_On = SubResource( 12 )
+anims/RESET = SubResource( 13 )
+
+[node name="Background_Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = -30.0
+autoplay = true
+bus = "Music"
+
+[node name="FadeAnim" type="AnimationPlayer" parent="."]
+"anims/Fade In" = SubResource( 26 )
+"anims/Fade Out" = SubResource( 28 )
+anims/RESET = SubResource( 27 )
+
+[connection signal="mouse_entered" from="SionHallway/ZoomedHallway/Window" to="." method="_on_Window_mouse_entered"]
+[connection signal="mouse_exited" from="SionHallway/ZoomedHallway/Window" to="." method="_on_Window_mouse_exited"]
+[connection signal="pressed" from="SionHallway/ZoomedHallway/Window" to="." method="_on_Window_pressed"]
+[connection signal="mouse_entered" from="SionHallway/ZoomedHallway/Painting" to="." method="_on_Painting_mouse_entered"]
+[connection signal="mouse_exited" from="SionHallway/ZoomedHallway/Painting" to="." method="_on_Painting_mouse_exited"]
+[connection signal="pressed" from="SionHallway/ZoomedHallway/Painting" to="." method="_on_Painting_pressed"]
+[connection signal="mouse_entered" from="SionHallway/ZoomedHallway/Door_Crack" to="." method="_on_Door_Crack_mouse_entered"]
+[connection signal="mouse_exited" from="SionHallway/ZoomedHallway/Door_Crack" to="." method="_on_Door_Crack_mouse_exited"]
+[connection signal="pressed" from="SionHallway/ZoomedHallway/Door_Crack" to="." method="_on_Door_Crack_pressed"]
+[connection signal="mouse_entered" from="SionHallway/ZoomedHallway/Doorknob" to="." method="_on_Doorknob_mouse_entered"]
+[connection signal="mouse_exited" from="SionHallway/ZoomedHallway/Doorknob" to="." method="_on_Doorknob_mouse_exited"]
+[connection signal="pressed" from="SionHallway/ZoomedHallway/Doorknob" to="." method="_on_Doorknob_pressed"]
+[connection signal="input_event" from="SionHallway/ZoomedHallway/BackArrow/BackArrow_Area2D" to="." method="_on_BackArrow_Area2D_input_event"]
+[connection signal="mouse_entered" from="SionHallway/ZoomedHallway/BackArrow/BackArrow_Area2D" to="." method="_on_BackArrow_Area2D_mouse_entered"]
+[connection signal="mouse_exited" from="SionHallway/ZoomedHallway/BackArrow/BackArrow_Area2D" to="." method="_on_BackArrow_Area2D_mouse_exited"]
+[connection signal="mouse_entered" from="SionHallway/Zoomed_Button" to="." method="_on_Zoomed_Button_mouse_entered"]
+[connection signal="mouse_exited" from="SionHallway/Zoomed_Button" to="." method="_on_Zoomed_Button_mouse_exited"]
+[connection signal="pressed" from="SionHallway/Zoomed_Button" to="." method="_on_Zoomed_Button_pressed"]
+[connection signal="input_event" from="SionHallway/Carpet_Area2D" to="." method="_on_Carpet_Area2D_input_event"]
+[connection signal="mouse_entered" from="SionHallway/Carpet_Area2D" to="." method="_on_Carpet_Area2D_mouse_entered"]
+[connection signal="mouse_exited" from="SionHallway/Carpet_Area2D" to="." method="_on_Carpet_Area2D_mouse_exited"]
+[connection signal="input_event" from="SionHallway/Radiator_Area2D" to="." method="_on_Radiator_Area2D_input_event"]
+[connection signal="mouse_entered" from="SionHallway/Radiator_Area2D" to="." method="_on_Radiator_Area2D_mouse_entered"]
+[connection signal="mouse_exited" from="SionHallway/Radiator_Area2D" to="." method="_on_Radiator_Area2D_mouse_exited"]
+[connection signal="input_event" from="SionHallway/Lamp_Area2D" to="." method="_on_Lamp_Area2D_input_event"]
+[connection signal="mouse_entered" from="SionHallway/Lamp_Area2D" to="." method="_on_Lamp_Area2D_mouse_entered"]
+[connection signal="mouse_exited" from="SionHallway/Lamp_Area2D" to="." method="_on_Lamp_Area2D_mouse_exited"]

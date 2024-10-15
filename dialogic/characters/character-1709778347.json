@@ -1,0 +1,37 @@
+{
+	"color": "#ffffffff",
+	"description": "Is that Lunette?",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1709778347.json",
+	"mirror_portraits": false,
+	"name": "Lunette ??",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 550,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Lunette/Lunette.png"
+		},
+		{
+			"name": "Laugh",
+			"path": "res://art/Characters/Lunette/Laugh Lunette.png"
+		},
+		{
+			"name": "Excited",
+			"path": "res://art/Characters/Lunette/Excited Lunette.png"
+		},
+		{
+			"name": "Pout",
+			"path": "res://art/Characters/Lunette/Pout Lunette.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://art/Characters/Lunette/Sad Lunette.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

@@ -1,0 +1,358 @@
+{
+	"glossary": [
+		{
+			"extra": "",
+			"id": "1703113690-366",
+			"name": "New glossary entry",
+			"text": "",
+			"title": "",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1703146454-892",
+			"name": "New glossary entry",
+			"text": "",
+			"title": "",
+			"type": 1
+		}
+	],
+	"variables": [
+		{
+			"id": "1699211616-585",
+			"name": "langtree_rizz",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1709414121-787",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1716264659-366",
+			"name": "New value",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1715314431-366",
+			"name": "jones_letters",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703189964-364",
+			"name": "red_pepper",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703117479-918",
+			"name": "coworker_dinner",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1710549906-787",
+			"name": "conflicted_ending",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1716264658-787",
+			"name": "neutral_ending1",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1703114167-146",
+			"name": "orven_flags",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1707104924-146",
+			"name": "langtree_truth",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703290078-787",
+			"name": "ice_cream_dinner",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1700958672-423",
+			"name": "day_0_afternoon",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1714798549-929",
+			"name": "tutorial_rizz",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703313038-233",
+			"name": "intro_ret_cafe",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1702933074-648",
+			"name": "orven_cafe",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703180778-179",
+			"name": "rondeau_carry",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703189150-191",
+			"name": "spicy_bread",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703112716-787",
+			"name": "orven_tavern",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1699740301-648",
+			"name": "orven_police",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1702945488-787",
+			"name": "orven_home",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1702999789-648",
+			"name": "day_0_night_rizz",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1722199629-648",
+			"name": "tootroot",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1723065174-648",
+			"name": "tootroot_value",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1723308340-648",
+			"name": "tootroot_inside",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1723308756-787",
+			"name": "tootroot_sprout",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1725216320-787",
+			"name": "tootroot_day_1",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703049542-648",
+			"name": "mister_avidine_dinner",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703197543-470",
+			"name": "i_will_follow_you",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1707100537-787",
+			"name": "miss_odiche_convo",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703279733-648",
+			"name": "herb_fight",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703189361-247",
+			"name": "orven_apothecary",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1725217814-366",
+			"name": "avidine_kids",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1707098351-648",
+			"name": "langtree_forgotten",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1707103942-366",
+			"name": "langtree_rizz_day_2",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1709414229-366",
+			"name": "miss_odiche_rizz_day_2",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1707707754-648",
+			"name": "painting",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1707708036-787",
+			"name": "radiator",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1707708212-366",
+			"name": "key",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1709413875-648",
+			"name": "right_drawer",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1715314321-648",
+			"name": "calendar",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1715314491-146",
+			"name": "church_letter",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1715314362-787",
+			"name": "grant_letter",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1715322050-918",
+			"name": "office",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1710983287-648",
+			"name": "devout_ABP",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1710987068-787",
+			"name": "devout_convinced",
+			"type": 0,
+			"value": "1"
+		},
+		{
+			"id": "1709782700-648",
+			"name": "almost_fired_ill_do_it",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1725213849-648",
+			"name": "gungand_fight",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1709865846-787",
+			"name": "cough",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1710549734-648",
+			"name": "deep_breaths",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703204287-366",
+			"name": "orven_max_flags",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1703209169-787",
+			"name": "orven_day",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1716264663-918",
+			"name": "true_ending",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1716264626-648",
+			"name": "neutral_ending2",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1716264661-146",
+			"name": "neutral_ending3",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1716264681-483",
+			"name": "bad_ending1",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1716264683-970",
+			"name": "bad_ending2",
+			"type": 0,
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,323 @@
+{
+	"events": [
+		{
+			"background": "res://art/Background/Factory Production Floor.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Glass Bottles Rattle.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Industrial Metal.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -10
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Town.ogg",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Sandwich Crumping Paper.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Relaxed",
+			"text": "LUNCH TIME!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Always the best time!"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Relaxed",
+			"text": "You know, I can’t wait to make this handball team.\nWe’re all waiting for this review to go through, but this will help us all bond, you know? In the meantime."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thinking",
+			"text": "Plus, now that we’re changing apothecaries, we should be able to get this done waaay faster."
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"change_timeline": "timeline-1707704021.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](…Somehow, I feel like I’m betraying Mr. Throck and Mr. Babinski.)"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "You good, Orven?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Stomach gurgle.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "I don’t feel great."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh shoot, are you sick or something?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": " I dunno, but I’m feeling off…and nauseous."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yikes, bro, you know people don’t wanna be around sick people."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Frowning",
+			"text": "You should go home."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Yeah, I think that’s probably the best move."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thumbs Up",
+			"text": "Feel better, dude! I'll let Miss Odiche know."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Thanks man, see you!"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Relaxed",
+			"text": "Rest up!!!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Frowning",
+			"text": "......"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1707703337.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707691789.json",
+		"name": "Devout 1-2"
+	}
+}

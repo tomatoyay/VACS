@@ -1,0 +1,1455 @@
+{
+	"events": [
+		{
+			"background": "res://art/Background/Orven Apartment.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0,
+			"file": "res://art/OST/Orven's House (Jazz).wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Warm",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"condition": "!=",
+			"definition": "1702945488-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](Nothing like talking to Gramma.)\n[color=#ffed29](SO lucky to have her.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1702945488-787",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](Nothing like talking to Gramma and Grampa.)\n[color=#ffed29](SO lucky to have them.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "I should shower."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shower.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 4,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I wonder what’s going to happen tomorrow.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Tomorrow evening, I guess I’m stuck at the doctors.)\n[color=#ffed29](A nightmare.)\n…...\n[color=#ffed29](I guess, I can’t be too mean towards Dr. Ki, since I’ve never met the woman.)\n[color=#ffed29](Maybe it was just the doctors in Germanon.)\n[color=#ffed29](Maybe things have changed since I was sick.)\n...… \n[color=#ffed29](I dunno.)\n[color=#ffed29](If I find out she’s taking advantage of SOUTHSIDERS?)\n[color=#ffed29](We can’t be friends, and she is not touching [b]Remedium.)\n[color=#ffed29](Should I prepare questions for her??? Will she know what’s going on?)\n[color=#ffed29](Nah, I’m not going to put that much effort into this.)\n[color=#ffed29](It’ll be what it’ll be.)\n…...\n…...\n[i]Arghhh!!!\n[color=#ffed29](I can’t sleep thinking about doctors.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blanket.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I feel like I’m going to lose my legs.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[i][shake rate=20.0 level=5 connected=1]ARGHHH!!!"
+		},
+		{
+			"choice": "GET IT TOGETHER, MAN!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](You’re acting like a loser.)\n[color=#ffed29](Give her a chance.)\n[color=#ffed29](Do you think that you’re smarter than Mr. Babinkski and Mr. Throck?)\n[color=#ffed29](No.)\n[color=#ffed29](So, just, buck up.)\n[color=#ffed29](Stop whining.)\n[color=#ffed29](Talk to the doc.)"
+		},
+		{
+			"choice": "WHY ARE YOU ACTING LIKE A CHILD???",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](You think you’re going to “lose your legs\"???)\n[color=#ffed29](STU—\n[color=#ffed29]PID.)\n[color=#ffed29](You’re acting like you haven’t been well and walking for years.)\n[color=#ffed29](Come on, Orven.)\n[color=#ffed29](Grow up.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](She’s just a doctor. You’re not even going as a patient.)\n[color=#ffed29](Literally not worth losing sleep over.)\n[color=#ffed29](GO.)\n[color=#ffed29](TO.)\n[color=#ffed29](BED.)\n…...\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Let’s see if anything changes.)\n[color=#ffed29](I feel like tomorrow isn’t going to be any easier than today, too.)\n[color=#ffed29](Is it always going to be like this?)\n[color=#ffed29](Is this what being an adult is about?)\n[color=#ffed29](Wow…this sucks.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "......"
+		},
+		{
+			"choice": "Mrs. Langtree",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1707098351-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I wonder if Mrs. Langtree will be back tomorrow.)\n[color=#ffed29](She was really upset today.)\n[color=#ffed29](I wouldn’t be surprised if I don’t see her at the gate tomorrow.)\n[color=#ffed29](Oh, shoot. Should I still arrive at five?)\n[color=#ffed29](Otherwise I’ll be squatting outside the factory for an hour…)\n[color=#ffed29](Well…if she shows up, she’ll be expecting me.)\n[color=#ffed29](I can probably just walk around for an hour if I need to.)"
+		},
+		{
+			"definition": "1703204287-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#ffed29](I hope she won’t be too mad at Herb, but I hope he keeps his mouth shut around her.)"
+		},
+		{
+			"choice": "Even though I agree with Herb.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1703114167-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Even though he’s right, Herb needs to respect Mrs. Langtree.)\n[color=#ffed29](We can talk with each other, but Mrs. Langtree has just lived a different life.)\n[color=#ffed29](And she doesn’t wanna hear about life from some dumb kids.)\n[color=#ffed29](But, I do hope she can find some hope in things again.)\n[color=#ffed29](I know it can’t be easy, but it’ll help her keep moving forward.)\n[color=#ffed29](All there is to do is keep moving forward.)\n[color=#ffed29](I gotta get a good sleep for this.)\n[color=#ffed29](Doing big things, doing good things!)\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"choice": "Because Mrs. Langtree is right.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1703114167-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Mrs. Langtree is right, after all.)\n[color=#ffed29](I can’t do anything and we can’t trust management.)\n[color=#ffed29](We can’t trust them.)\n[color=#ffed29](And there’s nothing I can do.)\n…...\n[color=#ffed29](So, is the project just…doomed?)\n…...\n[color=#ffed29](And there’s nothing we can do?)\n[color=#ffed29](That…)\n[color=#ffed29](Sucks.)\n......\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"choice": "They’re both wrong.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Yeah, it’s kind of a sensitive subject, so Herb’s carefree optimism is probably not going to be helpful.)\n[color=#ffed29](But, neither is Mrs. Langtree’s idea that nothing will ever get better no matter what happens.)\n[color=#ffed29](There has to be something…)\n[color=#ffed29](I wonder if it’ll come to me in my sleep.)\n[color=#ffed29](That would be a fun origin story for [b]Remedium.)\n[color=#ffed29](Orven, the prophet.)\n[color=#ffed29](Heh.)\n…...\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Herb",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"condition": "",
+			"definition": "1703279733-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Well, I know that Herb is at least a constant.)"
+		},
+		{
+			"definition": "1703204287-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#ffed29](He won’t change. Everything is on track, as usual for him.)"
+		},
+		{
+			"choice": "Everything is normal.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1703114167-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](And, for me as well…obviously.)\n[color=#ffed29](Just another day.)\n[color=#ffed29](I can sleep to that.)\n[color=#ffed29](I can sleep to that.)\n…...\n[color=#ffed29](I can sleep to everything being cool and chill.)\n…...\n…...\n[color=#ffed29](Dang, this bed is mad uncomfy.)\n…...\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"choice": "But, is everything normal?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Ughhh!\n[color=#ffed29](But things ain’t right, are they, Herb?)\n[color=#ffed29](I’m sure you genuinely believe it.)\n[color=#ffed29](But I can’t.)\n[color=#ffed29](I hope this doesn’t blow up in my face…I don’t want him to be upset.)\n[color=#ffed29](I just don’t know if I agree with him on this.)\n...…\n[color=#ffed29](Well, tomorrow is looking to be even worse than today.)\n[color=#ffed29](Ain’t that just…great.)\n[i]Ugh.\n…...\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703279733-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#ffed29](I hope he’s okay. He seemed pretty mad.)"
+		},
+		{
+			"choice": "Nah, we’re cool.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](NAHH, it’s chill.)\n[color=#ffed29](Quick to forget, quick to make up.)\n[color=#ffed29](I don’t need to get worked up over nothing.)\n[color=#ffed29](I bet he’s sleeping like a baby right now.)\n[color=#ffed29](And here I am! Thinking about being worried. Foolishness!)\n[color=#ffed29](Alright, it’s time for bed.)\n[color=#ffed29](I’m sure you beat me to it, Herb, with that hangover you had.)\n[color=#ffed29](Goodnight, man.)\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"choice": "I hope we’re good.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I hope he meant it when he said brothers fight.)\n[color=#ffed29](I’ve never had a brother…so, I dunno!)"
+		},
+		{
+			"condition": "",
+			"definition": "1703180778-179",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Maybe I should’ve asked if Rondeau fought with his brother.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Well, Herb is Herb.)\n[color=#ffed29](And Herb is a straight shooter.)\n[color=#ffed29](Plus, I’ve been keeping my head down for the most part, anyways.)\n[color=#ffed29](I gave that document back, at least.)\n[color=#ffed29](We’ll be fine.)\n[color=#ffed29](We’re brothers.)\n[color=#ffed29](Goodnight, brother.)\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Mister Avidine",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Mister Avidine…)"
+		},
+		{
+			"condition": "",
+			"definition": "1700958672-423",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"condition": "",
+			"definition": "1703197543-470",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](How could he just cut me out like that???)\n[color=#ffed29](I don’t understand how you can call someone exceptional one day, and then completely cut them out of your life the next.)\n[color=#ffed29](I even said sorry!)\n[color=#ffed29](And he didn’t even say what I did WRONG.)\n[color=#ffed29](And he knew!)\n[color=#ffed29](He KNEW how much he meant to me…)\n…...\n[color=#ffed29](Never meet your heroes.)\n…...\n[color=#ffed29](Dang, it’s going to suck if we see each other at work.)\n[color=#ffed29](Him acting like he didn’t pretend to be a father figure to me.)\n[color=#ffed29](Acting like we didn’t eat on the stairs together!)\n[color=#ffed29](Jerk.)\n[color=#ffed29](What a jerk.)\n[color=#ffed29](Hero, my butt.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#ffed29](And if we ever talk again…)"
+		},
+		{
+			"choice": "I’ll tell him off.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I’ll be sure to give him a piece of my mind!)\n[color=#ffed29](Tell him he was super unprofessional and that I’ll be reporting him to HR!)\n[color=#ffed29](Wait, no, that’s probably a terrible idea.)\n[color=#ffed29](But, I’ll tell him that I’m over him, and that I’m looking for a NEW hero.)\n[color=#ffed29](And, I’ll tell him that I hope his kids realize what a JERK he is, and that they should prepare to have him randomly cut them out of his life.)\n[color=#ffed29](Okay, that might be a bit much, Orven, don’t bring the kids into your imaginary fight.)\n[color=#ffed29](Whatever!)\n[color=#ffed29](Some hero…)\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"choice": "Maybe he’ll apologize…",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Well…maybe he’ll apologize?)\n[color=#ffed29](He’s probably just stressed…that was probably an accident, right?)\n[color=#ffed29](It had to be…that felt so random, so sudden.)\n[color=#ffed29](And if he apologizes, I mean, then we’re all good.)\n[color=#ffed29](It’s not good to hold grudges.)\n[color=#ffed29](Plus, he was running on, like, no sleep.)\n[color=#ffed29](Yeah, maybe I’ve been making a big deal out of nothing.)\n[color=#ffed29](Maybe, I’ll see him tomorrow and it’ll all be fine.)\n[color=#ffed29](Hopefully…)\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703197543-470",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Poor Mister Avidine.)\n[color=#ffed29](It’s been such a long day for him…and he stayed up all night, too.)\n[color=#ffed29](I know I said I’d help however I could…but I don’t know how nosy I can be with everything.)\n[color=#ffed29](I hope he comes back tomorrow…he feels different from Miss Odiche and Mr. Gungand.)\n[color=#ffed29](If he comes back, maybe I’ll know what to do.)\n[color=#ffed29](Since he knows the situation better, he can give more concrete advice than Gramma, too.)\n[color=#ffed29](Maybe I’ll tell him about the paper Mr. Gungand dropped.)\n[color=#ffed29](Maybe he knows about it…)\n[color=#ffed29](And if he lets me read it, then Miss Odiche and Mr. Gungand can’t be mad at me.)\n[color=#ffed29](Yeah, I’ll talk to him tomorrow.)\n…...\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1700958672-423",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I wonder how Mister Avidine is doing with all this.)\n[color=#ffed29](It was really nice that he took the time to talk to me, but I don’t know if I can just pull him aside to ask him stuff.)\n[color=#ffed29](But if I could…I think it would make things easier to understand.)\n[color=#ffed29](Like, I would get what I needed to do.)\n[color=#ffed29](Plus, if he said I could read that document that Mr. Gungand dropped, then he’d have to listen to me!)\n[color=#ffed29](But…I’m pretty sure that yesterday was the exception.)\n[color=#ffed29](I mean, the man spent the night talking to me about how I should be looking for other jobs, right?)\n[color=#ffed29](And even if I wanted to talk to him…how would I get past the magic door without him???)\n[color=#ffed29](Yuck.)\n[color=#ffed29](Well, I hope he’s okay.)\n[color=#ffed29](And if he pulls me aside again, well, then I’ll ask him a bunch of stuff, [i]haha.[/i])\n[color=#ffed29](But, if not, then that’s okay, too.)\n[color=#ffed29](We’ll figure these things out together, as a team.)\n[color=#ffed29](Go team…)\n[i]sigh\n[color=#ffed29](Go team.)\n…...\n[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"condition": "",
+			"definition": "1702945488-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"condition": "",
+			"definition": "1723308340-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Running into Something Thud.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 6
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 2,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Grimace",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Not Angry Confused",
+			"question": "[color=#ffed29](What’s happening?)"
+		},
+		{
+			"choice": "Investigate.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I should probably make sure everything’s okay.)"
+		},
+		{
+			"background": "res://art/Background/Orven Apartment Dark.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 3,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[tootroot]?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "What’s up, buddy?"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Why’re you banging the door?"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "......"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "......"
+		},
+		{
+			"choice": "Let her out.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1723308340-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Do you…want to leave?"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Wait, but I’ve got food, and water, and it’s warm here!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "What more do you want?"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "......"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": -3
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "…...\n[i]sigh\nOkay."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Door Opening.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "You can come back anytime, [tootroot]!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](I hope you come back…)"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"choice": "Keep the door closed.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1723308340-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[tootroot]?"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No, girl, we don’t do that anymore."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "You live here now!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Here, you might want some water, let’s go to the bathroom."
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "Come on, into the tub!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "There! All better, right?"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Goodnight, [tootroot]!\nIf you’re hungry, I left more snacks on the ground."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "No more banging, okay?"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Go back to sleep.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1723308340-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](It’s probably fine…)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I’m too tired to get out of bed.)\n[wave amp=50.0 freq=5.0 connected=1]zzz"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Running into Something Thud.wav",
+			"volume": -8
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 4,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 6
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703290078-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Stomach gurgle.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "back_in_down.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "!!!!!!\nGREAT VOID."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "REGRET!!!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Stomach gurgle.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Running on Carpet.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Stomach gurgle.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "SO MUCH REGRET!!!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Lactose Trumpet Danger.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b][i]AHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Lactose Trumpet Danger.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b][i][shake rate=20.0 level=8 connected=1]AAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!![/shake]"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Lactose Trumpet Danger.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[rainbow freq=1.0 sat=0.8 val=0.8][wave amp=50 freq=2]AAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHH!!!![/wave][/rainbow]"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Stomach gurgle.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Toilet flush.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Oh, man…this is going to be a long night…)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Stomach gurgle.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Toilet flush.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Toilet flush.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1703208401.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1703207702.json",
+		"name": "Day 1 Night 2-2"
+	}
+}

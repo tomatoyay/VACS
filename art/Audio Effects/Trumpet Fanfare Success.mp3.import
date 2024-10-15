@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Trumpet Fanfare Success.mp3-9a29cce9b2308f89ccf0b664c5180e5d.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Trumpet Fanfare Success.mp3"
+dest_files=[ "res://.import/Trumpet Fanfare Success.mp3-9a29cce9b2308f89ccf0b664c5180e5d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

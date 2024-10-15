@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Magic.mp3-cc5630f5ef4a2609e2bd1db0b146e04e.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Magic.mp3"
+dest_files=[ "res://.import/Magic.mp3-cc5630f5ef4a2609e2bd1db0b146e04e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

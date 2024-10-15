@@ -1,0 +1,1402 @@
+{
+	"events": [
+		{
+			"background": "res://art/Background/Orven Apartment.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Orven's House (Jazz).wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I…I think I gotta talk to Gramma."
+		},
+		{
+			"condition": "==",
+			"definition": "1702999789-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "[color=#ffed29](Oh, but she’s gonna be MAD MAD that I didn’t call her last night—and then also, that I didn’t pick up this morning.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "Oh, man…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Well, if I die, at least I’ll be famous.)\n[color=#ffed29](No one has ever been killed over the phone before. But there, my body will be…)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](Crumpled.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](With only this phone as a lead as to how it happened.)\n[i]sigh"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Here we go.)"
+		},
+		{
+			"background": "res://art/Background/Orven Apartment Dark.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial.wav",
+			"volume": 0
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 1,
+			"animation_repeat": 20,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial Tone.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "??????"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial.wav",
+			"volume": 0
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 1,
+			"animation_repeat": 20,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial Tone.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](Come on, Gramma…)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial.wav",
+			"volume": 0
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 1,
+			"animation_repeat": 20,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial Tone.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Phone Pickup.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "back_in_down.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Irritated",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Gramma?"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1703193861.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Full Anger",
+			"text": "[shake rate=20.0 level=5 connected=1]ORVEN ANGELO ZANRY!!!\n[shake rate=20.0 level=5 connected=1]YOU ARE RETURNING TO GERMANON THIS INSTANT!"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "HOW DARE YOU FORGET TO CALL ME LAST NIGHT."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "AND!\nNOT ONLY THAT, YOU IGNORE YOUR GRAMMA’S CALL THIS MORNING!\nI RAISED YOU BETTER THAN THAT, SO YOU AIN’T GOT NO EXCUSE!"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "DO YOU KNOW HOW WORRIED I WAS WHEN MY SON DIDN’T PICK UP MY CALL?"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "YOU NEVER LEAVE MY CALLS HANGING!\nI THOUGHT SOME ROBBER HAD GOTTEN TO YOU, \nOR THEY WERE MAKING YOU STAY AT THAT FACTORY DOING DOUBLE SHIFTS,\nWITHOUT GIVING YOU THE DIGNITY TO CALL YOUR LOVED ONES.\nOR I THOUGHT YOU’VE BEEN TAKEN FOR SOME HUMAN EXPERIMENTATION,\nOR THE MOB GOT YOU BECAUSE YOU’VE BEEN HAVING TOO MUCH FUN WITH YOUR FRIENDS."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "[shake rate=20.0 level=5 connected=1]YOU SEE HOW WORRIED YOU MADE ME!?"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1696610748.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Irritated",
+			"question": "SO, YOU BETTER HAVE A GOOD REASON WHY YOU LEFT YOUR FAVORITE PERSON WORRIED OUT HER MIND."
+		},
+		{
+			"choice": "Tell the truth.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](AM I NUTS???)\n[color=#ffed29](I tell her that I forgot to call her last night and then I missed her call this morning because I forgot to shower last night???)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](That’s how sons get phone-bodied.)"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "SO YOU BETTER HAVE A GOOD REASON WHY YOU LEFT YOUR FAVORITE PERSON WORRIED OUT HER MIND."
+		},
+		{
+			"choice": "Lie.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](Yeah, RIGHT.)\n[color=#ffed29](She’s already this mad and I just said, \"Gramma.\")"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "[color=#ffed29](And then I add a lie to that???)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](The police won’t even find a body after I’m phone-obliterated.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](So, if I want to live another day, there is only one thing I can do.)"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "SO, YOU BETTER HAVE A GOOD REASON WHY YOU LEFT YOUR FAVORITE PERSON WORRIED OUT HER MIND."
+		},
+		{
+			"choice": "Grovel.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Grovel.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Lie.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](Yeah, RIGHT.)\n[color=#ffed29](She’s already this mad and I just said, \"Gramma.\")"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "[color=#ffed29](And then I add a lie to that???)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](The police won’t even find a body after I’m phone-obliterated.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](So, if I want to live another day, there is only one thing I can do.)"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "SO, YOU BETTER HAVE A GOOD REASON WHY YOU LEFT YOUR FAVORITE PERSON WORRIED OUT HER MIND."
+		},
+		{
+			"choice": "Tell the truth.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](AM I NUTS???)\n[color=#ffed29](I tell her that I forgot to call her last night and then I missed her call this morning because I forgot to shower last night???)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](That’s how sons get phone-bodied.)"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "SO, YOU BETTER HAVE A GOOD REASON WHY YOU LEFT YOUR FAVORITE PERSON WORRIED OUT HER MIND."
+		},
+		{
+			"choice": "Grovel.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Grovel.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Grovel.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Grovel"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Gramma…I am [i]so sorry."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "YOU BETTER BE, BOY!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "I am, I really am, Gramma."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Full Anger",
+			"text": "ORVEN ANGELO ZANRY, YOU ARE AN INTELLIGENT YOUNG MAN, AND I EXPECT YOU TO TREAT ME AS SUCH!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Clearly, I’m not, Gramma…"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "HOW DARE YOU SAY SUCH THINGS.\nORVEN ZANRY, YOU ARE INTELLIGENT AND SO IT IS UNACCEPTABLE THAT YOU FORGET SOMETHING SO SIMPLE LIKE CALLING YOUR BELOVED GRAMMA!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…..."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "UNDERSTOOD?"
+		},
+		{
+			"audio_bus": "SFX",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/quiet.wav",
+			"volume": 5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "......"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Orven? \nOrven, baby, what’s wrong?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "......\nGramma, I don’t know what to do…"
+		},
+		{
+			"change_timeline": "timeline-1703194798.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1702999789-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Well, I guess it works out since we’re switching to the night schedule.)"
+		},
+		{
+			"background": "res://art/Background/Orven Apartment Dark.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial.wav",
+			"volume": 0
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 1,
+			"animation_repeat": 2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial Tone.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Phone Pickup.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laugh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Orven! You remembered this time!"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "A little earlier than I expected, but I’m glad you remembered to call your Gramma."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[i]Haha[/i], hey, Gramma."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Orven, baby, what’s wrong?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Nothing’s wrong, Gramma, why would you ask that?"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Oh, don’t try that on me, child."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Your Gramma’s been in the Orven business for way too long."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "So, tell Gramma what’s wrong."
+		},
+		{
+			"choice": "It’s dumb…",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "I should be able to do this on my own…",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "It’s really not a huge deal. If I’m living on my own, I should be able to handle this."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Orven."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "You are intelligent, kind, compassionate, and strong."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gr—"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Hmm! Not done yet."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "You are capable, but even the greatest of men need help!\nLife’s just bigger and stronger than all of us."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "But, together? Well, that’s when we’re unbeatable."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "So, let Gramma help her favorite son."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "What’s wrong, child?"
+		},
+		{
+			"audio_bus": "SFX",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/quiet.wav",
+			"volume": 5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gramma, I don’t know what to do…"
+		},
+		{
+			"change_timeline": "timeline-1703194798.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1702999789-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](I know it’s a little early, but you should be expecting your new nightly calls…)"
+		},
+		{
+			"background": "res://art/Background/Orven Apartment Dark.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial.wav",
+			"volume": 0
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 1,
+			"animation_repeat": 2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial Tone.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](Pick up, pick up, Gramma.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Rotary Phone Dial Tone.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Phone Pickup.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1713652692.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Smug",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Phone Pickup.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello, hello, my favorite son!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Gramma!"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "Orven, you won’t believe it: I had the best night’s rest last night!"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "You really are the melatonin I need in my life."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Our talks really just put me at peace."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[i]Haha[/i], I’m glad, Gramma…"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Uh oh."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That tone."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Worried",
+			"question": "What’s wrong, Orven?"
+		},
+		{
+			"choice": "What? No, I’m fine, Gramma.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "It’s nothing, Gramma.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "It’s really not a huge deal. If I’m living on my own, I should be able to handle this."
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Hmm, sounds like nonsense to me.\nYou can’t pull this on me, Orven!\nYour Gramma’s been in this business too long."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "The business?"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "The business of Orven Zanry!"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "So, tell me what’s wrong, baby."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I think I’m really confused…"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "My bright young boy?\nIt must be awfully twisted to have you this upset."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "I just…"
+		},
+		{
+			"character": "character-1702944833.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Breathe, baby, slow and sure."
+		},
+		{
+			"audio_bus": "SFX",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/quiet.wav",
+			"volume": 5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gramma, I don’t know what to do…"
+		},
+		{
+			"change_timeline": "timeline-1703194798.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1703146608.json",
+		"name": "Home 1"
+	}
+}

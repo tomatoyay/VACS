@@ -1,0 +1,41 @@
+{
+	"color": "#ffac4500",
+	"description": "Is that Tangeau??",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1709775894.json",
+	"mirror_portraits": false,
+	"name": "Tangeau ??",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 650,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Tangeau/Tangeau.png"
+		},
+		{
+			"name": "Irritated",
+			"path": "res://art/Characters/Tangeau/Irritated Tangeau.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Tangeau/Angry Tangeau.png"
+		},
+		{
+			"name": "Disappointed",
+			"path": "res://art/Characters/Tangeau/Disappointed Tangeau.png"
+		},
+		{
+			"name": "Intimidating",
+			"path": "res://art/Characters/Tangeau/Intimidating Tangeau.png"
+		},
+		{
+			"name": "Suspicious",
+			"path": "res://art/Characters/Tangeau/Suspicious Tangeau.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

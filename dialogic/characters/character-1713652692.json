@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1713652692.json",
+	"mirror_portraits": false,
+	"name": "Phone",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 90,
+	"offset_y": -90,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Phone.png"
+		}
+	],
+	"scale": 40,
+	"theme": ""
+}

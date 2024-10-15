@@ -1,0 +1,2473 @@
+{
+	"events": [
+		{
+			"background": "res://art/Background/South of Town Night.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking in Town.wav",
+			"volume": 0
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/South of Town (Rag).wav",
+			"volume": -1
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Hmm",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I haven’t been down Southside since I got to Ventreville.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Gramma rumored about it being scary, but it looks fine?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](Now where’s the clinic?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking in Town.wav",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/Dr. Ki Clinic Exterior.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Worried",
+			"question": "[color=#ffed29](Here it is…Dr. Ki’s clinic.)"
+		},
+		{
+			"choice": "Just get the info and get out.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](It’s late, and I don’t want to stay for long. I’ll just ask if she knows anything about the [b]Devil’s Lung[/b] and go.)"
+		},
+		{
+			"choice": "Let’s hope she’s not a quack doctor.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](Let’s just hope this isn’t for nothing. She better be legit.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"background": "res://art/Background/Dr. Ki Clinic Interior.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](Wow, I’ve never been here, but somehow everything is all too familiar.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Hello?"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](WHOA, that’s a crazy mask. Is that her?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Uh, Doctor?"
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Is she meditating or something? Or concentrating?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Doctor Eclaire?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Snoring.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50.0 freq=5.0 connected=1]zzzzzz"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!\n[color=#ffed29](Is she sleeping with that thing on her head? And she’s sleeping standing up!!!)"
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50.0 freq=5.0 connected=1]zzzzzz"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Hmm",
+			"question": "[color=#ffed29](How do I wake her up?)"
+		},
+		{
+			"choice": "Poke her.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I don’t wanna scare her. Maybe I poke her?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Poke Violin.wav",
+			"volume": 0
+		},
+		{
+			"animation": "headshake.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"animation": "wobble.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.5
+		},
+		{
+			"animation": "swing.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Grimace",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "OW!?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Snoring.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50.0 sfreq=5.0 connected=1]zzzzzz"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](That’s some Gramma reflexes there.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Hmm",
+			"question": "[color=#ffed29](How do I wake her up?)"
+		},
+		{
+			"choice": "Shout.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Maybe if I shout?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "[shake rate=20.0 level=5 connected=1]DOCTOR ECLAIRE!!!!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Snoring.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50.0 freq=5.0 connected=1]zzzzzz"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](I guess that didn’t work?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Hmm",
+			"question": "[color=#ffed29](How do I wake her up?)"
+		},
+		{
+			"choice": "Quick Wit",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quick Wit",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Shout.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Maybe if I shout?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "[shake rate=20.0 level=5 connected=1]DOCTOR ECLAIRE!!!!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Snoring.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50.0 freq=5.0 connected=1]zzzzzz"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](I guess that didn’t work?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Hmm",
+			"question": "[color=#ffed29](How do I wake her up?)"
+		},
+		{
+			"choice": "Poke her.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I don’t wanna scare her. Maybe I poke her?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Poke Violin.wav",
+			"volume": 0
+		},
+		{
+			"animation": "headshake.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"animation": "wobble.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.5
+		},
+		{
+			"animation": "swing.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Grimace",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "OW!?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Snoring.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50.0 freq=5.0 connected=1]zzzzzz"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](That’s some Gramma reflexes there.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#ffed29](How do I wake her up?)"
+		},
+		{
+			"choice": "Quick Wit",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quick Wit",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quick Wit",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Quick Wit Dr. Ki"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "quick_wit",
+			"options": [
+
+			],
+			"portrait": "Hmm",
+			"question": "[color=#ffed29](What are some doctor words that she might respond to?)"
+		},
+		{
+			"choice": "Code?",
+			"condition": "",
+			"default": false,
+			"definition": "",
+			"event_id": "quick_wit_choice",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](Maybe I say there’s a code.)\n[color=#ffed29](It’ll be like if I shout “fire” to a fireman?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Code?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!!!!!!\n[shake rate=20.0 level=5 connected=1]CODE!!! "
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](SHE’S FAST!!!)"
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!\n[color=#ffed29](She’s back??)"
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b]Where is the coding patient?!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Oh, uh, sorry!  Don’t worry, no one is coding."
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I didn’t know how to wake you…"
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "??????"
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alert",
+			"text": "!!!!!!\n[wave amp=50.0 freq=5.0 connected=1]Ohhh…"
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked",
+			"text": "Try something else next time. \nIf you do that again, you’ll need to do chest compressions on [i]me."
+		},
+		{
+			"choice": "Cough?",
+			"condition": "",
+			"default": false,
+			"definition": "",
+			"event_id": "quick_wit_choice",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Maybe if I cough? Like if I clear my throat?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Cough Bells Ding.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[i]cough"
+		},
+		{
+			"definition": "1709865846-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Cough Bells Ding.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[i]cough"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alert",
+			"text": "!!!!!!\nSTAND BACK.\nI need to get the rest of my suit on!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Oh wow, I didn’t expect that reaction.)"
+		},
+		{
+			"choice": "Beep?",
+			"condition": "",
+			"default": false,
+			"definition": "",
+			"event_id": "quick_wit_choice",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I heard a lot of noises wherever I was in the infirmary.)\n[color=#ffed29](That should trigger something, right?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Beep?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alert",
+			"text": "!!!!!!\nWhere is it??? Where’s that beeper?\nI told them not to beep me now that I’m out of the infirmary!"
+		},
+		{
+			"choice": "Timeout",
+			"condition": "",
+			"default": true,
+			"definition": "1703209169-787",
+			"event_id": "quick_wit_choice",
+			"value": "3"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Uhh, I can’t think of anything right now.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "......"
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](I should try again.)"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Are you Dr. Eclaire?"
+		},
+		{
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yes, I am she. Please call me Dr. Ki. "
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709864668.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "mask",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked Mask",
+			"text": "Do you have your parents with you?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "Oh, no, I’m not here because I’m sick."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Also, I’m 18."
+		},
+		{
+			"condition": "",
+			"definition": "1709865846-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked Mask",
+			"text": "I thought I heard you coughing?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Sorry! I was just clearing my throat to try and wake you up.\nI swear, healthy as ever. You won’t hear a cough out of me."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mask",
+			"text": "Great, what’s your name?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Orven Zanry."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked Mask",
+			"text": "Please excuse the mask, it is protocol that I use it for all patients.\nHow can I help you?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](Not a patient.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Well, I was told to go to you, if I wanted to learn more about the [b]Devil’s Lung[/b]?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mask",
+			"text": "The [b]Devil’s Lung[/b]? Are you experiencing any symptoms?\nIf you are, that’s okay—that’s what the mask and suit are for."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "No, no, don’t worry, I feel fine.\nNo symptoms at all."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked Mask",
+			"text": "Great, no known contacts? No one you know is sick?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Uh, not that I know of.\nI live by myself, and no one at work has been sick. Plus, we’re pretty strict about staying home if you aren’t well."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, so everyone is healthy, that's great.\nSo, you came down to my clinic just to learn about it?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "I was talking with the Jones brothers and they recommended I talk to you."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alert Mask",
+			"text": "Ah, Throckmorton and Babinski Jones, charming guys.\nMy favorite apothecaries in the city.\nYou gotta partner with good apothecaries to take care of the weird magic stuff when you’re just an SP without your PPM."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked Mask",
+			"text": "Shame they’re in the North.\nI’ve been telling them to open a location in the Southside: people could really use their expertise here."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Why aren’t you in the North?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "I mean, people don’t have as much money here…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](Money for you to take from them.)"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mask",
+			"text": "Hmm.\nLet me give you some of my background, and that might help you understand why you have been referred to me."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked Mask",
+			"text": "I am a straight Somatic Practitioner, which means that I specialize in the body, without any magic proficiency.\nI studied under another prestigious SP who dealt with curing infections and diseases, so that’s also my specialty."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alert Mask",
+			"text": "At the outbreak, I was called in as a consultant once the [b]Devil’s Lung[/b] was determined not to have any magical or holy and or cursed elements.\nI’ve traveled to different towns and cities and villages to try and provide treatment for the disease.\nAnd was highly successful until I came to Ventreville."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mask",
+			"text": "Because there have been changes to the disease, I have stayed to understand it more fully.\nAnd I am in the Southside because the prevalence of the [b]Devil’s Lung[/b] is significantly higher, with the tighter and less hygienic living spaces."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "......"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked Mask",
+			"text": "You appear upset, did I say something that was upsetting to you?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "It’s just weird, you know.\nThe way that you guys talk about [i]people.\nLike, all of the “studying” is done on people, right? It feels weird and dehumanizing."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mask",
+			"text": "Hmm.\nI apologize if my language was not compassionate.\nI framed it that way because you came to me asking about the [b]Devil’s Lung[/b], which is a pathogen, a bacteria, a germ.\nAnd this exists on its own, outside of people.\nIf I didn’t care about people, I wouldn’t be a doctor."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](Sure.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "...…"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Head Cocked Mask",
+			"question": "Do you…want me to keep going?"
+		},
+		{
+			"choice": "Not really.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Honestly, not really.\nSorry, I know that I’m being a jerk right now—this is just hard for me."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked Mask",
+			"text": "We…do not have to continue if you don’t want to.\nThough it would feel like a waste of a trip, considering, since you talked with the Jones brothers, you’ve likely come from the Northside."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mask",
+			"text": "I can go right back to sleeping—that isn’t a problem for me.\nBut may I ask why this is difficult? If it is something I can change, I’d be happy to.\nSometimes people find the clinic scary or too sterile, so if you wish to have this conversation outside, I am open to that."
+		},
+		{
+			"choice": "......",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Head Cocked Mask",
+			"text": "[i]sigh"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mask",
+			"text": "I am more than happy to share everything I know about the [b]Devil’s Lung[/b], which is extensive.\nBut if you are uncomfortable with the setting or with me, I can write it down for you.\nOr we can move this conversation outside?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I can’t chicken out, I’m already here.)\n[color=#ffed29](But maybe the outside would be better—the smells here are too familiar.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Can we go outside?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mask",
+			"text": "Yes, let’s go outside."
+		},
+		{
+			"background": "res://art/Background/Dr. Ki Clinic Exterior.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "SFX",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/Audio Effects/Town Ambience.wav",
+			"volume": -15
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Alert Mask",
+			"text": "This way, I can also take this off."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Fabric Rustling.wav",
+			"volume": -3
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Alert Mask",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[i]Ah[/i], always nice to get that off!\nSo, it looks like this was a great idea for both of us."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "You don’t wear it outside? Isn’t the [b]Devil’s Lung[/b] more prevalent outside?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "But because of the air circulation, the odds of catching it are actually much lower."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Ohh."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "Orven, did you know I actually caught the [b]Devil’s Lung[/b]?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "?!\nAnd you LIVED??"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "Yup, it was around two months before I came to Ventreville. "
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "What did you do??"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "It was certainly tricky.\nI help treat people who are sick every day, right?\nBut that means I’m also working with a lot of diseases and infections, which, again, is my specialty."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "And you look people in the eye and tell them what you think is best, and by that point, I had become highly confident in the treatment we had been providing for the [b]Devil’s Lung.\nI knew it worked—I saw people survive."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "[color=#ffed29](So there IS a treatment that works.)"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "And yet, when I got sick, suddenly all my confidence shrank away."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "It was scary, as I was very vulnerable.\nWhat if I died?\nWhat if I was the outlier, the exception?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "People believed in me, believed in what I did.\nWhat if I die from the thing I’m the supposed expert on?\nWho would take the charge?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "What did you do?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I did what I told all my patients to do, what I knew worked.\nI took [b]Vericillin.\nIt was a scary ten days, but it worked."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "......"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "The reason I’m in the Southside, is because I’m needed [i]here.\nI’ll pay for the [b]Vericillin[/b] myself for some patients who can’t afford it.\nThankfully, it isn’t too pricey: just eight copper.\nBut that’s still too steep for some people, and it isn’t for me, so I pay."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "What kind of doctor would let a person die for eight copper?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "If I cared about money, do you think I’d be risking my life?\nI do this because I love it, because I love helping [i]people."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I…I get that."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I thought you might.\nThat’s why you came to me, right?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yeah.\nI mean, the Jones brothers were so cool and knew so much, so if they thought you were helpful, I knew it would be worthwhile."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Even though I hate going to the doctors."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "[i]Haha![/i] Don’t worry, most people do."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Yeah, and I’ve had my fill of doctors visits for a lifetime.\nSo that’s why I was being a jerk earlier. I just got some baggage."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "I’m sorry that you’ve had bad experiences in the past."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "It’s a shame—I was going to ask if you wanted to be my ward."
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 3,
+			"file": "res://art/OST/Orven to the stars!.wav",
+			"volume": -15
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "?!?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "Like, you want me to be a doctor??"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "Yes. I can see it in you.\nThe initiative, the drive, the need to help people.\nThe compassion, the understanding and experience of the vulnerability that sickness brings."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "The curiosity and fascination with the body and how things work."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "And the humility and open mindedness to place a person’s health over your own biases."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You sound like you’d be a great doctor."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "?!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "You got all that from this conversation??\nWhere I was being closed off for half of it?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "[i]Haha![/i] No, I got it the moment you stepped in my door asking about the [b]Devil’s Lung[/b], not for your sake, not even for the sake of anyone around you.\nYou made that long trip because you just cared that there was a chance your efforts could make a difference in saving a stranger’s life, and you took it."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "Trust me.\nI really get that, and would love to work with someone who understands that."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Someone who understands…)"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "Unless you’re interested in a more magical medicinal route, I can’t help you there.\nI think magic is [i]weird."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wobbly Ding.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "It’s kinda gross, right!?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "VERY.\nI’ll study all the bacteria and viruses in the world, but what I’m NOT doing is even going 50 feet near a curse."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "You’re cursed and you’re coming to me?\nYou’re dead. I am so sorry, but you’re dead and you gotta get away from me."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha!"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "Even apothecary work, like what the Jones Brothers do, is too magical for me."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "Apparently, there’s a nomadic Southside practitioner who can do both somatic and apothecary work—it’s very impressive.\nI’ve tried connecting with him to talk about it, but I can’t…find him?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "What do you mean? Like, he’s not in the city anymore?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "No, he is. He roams around Southside of Ventreville.\nBut he doesn’t have a clinic… I think he’s said to have a cardboard box?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "Dr. Ki, are you getting punked?\nYou sure he’s real?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Perhaps he’s not, [i]haha.[/i] I’m glad you’re here to keep me sane."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "See, I think we’d make a great team!\nAnd I’d pay and house you, too. I’m not about unpaid labor."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I [i]did[/i] just get fired...)"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Not that you have to say “yes” or “no” to shadowing me right now.\nJust think about it."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "You came to learn about the [b]Devil’s Lung[/b] after all, right?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Right, yeah."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "Have you heard of [b]Remedium[/b]?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I have!"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "I have outreached to help with the production or be a consultant for it.\nI was hopeful that [b]Remedium[/b] would be able to cover the second phase of the [b]Devil’s Lung[/b]."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Second phase?"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "That’s the whole reason why I set up shop in Ventreville.\nUsually, I let local SPs take over after I stay for a month or so.\nOf course, I educate them and treat the local people before I go."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "By the time I got to Ventreville, the patients would be treated with [b]Vericillin[/b], and then they would present with neurological deterioration, which resulted in death…"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "I couldn’t believe it.\nHad the bacteria already mutated so rapidly so as to be immune to [b]Vericillin[/b]?\nThat would be an incredible rate of mutation and spread, considering Ventreville hadn’t been treated with [b]Vericillin[/b] before this."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": " I haven’t heard about neurological symptoms for the [b]Devil’s Lung[/b]…"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "My hypothesis is that it is a biphasic disease, that it has two parts.\nBut it is very strange that the second phase is only being seen now."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "That is why I would [i]love[/i] to talk to those in charge of [b]Remedium[/b], especially if they’re more familiar with the biphasic nature of the [b]Devil’s Lung[/b]."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "Because, unfortunately, the second phase is more deadly than the first…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Nervous",
+			"question": "[color=#ffed29](What should I do…I’m fired, but if I can get Dr. Ki to talk with the lab, it seems like it could be a huge breakthrough.)"
+		},
+		{
+			"choice": "I’ll make it work.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Fired or not, we have to make this work.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I went out of my way to talk to the Jones brothers, to go through Sion’s office, to have my job taken from me, to go to a doctor again…)\n[color=#ffed29](I gotta keep going. I really feel like this is the final step.)"
+		},
+		{
+			"choice": "Won’t Mr. Gungand will shut her down, too?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](But even if I do connect Dr. Ki, wouldn’t she be shut down, just like the Jones brothers?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](If I’m doing this, I gotta be smart about it. But I still [b]have to do this.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "I can get you to talk with someone in charge."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Really?!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](She must not recognize the “A” or the uniform.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I have connections at the Avidine Factory. I can try and arrange a meeting."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "That would be incredible!\nLet me know when and where, and I would be happy to accommodate and rearrange my schedule."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "Wow, eighteen and you already have connections, huh?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[i]Haha[/i], no, it’s nothing like that.\nI just talk to a lot of people. You’re a connection of mine, too, now!"
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[i]Haha[/i], personable, too.\nOrven, I’m telling you, I think a lot of people would be happy to have you as their doctor.\nThink about it?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I’ll think about it."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "Fantastic."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grossed Out",
+			"text": "It’s very late, do you need me to escort you back Northside?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Nah, I’m good.\nThanks, Dr. Ki, I really appreciate everything you’ve done for me tonight."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[i]Haha![/i] Hey, glad to help."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I get that."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know you do."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nostalgic",
+			"text": "I’ll see you soon?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah."
+		},
+		{
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Safe travels, Orven! Stay well!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1709864658.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 3,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking in Town.wav",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/South of Town Night.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Huh, that’s not how I expected this to go at all.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I guess there are good doctors out there…and maybe...)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](I could be one?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[i]Ah!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](No, I gotta focus, I’m FIRED.)\n[color=#ffed29](How am I supposed to set up a meeting with Dr. Ki...and WHOM??)\n[color=#ffed29](Mr. Gungand will definitely dismiss her like he did the Jones brothers.)\n[color=#ffed29](And Miss Odiche doesn’t know [b]anything[/b] about the studies behind [b]Remedium.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](I don’t know any lab techs…)\n[color=#ffed29](And even if I did, would they be able to change anything with Mr. Gungand as their boss?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[i]AGHH!!![/i] WHO ELSE???"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!\nOh my gods, I think I have to go straight to Mister Avidine."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](He’s the only one with the power to do anything…but I've been fired.)\n[color=#ffed29](What if Mr. Gungand tells him I’m violent and untrustworthy?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "Shoot, shoot, shoot…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Nervous",
+			"question": "[color=#ffed29](What do I do?)"
+		},
+		{
+			"choice": "Go NOW.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](I think I have to go now.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](It’s crazy, but that’s the only shot I have.)\n[color=#ffed29](Mister Avidine wasn’t at work today, so there’s a chance Mr. Gungand hasn’t talked with him.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Yeah, it has to be Mister Avidine, and it has to be tonight.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I guess it’s time to use these legs to run!)"
+		},
+		{
+			"choice": "Wait until morning.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Can I wait until morning?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](No…no, I don’t think so.)\n[color=#ffed29](What do I do, show up at the factory? They’ll definitely escort me out…)\n[color=#ffed29](And there’s no shot I’m fast enough that I get anywhere close to Mister Avidine’s office without being caught.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#ffed29](What do I do?)"
+		},
+		{
+			"choice": "Go NOW.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](I think I have to go now.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](It’s crazy, but that’s the only shot I have.)\n[color=#ffed29](Mister Avidine wasn’t at work today, so there’s a chance Mr. Gungand hasn’t talked with him.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Yeah, it has to be Mister Avidine, and it has to be tonight.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I guess it’s time to use these legs to run!)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Running in Town.wav",
+			"volume": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Hmm",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 4
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"change_timeline": "timeline-1709419232.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1709776451.json",
+		"name": "True Evening"
+	}
+}

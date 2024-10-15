@@ -1,0 +1,29 @@
+{
+	"color": "#ffffffff",
+	"description": "Is that Dr. Ki?",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1709864668.json",
+	"mirror_portraits": false,
+	"name": "Dr. Ki ??",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 600,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Dr. Ki/Dr. Ki Mask.png"
+		},
+		{
+			"name": "Alert",
+			"path": "res://art/Characters/Dr. Ki/Alert Ki Mask.png"
+		},
+		{
+			"name": "Head Cocked",
+			"path": "res://art/Characters/Dr. Ki/Head Cocked Ki Mask.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

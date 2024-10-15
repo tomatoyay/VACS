@@ -1,0 +1,25 @@
+{
+	"color": "#ffffffff",
+	"description": "Is that Etisia?",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1709870783.json",
+	"mirror_portraits": true,
+	"name": "Etisia ??",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Etisia/Etisia.png"
+		},
+		{
+			"name": "Crying",
+			"path": "res://art/Characters/Etisia/Crying Etisia.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/One gasp.mp3-24327ece79dbf363309ff71f04fbfb8b.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/One gasp.mp3"
+dest_files=[ "res://import/One gasp.mp3-24327ece79dbf363309ff71f04fbfb8b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

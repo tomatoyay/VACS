@@ -1,0 +1,45 @@
+{
+	"color": "#ffffffff",
+	"description": "A coworker.",
+	"display_name": "Mrs. Langtree",
+	"display_name_bool": true,
+	"id": "character-1696610712.json",
+	"mirror_portraits": false,
+	"name": "Sage Langtree",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 600,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Mrs. Langtree/Mrs. Langtree.png"
+		},
+		{
+			"name": "Surprised",
+			"path": "res://art/Characters/Mrs. Langtree/Surprised Langtree.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://art/Characters/Mrs. Langtree/Sad Langtree.png"
+		},
+		{
+			"name": "Laughing",
+			"path": "res://art/Characters/Mrs. Langtree/Laughing Langtree.png"
+		},
+		{
+			"name": "Nagging",
+			"path": "res://art/Characters/Mrs. Langtree/Nagging Langtree.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Mrs. Langtree/Angry Langtree.png"
+		},
+		{
+			"name": "Disapproval",
+			"path": "res://art/Characters/Mrs. Langtree/Disapproval Langtree.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

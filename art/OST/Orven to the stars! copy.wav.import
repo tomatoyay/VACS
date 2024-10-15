@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://import/Orven to the stars! copy.wav-9ef1e1062112766ae5810bbe016ed2e0.sample"
+
+[deps]
+
+source_file="res://art/OST/Orven to the stars! copy.wav"
+dest_files=[ "res://import/Orven to the stars! copy.wav-9ef1e1062112766ae5810bbe016ed2e0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

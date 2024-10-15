@@ -1,0 +1,29 @@
+{
+	"color": "#ffffffff",
+	"description": "Is that Matty?",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1709778291.json",
+	"mirror_portraits": false,
+	"name": "Matty ??",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 380,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Matty/Matty.png"
+		},
+		{
+			"name": "Shy",
+			"path": "res://art/Characters/Matty/Shy Matty.png"
+		},
+		{
+			"name": "Excited",
+			"path": "res://art/Characters/Matty/Excited Matty.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

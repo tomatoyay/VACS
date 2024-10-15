@@ -1,0 +1,1626 @@
+{
+	"events": [
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Glass Bottles Rattle.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Industrial Metal.wav",
+			"volume": -8
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Flamethrower.wav",
+			"volume": -3
+		},
+		{
+			"background": "res://art/Background/Factory Production Floor.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Tense.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Zanry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Good morning, sir."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](He looks tired.)"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You’re suspended."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "Excuse me, sir???"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "You.\nAre.\nSuspended."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sir, for what reason???"
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "For breach of contract."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "You disclosed confidential information to an outside source."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Excuse me, sir, I’m sorry…I don’t know what you’re talking about?"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "Where were you yesterday afternoon?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Oh…)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "...…"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Where were you yesterday afternoon?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "......"
+		},
+		{
+			"choice": "I went to the apotheca.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "I went to the apothecaries that did our last review."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": " And you had the audacity to act innocent."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "There wasn’t any breach of contract, though. I didn’t disclose anything confidential!\nIf anything, they told ME information!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "You took classified documents outside of the factory and showed laymen."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Untrue! I showed the people who [i]wrote the letter!\nI didn’t leak anything!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "But you admit to stealing classified information regarding [b]Remedium[/b] and showing it to people outside the factory?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](This is unfair.)"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Sir! Orven was just trying to help. He would never put [b]Remedium[/b] at risk!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "QUIET, TAMBOOR.\nDo you want to lose your job, too?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I’m okay, Herb, don’t worry about me."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Is this an order from Mister Avidine?"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Sure."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](So, no.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](But he doesn’t want me pressing more.)"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Please leave the premises immediately.\nYou can come back tomorrow after we’ve reviewed your actions."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](“We.”)\n…...\nYessir."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "And a bit of advice, Zanry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "You might want to control your face, it might not be the best idea looking at people like [i]that[/i] when they determine whether or not you have a job."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](This guy!!!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "…Yessir."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Dismissed."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Orven, no!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Herb, I’ll be okay.\nYou need this job. I’ll be fine."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Orven..."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Dismissed."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](I feel awful.)\n[color=#ffed29](I hate how Mr. Gungand’s opinion of me means anything.)"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1709415593.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": " I don’t see how that matters.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](I’m tired of this guy pushing his power around.)\n[color=#ffed29](I can’t give him anything, he’s going to use any information against me.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](He’s using the fact that I’m newer against me.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I don’t see how where I was yesterday is relevant to breaching contracts and leaking information."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Hah, so you’re playing it that way, huh, Zanry?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "I’m not playing."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "If I did something wrong, I want to know exactly what I did wrong.\nBecause I didn’t breach my contract, and I didn’t leak any information."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "Where’s the Review of [b]Remedium[/b], then?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Surprised",
+			"question": "!!!!!!"
+		},
+		{
+			"choice": "Why would I know?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "How would I know?"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "You’re a terrible liar, Zanry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](Keep it together.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I just work in production—we don’t come in contact with the review."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "If it’s lost, well…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Didn’t you pick it up?"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "YOU."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Don’t be scared.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I didn’t do anything wrong."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You are OUT OF LINE."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "I didn’t leak any confidential information!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "AND ABOUT TO BE OUT OF A JOB."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Go home, we’ll see if you have a job tomorrow."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "And this tone you took? Will definitely weigh into that decision greatly."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Sir! Orven was just trying to help. He would never put [b]Remedium[/b] at risk!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "QUIET, TAMBOOR.\nDo you want to lose your job, too?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I’m okay, Herb, don’t worry about me."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Orven..."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Back to work, Tamboor."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](What a jerk.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](Fired for talking to the apothecaries WE contracted? Ridiculous.)"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1709415593.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Why does that matter?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Why are you asking me this? How is this relevant?"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Don’t play dumb."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I told you, if I did something wrong, I want to know exactly what I did wrong."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "What are you accusing me of, Mr. Gungand?"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "You STOLE the Review of [b]Remedium[/b] and leaked that information to the public."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Orven didn’t steal anything!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Of course you would say that."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Because it’s true!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don’t believe you."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "And that’s YOUR problem!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "On the contrary, it’s YOUR problem because it’s YOUR job at risk."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](This is so unfair.)"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You are to go home until tomorrow."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "We’ll let you know if you have a job or not, by then.\nBut this conversation and your insolence will weigh into that decision heavily."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](THIS GUY.)"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Until tomorrow, Zanry."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Sir! Orven was just trying to help. He would never put [b]Remedium[/b] at risk!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "QUIET, TAMBOOR.\nDo you want to lose your job, too?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I’m okay, Herb, don’t worry about me."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Orven..."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Back to work, Tamboor."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](What a jerk.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](Fired for talking to the apothecaries WE contracted? Ridiculous.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](Unbelievable.)"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1709415593.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703189361-247",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Financial."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "Since we’re in such a crucial moment in production, we need to make sure that all personnel are necessary."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "And since you’ve been here a month, well…you didn’t make the cut, kid."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Who else is being suspended???"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Just you…for now.\nIt’s called a furlough, and it’s indefinite."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](This is crazy!!! Plus, it came out of nowhere?!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Scrunched Pout",
+			"question": "[color=#ffed29](And it’s Mr. Gungand…who hates me. So it’s hard to believe this is an unbiased decision.)"
+		},
+		{
+			"choice": "I don’t believe you.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Sir…with all due respect, I don’t believe you."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "What."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Why would you furlough just one person if we’re in a financial pinch???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Sir, I know he might be the newest, but his numbers are far from the lowest."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I know that Miss Odiche wouldn’t want to get rid of me."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Insolence."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "I’m not trying to be, I’m just trying not to get furloughed, sir! \nI want to help!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Help by GOING HOME."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Your mouthiness is what put you on the chopping block, kid."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Tamboor, you better take note, because you’re close to getting chopped, too."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Leave Herb out of this.\nSir, if I’ve disrespected someone, let me know and I’ll apologize."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "Then apologize to me."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](THIS GUY.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "For speaking up for you??? I did apologize when you brought it up!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You continue to talk back to authority.\nYou are not apologetic."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "I’m speaking up for myself because I’m trying to understand!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "I’m still doing what you guys tell me to do, I’m just trying to understand!!!"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Leave the understanding to those who are qualified, kid."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "......"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But show up tomorrow."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I thought I was being furloughed."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "You most certainly are, don’t worry.\nI just have to give you parting gifts for “taking the furlough for the team.\""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Oh…okay."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Until then, keep being obedient, kid.\nBut with a little less talking next time."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "......"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Perfect, you’ll be back in no time."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Orven, no!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I’m okay, Herb, don’t worry about me."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Orven..."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Back to work, Tamboor."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](Indefinitely suspended???)"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1709416365.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "......",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Wait, so he’ll be back right???"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "Who's to say."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "But he’s so good! Why him???"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "It could be you, too, Tamboor, do you want that?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I’m okay, Herb, don’t worry about me."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I’ll see you once more tomorrow, Zanry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "??????\nI thought I was being furloughed?"
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "You are, but show up tomorrow."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Devious",
+			"text": "I have to give you parting gifts for “taking the furlough for the team.”"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Oh…okay."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Until then..."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Keep being obedient, kid."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yessir…"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Orven..."
+		},
+		{
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_001",
+			"portrait": "Dismissive",
+			"text": "Back to work, Tamboor."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696627430.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](Indefinitely suspended???)"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1709416365.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1707705022.json",
+		"name": "Regular Day 2"
+	}
+}

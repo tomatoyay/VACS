@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://import/March of the Jones.wav-cc3d815f27f1f461984f52c8c75f407c.sample"
+
+[deps]
+
+source_file="res://art/OST/March of the Jones.wav"
+dest_files=[ "res://import/March of the Jones.wav-cc3d815f27f1f461984f52c8c75f407c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

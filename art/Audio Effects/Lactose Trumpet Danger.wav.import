@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Lactose Trumpet Danger.wav-354105f2ad89ac9e321a133ca82a5297.sample"
+
+[deps]
+
+source_file="res://art/Audio Effects/Lactose Trumpet Danger.wav"
+dest_files=[ "res://.import/Lactose Trumpet Danger.wav-354105f2ad89ac9e321a133ca82a5297.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

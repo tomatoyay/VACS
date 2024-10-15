@@ -1,0 +1,339 @@
+{
+	"events": [
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Sleuth Swing.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/front desk.jpg",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1696610748.cfg"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"definition": "1699740301-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Somehow, I ended up at the police station?"
+		},
+		{
+			"character": "character-1702954318.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Child, what are you doing here?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!!!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702954318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1702954318.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do you have business with the police?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "UH!\nNo, ma’am! I think I just got lost."
+		},
+		{
+			"character": "character-1702954318.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Detective Gou Enson."
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702954318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Where are you looking to be?\nIt’s not good to be lost at night in the city."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Somewhere with food?\n[i]Come on, man, “somewhere with food”?? "
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Understood. "
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Understood? I don’t even think I understand what I’m doing right now."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Are you new to Ventreville?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Play dumb.\nYES.\nBrand new, actually."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You’re wearing Avidine Factory clothing, do you intend on working there?\nHow have you come to acquire these clothes if you have just arrived?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!!!\n[i]This is why Gramma said not to lie, you’re terrible at it!\nI–I’ve actually been here a bit, but not on this side of town."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A Southsider, then?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "NO!\nNo, I just like…I just…stay…in my apartment…side of town."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "sad",
+			"text": "So you’re an agoraphobe costuming as an Avidine employee?\nMy apologies, that was insensitive.\nI am uninformed regarding the newest treatments for those with agoraphobia."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "OH, NO. I work for Mister Avidine! Like actually work for Mister Avidine.\nYou can ask Mrs. Langtree, or Herb–I mean Herwin Tamboor, or Mister Avidine himself.\nI know Mister Avidine knows me.\nNot in a cocky way, just, we just talk sometimes, you know?"
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Understood, my apologies regardless, Mr. …\n...I’m not sure if I got your name?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Orven Zanry, ma’am."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My apologies again, Mr. Zanry. And regarding eateries close to here-\nIf you want something close by, there’s an ABP. Meals are inexpensive, and the cost is good for what they’re offering.\nThe owner is a character."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "OKAY. \n[i]I should just go."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do you need assistance getting there? \nI understand the city at night can be frightening."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "NOPE! I mean, I think I’ll be okay.\nThank you, Detective Enson."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "serious",
+			"text": "My pleasure, Mr. Zanry. Be well."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/town night.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Town (Night).ogg",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]That was awkward. \n[i]I bet Mister Avidine wouldn’t have said half the nice things he did if he saw what just happened.\n[i]I guess I’m going to ABP."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1696612915.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1700267206.json",
+		"name": "Police Station 0"
+	}
+}

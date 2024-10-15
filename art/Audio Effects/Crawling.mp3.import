@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Crawling.mp3-89568c2f0e159c5333f1824e4ff1c256.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Crawling.mp3"
+dest_files=[ "res://.import/Crawling.mp3-89568c2f0e159c5333f1824e4ff1c256.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

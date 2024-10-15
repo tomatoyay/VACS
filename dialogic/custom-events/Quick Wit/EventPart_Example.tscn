@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://dialogic/custom-events/Quick Wit/EventPart_Example.gd" type="Script" id=2]
+[ext_resource path="res://addons/dialogic/Editor/Events/Parts/Text/CustomLineEdit.tscn" type="PackedScene" id=3]
+
+[node name="QuickWit_Choice" type="HBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 1, 1.00534 )
+script = ExtResource( 2 )
+
+[node name="HBox" type="HBoxContainer" parent="."]
+margin_right = 262.0
+margin_bottom = 40.0
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="HBox"]
+margin_top = 13.0
+margin_right = 114.0
+margin_bottom = 27.0
+text = "Quick Wit Choice:"
+
+[node name="Spacer" type="Control" parent="HBox"]
+margin_left = 118.0
+margin_right = 128.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 10, 0 )
+
+[node name="ChoiceText" parent="HBox" instance=ExtResource( 3 )]
+margin_left = 132.0
+margin_top = 6.0
+margin_right = 262.0
+margin_bottom = 33.0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Charlie Brown Teacher.mp3-74568d89a5ee63b26566d1dc474fd70a.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Charlie Brown Teacher.mp3"
+dest_files=[ "res://.import/Charlie Brown Teacher.mp3-74568d89a5ee63b26566d1dc474fd70a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

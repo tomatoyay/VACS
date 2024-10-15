@@ -1,0 +1,77 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1725242270.json",
+	"mirror_portraits": false,
+	"name": "Spicy Bread",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Items/ABP/Cinnamon.png"
+		},
+		{
+			"name": "Cinnamon",
+			"path": "res://art/Items/ABP/Cinnamon.png"
+		},
+		{
+			"name": "Cumin",
+			"path": "res://art/Items/ABP/Cumin.png"
+		},
+		{
+			"name": "Dashi",
+			"path": "res://art/Items/ABP/Dashi.png"
+		},
+		{
+			"name": "Paprika",
+			"path": "res://art/Items/ABP/Paprika.png"
+		},
+		{
+			"name": "Salt",
+			"path": "res://art/Items/ABP/Salt.png"
+		},
+		{
+			"name": "Black Pepper",
+			"path": "res://art/Items/ABP/Black Pepper.png"
+		},
+		{
+			"name": "Chives",
+			"path": "res://art/Items/ABP/Chives.png"
+		},
+		{
+			"name": "Green Pepper",
+			"path": "res://art/Items/ABP/Green Pepper.png"
+		},
+		{
+			"name": "Mint",
+			"path": "res://art/Items/ABP/Mint.png"
+		},
+		{
+			"name": "Paprika",
+			"path": "res://art/Items/ABP/Paprika.png"
+		},
+		{
+			"name": "Parsley",
+			"path": "res://art/Items/ABP/Parsley.png"
+		},
+		{
+			"name": "Red Pepper",
+			"path": "res://art/Items/ABP/Red Pepper.png"
+		},
+		{
+			"name": "Rosemary",
+			"path": "res://art/Items/ABP/Rosemary.png"
+		},
+		{
+			"name": "White Pepper",
+			"path": "res://art/Items/ABP/White Pepper.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}

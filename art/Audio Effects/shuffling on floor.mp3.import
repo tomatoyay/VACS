@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/shuffling on floor.mp3-774b0b52b15facc799355904965c94ce.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/shuffling on floor.mp3"
+dest_files=[ "res://import/shuffling on floor.mp3-774b0b52b15facc799355904965c94ce.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

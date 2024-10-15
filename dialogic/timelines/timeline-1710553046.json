@@ -1,0 +1,2605 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1696610748.cfg"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Alarm Old-fashioned.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": false
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Alarm Off.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/Orven Apartment.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Orven's House (Jazz).wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](Another day closer to approval!)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Kitchen fx.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Sizzling.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"condition": ">=",
+			"definition": "1723308340-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blink.wav",
+			"volume": -3
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Still no sprouts, huh? Oh, well."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "We got time! And we’ll try different fruits and veggies to see what clicks with you!"
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "Wish [b]Remedium[/b] luck!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Tootroot.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "[i]smile"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1722205277.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Determined",
+			"question": "[color=#ffed29](Alright, Orven Zanry.)"
+		},
+		{
+			"choice": "“I’m proud of you.”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "“I am proud of you. All of you.”\n[color=#ffed29](No matter what people say, I can remember that Mister Avidine is proud of me.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](Time to make the bosses proud.)"
+		},
+		{
+			"choice": "“You are no ordinary man.”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "“But you are no ordinary man.”"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "[color=#ffed29](No, sir, I am not!)\n[color=#ffed29](Because I’m going to be the best worker in the factory!)"
+		},
+		{
+			"choice": "“Tallest of men.”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“You are the tallest of men.”"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "Chills, man! Every time, chills."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](Never gets old.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking in Town.wav",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Town.ogg",
+			"volume": -5
+		},
+		{
+			"background": "res://art/Background/North of Town Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[color=#ffed29](Even though the streets are the same, somehow, everything seems brighter.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](And there’s the ABP.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](They’re good people, but I should probably hang with the team more.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](Plus, I’ve never been to the Tavern before.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](So many exciting new things.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking in Town.wav",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 3,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Looks like I beat Mrs. Langtree again!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[color=#ffed29](I wonder how long she’ll take this time.)"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Hmm",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…..."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Nervous",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Wow, she’s never been this late.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](Maybe she’s sick? I guess I’ll be waiting for Herb today.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](Dang, I’m getting sleepy.)"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[wave amp=50.0 freq=5.0 connected=1]...zzz..."
+		},
+		{
+			"character": "character-1699209600.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Orocho!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!\n??????"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The young Orocho!\nWhat are you doing napping in this weather outdoors!\nWere your living accommodations so insufficient that you attempted to shelter at the factory?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Oh! No, Miss Odiche, I usually come in early and Mrs. Langtree lets me in.\nBut I guess she’s not coming?\nIs she sick?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......\n......\n......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Regrettably, Sage quit yesterday."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "?!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Heavy Thud.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WHAT???"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Indeed, quite the loss. I am surprised she neglected to inform even you?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "She was quite fond of you…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "That’s cold, Mrs. Langtree…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Perhaps she did not wish to upset you."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "I’m upset now, though!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Indeed, as am I.\nQuite the disappointment. She devoted herself so dutifully for all those years!\nStrong, competent, helpful to the newer employees, enjoyable company—she was honorable until now…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "(Don't change)",
+			"question": "How could she leave at our zenith?"
+		},
+		{
+			"choice": "How could she abandon us?",
+			"condition": "",
+			"definition": "1710987068-787",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "How could she abandon us at this critical point in the project?!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Truly!\nNow is not the time to be throwing in the towel!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "We need her…and the city needs us!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Indeed, for a higher cause, we all must rise!\nTo think that Sage has failed us and those around her in such a way…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "What am I to do without you, Sage…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…..."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I guess we have to work even harder?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "Indeed! Not even Sage can alter the course of our victory!\nWe mustn’t mourn, we must push forward!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yes, ma’am!\nMaybe she’ll come back once she sees our product distributed and doing well!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Orocho, you are too correct!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "Indeed, it is FOR Sage that we must venture forward!\nShe has faltered, and we will bring her back to our side."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "No time to waste, then!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Truly! Let us start the day!"
+		},
+		{
+			"choice": "Traitor!",
+			"condition": "",
+			"definition": "1710987068-787",
+			"event_id": "dialogic_011",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "How could she betray us like this?!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "INDEED!\nDear Orocho, the sting of treachery is deep!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "I thought we were all on the same page…what is she thinking???"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Decades of friendship dashed! For impulsivity and foolishness!\nMy anger runs deep, Sage! This will not be forgotten!\nTo be tossed aside, for all of our time together to be discarded…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I trusted her!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "As we all did! I most of all, the most foolish…\nfor trusting her the deepest."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "Well, we gotta prove her wrong!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We’ll press forward and [b]Remedium[/b] will be made, with or without her!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "We have to! Otherwise, Mrs. Langtree will have been right in leaving!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "And this MUST NOT BE SO!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "We’ll show her! We’ll show those apothecaries!\nWe’ll show everyone who doubted us!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "We will show her our might!!!\nForward, Orocho! We shall not fail!"
+		},
+		{
+			"choice": "I’m more upset she didn’t tell me…",
+			"condition": "",
+			"definition": "1710987068-787",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I just wish she told me…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "It was a bitter pill to swallow, even as someone who was told!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But still…\nI thought she trusted me, I thought we were friends…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Indeed, I, too, thought we were friends…\nHow she could leave without two weeks notice felt like an insult to those years of friendship."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Surprised",
+			"question": "[color=#ffed29](I don’t know if I’ve ever heard Miss Odiche use the word “friend” before?)"
+		},
+		{
+			"choice": "I’ll miss her too.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Miss Odiche?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Yes, Orocho?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I think…more than the two weeks notice, you’re upset that Mrs. Langtree would choose to leave."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Yes! I am upset she would endanger the project in its critical state!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I think you’re going to miss her."
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/quiet.wav",
+			"volume": 3
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "…...\n…..."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "She’s treacherous…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "She was your friend for decades, and it’s sad that she’s leaving without letting you know earlier.\nThis blindsided you."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "Sage, how could you?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "You were so close to reaching the 45 year bonus and raise, too.\nI don’t understand. For what reason?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "[i]sniff"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "…When did we become so far apart, that I should not even know you were so dissatisfied you would quit…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Let’s go inside, Miss Odiche."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Yes, thank you, Orvo."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 3
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Friends?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "You guys were friends?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Yes! Of course!\nWhy else would she use “Willamina” so freely despite my position over her?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](I’ve never thought of that.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I guess that makes sense. You guys have been working together for a long time, right?"
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/quiet.wav",
+			"volume": 3
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Indeed, she came in several years before I."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Young and inefficient I was, but she was always so strong.\nShe has always been so giving to people younger than her—that’s never changed about Sage.\nHer wedding was beautiful, I helped watch her kids when they were young."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "She helped me with my ailing mother."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "And then…\nIt stopped."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Can I ask why?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "You can, but even I am uncertain of why.\nI cannot blame her, and I am unsure if she blames me. It was slow, gradual, and this was the conclusive end.\nPerhaps from the start.\nI became my career, and she never would surrender herself like that.\nIn fact, I think my dedication hardened her against it."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "…truly unfortunate."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I’ll miss her, too... \nBut you can visit her outside of work?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "…I haven’t been to her home in quite some time."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Never too late."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "I will consider this. What would be an appropriate gift to bring?\nA fruit basket? Perhaps chocolate covered, especially since Sage does like chocolate."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Let’s talk about it inside?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Indeed, we must!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 3
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "What are we going to do without her…",
+			"condition": "",
+			"definition": "1710987068-787",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "What are we going to do without her…\nI can’t imagine the factory without her."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/quiet.wav",
+			"volume": 3
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "[i]sob"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Miss Odiche??? Are you okay?!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "I’ve never worked here without Sage! For all my years here, she has been here with me!\nCoached me, reassured me, comforted me.\nSage was always the one I relied on."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "What am I going to do without her here…\nIndeed, Orven, what is the Avidine factory without her…\nHow could she betray me like this?!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[color=#ffed29](I didn’t realize Miss Odiche cared so much about Mrs. Langtree.)"
+		},
+		{
+			"choice": "I’m sure this was a huge shock.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "I’m sure you’re even more surprised than I am…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Blindsided!\n[i]sniff"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Sage always complained about her station but I never knew she meant it when she said she wanted to find someplace different.\nWas this not familiar and comforting? Was I not?\nDecades of friendship…\nWhat happened to it, Sage?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "When did we become so distant that you would only tell me of your resignation the day of?!\nThe insult!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "It hurts."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "Deeply!!!\n[i]sniff"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Oh, Orvo, I do apologize, this is highly unprofessional.\nI am sorry to be in such a state."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No, it’s fine, Miss Odiche—I’m sad and I only knew her for a month."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "You’ve known her for decades."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ll miss her, too."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Let’s go inside, Miss Odiche."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Yes, inside the factory. Let’s go."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 3
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "I didn’t realize you guys were close?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I didn’t realize you guys were so close?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Yes! Of course!\nWhy else would she use “Willamina” so freely despite my position over her?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I’ve never thought of that.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I guess that makes sense. You guys have been working together for a long time, right?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "[i]sniff\nShe came in several years before I. So truly, I have never worked here without her."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Young and inefficient I was, but she was always so strong.\nShe has always been so giving to people younger than her—that’s never changed about Sage.\nHer wedding, her children… all beautiful."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "She was beside me when I buried my mother.\n[shake rate=20.0 level=5 connected=1]Even when my own sister was not!!!\n[i]sob\nAnd to think now she would not even warn me of her resignation.\nNot as her manager, but as her friend!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "When did we become so distant, Sage…\nWas it when I became manager? You had your family, and I only this job…\nWhat was I to do???"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Crying",
+			"text": "[i]sob"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "…...\nI’ll miss her, too."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "…But you can go see her out of work!\nI think she’d want to know how upset this made you."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "…...\n…I haven’t been to her home in quite some time."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Never too late."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "I will consider this. What would be an appropriate gift to bring?\nA fruit basket? Perhaps chocolate covered, especially since Sage does like chocolate."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Let’s talk about it inside?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Indeed, we must!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 3
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/Factory Production Floor.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Glass Bottles Rattle.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Flamethrower.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -5
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.5
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "ORVEN!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Yo, Herb!\nYou excited? I sure am."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dude, no.\nDid you see the police tape around the church???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "What?\nNo, what happened to the church?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "People think there’s been"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1711303614.cfg"
+		},
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 4
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b]a murder."
+		},
+		{
+			"block_input": false,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1696610748.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "?!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Do you think this will affect [b]Remedium[/b]?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "??????\nWhat are you talking about, man?\nI’m going to call my mom and brothers, make sure they know and are all safe."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "You watch out for yourself!!!\nDon’t worry about that, we might have a serial killer amongst us?!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Hmm",
+			"question": "......"
+		},
+		{
+			"choice": "I mean…does it make a difference?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Serial killer or not, that doesn’t change what I have to do here, right?)"
+		},
+		{
+			"choice": "There’s nothing I can do.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](I mean…even if there is a serial killer, what can I do about it?)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I should get to work.)"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Glass Bottles Rattle.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Flamethrower.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -5
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Ranting",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 39
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Mister-Avidine.ogg",
+			"volume": -5
+		},
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 4
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 34,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Compatriots! Do not let fear strike your heart!\nFind peace and safety in the Avidine Factory. We must muster ourselves against these foes!\nMany obstacles obscure the finish line, but know we are running the good race.\nTogether, we must astound everyone around us!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 6
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Devote yourselves to [b]Remedium[/b] and its production: that is what it takes to make our dream come true!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 6
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I am happy."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 6
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That day, a lot of things happened…but people seem to think Mister Avidine is dead?\nWhich can’t be the case.\nMiss Odiche and I are certain of that much.\nSomeone like him can’t die.\nSo Miss Odiche and I are waiting for things to turn up.\nBecause no matter what happens or who else gives up, we know that we aren’t ordinary.\nThe tallest of men are waiting for their leader."
+		},
+		{
+			"block_input": false,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"definition": "1716264681-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You got: the Mindless Ending."
+		},
+		{
+			"emit_signal": "Credits",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Curiosity Killed the Cat Ending"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/Factory Production Floor.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Glass Bottles Rattle.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Flamethrower.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -5
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.5
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "ORVEN!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Yo, Herb! You okay?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dude, no.\nDid you see the police tape around the church???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "What?\nNo, what happened to the church?"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "People think there’s been"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1711303614.cfg"
+		},
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 3
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b]a murder."
+		},
+		{
+			"block_input": false,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1696610748.cfg"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "Murder?!\nDo you know who? Or if the killer was caught???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I’m going to call my mom and brothers, make sure they know, and are all safe."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "You watch out for yourself!!! We might have a serial killer."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "…...\n[color=#ffed29](The [b]Devil's Lung[/b] and now a murderer? What are we going to do?)"
+		},
+		{
+			"character": "character-1702954318.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excuse me."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "??????"
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 0.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702954318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Facing Forward",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.5
+		},
+		{
+			"character": "character-1702954318.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My name is Detective Gou, and I work for the Ventreville police force."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh.\n!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[shake rate=20.0 level=5 connected=1][color=#ffed29](DOES SHE THINK I’M THE MURDERER???)"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702954318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Questioning Forward",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Please come with me. We are interviewing all the employees of the Avidine Factory."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Uh, yes, ma’am!\nI don’t want any trouble."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "Questioning",
+			"text": "…do you know the reasoning as to why we are interviewing Avidine workers?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "??????\nNo? But if you’re telling me to go with you, I will."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "Questioning Forward",
+			"text": "…..."
+		},
+		{
+			"character": "character-1700267410.json",
+			"event_id": "dialogic_001",
+			"portrait": "Facing Forward",
+			"text": "We are investigating the murder of Retter and Flaire Avidine."
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"block_input": true,
+			"event_id": "dialogic_050",
+			"wait_time": 4
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What."
+		},
+		{
+			"block_input": false,
+			"event_id": "dialogic_050",
+			"wait_time": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1702951105.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After the murder of Ret and Flaire Avidine, the Avidine Factory was shut down and gutted to pay back investors.\nAll employees were taken for questioning, wth some being detained as the police continue to search for decisive evidence.\nThe Avidine children, Lunette and Matty: without any known next of kin, their future has yet to be determined.\nVentreville, shaken by the murder of the beloved couple and left without a hope of a cure, cried out in anguish and fear."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Orven Zanry, after questioning, refused to return to Germanon. Clinging to the remains of the closed factory, he mourns.  \nHis Gramma would then travel to Ventreville to pick him up and drag him back to Germanon.\nOrven Zanry has yet to recover from his time and choices in Ventreville."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"definition": "1716264683-970",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You got: the Curiosity Killed the Cat Ending."
+		},
+		{
+			"emit_signal": "Credits",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1710553046.json",
+		"name": "Devout Ending"
+	}
+}

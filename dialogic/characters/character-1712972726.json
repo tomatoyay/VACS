@@ -1,0 +1,49 @@
+{
+	"color": "#ffffffff",
+	"description": "Herb on the phone.",
+	"display_name": "Herb",
+	"display_name_bool": true,
+	"id": "character-1712972726.json",
+	"mirror_portraits": false,
+	"name": "Herb Phone",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 300,
+	"offset_y": -180,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Herb/Herb Phone.png"
+		},
+		{
+			"name": "Thinking",
+			"path": "res://art/Characters/Herb/Thinking Herb Phone.png"
+		},
+		{
+			"name": "Thumbs Up",
+			"path": "res://art/Characters/Herb/Thumbs Up Herb Phone.png"
+		},
+		{
+			"name": "Relaxed",
+			"path": "res://art/Characters/Herb/Relaxed Herb Phone.png"
+		},
+		{
+			"name": "Frowning",
+			"path": "res://art/Characters/Herb/Frowning Herb Phone.png"
+		},
+		{
+			"name": "Surprised",
+			"path": "res://art/Characters/Herb/Surprised Herb Phone.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Herb/Angry Herb Phone.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://art/Characters/Herb/Concerned Herb Phone.png"
+		}
+	],
+	"scale": 16,
+	"theme": ""
+}

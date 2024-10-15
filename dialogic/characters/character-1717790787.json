@@ -1,0 +1,33 @@
+{
+	"color": "#ffffffff",
+	"description": "A silhouette of Sion.",
+	"display_name": "\"Sion\"",
+	"display_name_bool": true,
+	"id": "character-1717790787.json",
+	"mirror_portraits": false,
+	"name": "Sion Silhouette",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 650,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Sion/Mr Gungand Silhouette.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://art/Characters/Sion/Happy Mr Gungand Silhouettte.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Sion/Angry Mr Gungand Silhouette.png"
+		},
+		{
+			"name": "Devious",
+			"path": "res://art/Characters/Sion/Devious Mr Gungand Silhouette.png"
+		}
+	],
+	"scale": 20,
+	"theme": "theme-1703127736.cfg"
+}

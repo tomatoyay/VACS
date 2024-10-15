@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Locked Door Jiggle.wav-febeec79bc9d3738aa99962da7d4a4b2.sample"
+
+[deps]
+
+source_file="res://art/Audio Effects/Locked Door Jiggle.wav"
+dest_files=[ "res://.import/Locked Door Jiggle.wav-febeec79bc9d3738aa99962da7d4a4b2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

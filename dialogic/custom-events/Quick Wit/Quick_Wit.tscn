@@ -1,0 +1,190 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://art/Items/Timer.png" type="Texture" id=1]
+[ext_resource path="res://dialogic/custom-events/Quick Wit/event_quick_wit.gd" type="Script" id=2]
+[ext_resource path="res://art/Items/Timer Top.png" type="Texture" id=3]
+[ext_resource path="res://art/Audio Effects/Ding!.mp3" type="AudioStream" id=4]
+[ext_resource path="res://art/Audio Effects/Quick Wit Tick.wav" type="AudioStream" id=5]
+[ext_resource path="res://art/Items/Timer Progress.png" type="Texture" id=6]
+[ext_resource path="res://art/Items/Timer Bottom.png" type="Texture" id=7]
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Ding:playing")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Tick:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Tick:pitch_scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 1.0 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Tick:volume_db")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ -4.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Timer:rotation_degrees")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 11.0 ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Timer/Countdown:value")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 1000.0 ]
+}
+
+[sub_resource type="Animation" id=1]
+resource_name = "Shake"
+length = 8.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Ding:playing")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 7.2 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Tick:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.2, 7.4, 7.6, 7.8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Tick:pitch_scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 7, 7.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 1.5, 2.0 ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Tick:volume_db")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 8 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ -4.0, -4.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Timer:rotation_degrees")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.3, 6.6, 6.9, 7, 7.2, 7.4, 7.6, 7.8, 7.9, 8 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 6.6, 11.1, 15.4, 11.1, 6.6, 11.0, 15.4, 11.1, 6.6, 15.4, 6.6, 15.4, 6.6, 15.4, 6.6, 15.4, 6.6, 15.4, 6.6, 15.4, 6.6, 15.4, 6.6 ]
+}
+
+[node name="Quick_Wit" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+script = ExtResource( 2 )
+
+[node name="Timer" type="Sprite" parent="."]
+position = Vector2( 893, 230 )
+rotation = 0.191986
+scale = Vector2( 0.05, 0.05 )
+texture = ExtResource( 1 )
+
+[node name="Countdown" type="TextureProgress" parent="Timer"]
+anchor_right = 1.01
+anchor_bottom = 1.0
+margin_left = -1078.0
+margin_top = -595.0
+margin_right = -1778.29
+margin_bottom = -2250.0
+rect_scale = Vector2( 1.44638, 1.47186 )
+max_value = 1000.0
+value = 1000.0
+texture_under = ExtResource( 7 )
+texture_over = ExtResource( 3 )
+texture_progress = ExtResource( 6 )
+fill_mode = 5
+nine_patch_stretch = true
+
+[node name="Ding" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -4.0
+bus = "SFX"
+
+[node name="Animation" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 2 )
+anims/Shake = SubResource( 1 )
+
+[node name="Tick" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -4.0
+bus = "SFX"

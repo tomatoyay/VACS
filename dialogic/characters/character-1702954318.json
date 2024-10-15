@@ -1,0 +1,33 @@
+{
+	"color": "#ffffffff",
+	"description": "Is that Gou?",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1702954318.json",
+	"mirror_portraits": false,
+	"name": "Gou ??",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 600,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Gou/Gou.png"
+		},
+		{
+			"name": "Facing Forward",
+			"path": "res://art/Characters/Gou/Facing Forward Gou.png"
+		},
+		{
+			"name": "Questioning Forward",
+			"path": "res://art/Characters/Gou/Questioning Forward Gou.png"
+		},
+		{
+			"name": "Questioning",
+			"path": "res://art/Characters/Gou/Questioning Gou.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

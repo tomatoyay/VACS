@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Food Plop.mp3-7b2ed4a77ffe12d02aea3b84ccdb0608.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Food Plop.mp3"
+dest_files=[ "res://.import/Food Plop.mp3-7b2ed4a77ffe12d02aea3b84ccdb0608.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

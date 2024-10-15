@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Fridge Door .mp3-e0fe4abf821c66671b1d9d5945bc91d6.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Fridge Door .mp3"
+dest_files=[ "res://import/Fridge Door .mp3-e0fe4abf821c66671b1d9d5945bc91d6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

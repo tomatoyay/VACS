@@ -1,0 +1,25 @@
+{
+	"color": "#ffffffff",
+	"description": "Is that one of the Jones Brothers?",
+	"display_name": "Jones Brother 2?",
+	"display_name_bool": true,
+	"id": "character-1703141320.json",
+	"mirror_portraits": false,
+	"name": "Jones 2",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Babinski Jones/Babinski.png"
+		},
+		{
+			"name": "Enlightened",
+			"path": "res://art/Characters/Babinski Jones/Enlightened Babinski.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

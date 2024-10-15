@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1725254170.json",
+	"mirror_portraits": false,
+	"name": "Matty Upside Down",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Matty/Upside Down Matty.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

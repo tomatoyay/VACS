@@ -1,0 +1,37 @@
+{
+	"color": "#ffffffff",
+	"description": "Is that Meldan?",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1709779158.json",
+	"mirror_portraits": false,
+	"name": "Meldan ??",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 600,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Meldan/Meldan.png"
+		},
+		{
+			"name": "Scolding",
+			"path": "res://art/Characters/Meldan/Scolding Meldan.png"
+		},
+		{
+			"name": "Warm",
+			"path": "res://art/Characters/Meldan/Warm Meldan.png"
+		},
+		{
+			"name": "Understanding",
+			"path": "res://art/Characters/Meldan/Understanding Meldan.png"
+		},
+		{
+			"name": "Nervous",
+			"path": "res://art/Characters/Meldan/Nervous Meldan.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

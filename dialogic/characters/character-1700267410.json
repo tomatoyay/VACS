@@ -1,0 +1,33 @@
+{
+	"color": "#ffffffff",
+	"description": "The only competent detective in town.",
+	"display_name": "Detective Gou",
+	"display_name_bool": true,
+	"id": "character-1700267410.json",
+	"mirror_portraits": false,
+	"name": "Gou Enson",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 600,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Gou/Gou.png"
+		},
+		{
+			"name": "Facing Forward",
+			"path": "res://art/Characters/Gou/Facing Forward Gou.png"
+		},
+		{
+			"name": "Questioning",
+			"path": "res://art/Characters/Gou/Questioning Gou.png"
+		},
+		{
+			"name": "Questioning Forward",
+			"path": "res://art/Characters/Gou/Questioning Forward Gou.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

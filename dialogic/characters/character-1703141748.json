@@ -1,0 +1,33 @@
+{
+	"color": "#ffffffff",
+	"description": "The one Jones brother obsessed with horses.",
+	"display_name": "Throckmorton",
+	"display_name_bool": true,
+	"id": "character-1703141748.json",
+	"mirror_portraits": false,
+	"name": "Throckmorton Jones",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Throckmorton Jones/Throckmorton.png"
+		},
+		{
+			"name": "Suspicious",
+			"path": "res://art/Characters/Throckmorton Jones/Suspicious Throck.png"
+		},
+		{
+			"name": "Eyes Closed",
+			"path": "res://art/Characters/Throckmorton Jones/Eyes Closed Throck.png"
+		},
+		{
+			"name": "Eyes Wide",
+			"path": "res://art/Characters/Throckmorton Jones/Eyes Wide Throck.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

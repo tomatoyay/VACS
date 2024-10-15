@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Knocking on door.mp3-dd91eafe56d0f6ec87f19c63f7d1f4d4.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Knocking on door.mp3"
+dest_files=[ "res://.import/Knocking on door.mp3-dd91eafe56d0f6ec87f19c63f7d1f4d4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

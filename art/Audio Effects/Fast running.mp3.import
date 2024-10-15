@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Fast running.mp3-6fd67af886d0f13b81d8a22cca1bd0a3.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Fast running.mp3"
+dest_files=[ "res://import/Fast running.mp3-6fd67af886d0f13b81d8a22cca1bd0a3.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

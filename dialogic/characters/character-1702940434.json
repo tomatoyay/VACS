@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "Is that Rondeau?",
+	"display_name": "???",
+	"display_name_bool": true,
+	"id": "character-1702940434.json",
+	"mirror_portraits": false,
+	"name": "Rondeau ??",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Rondeau/Proud Rondeau.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

@@ -1,0 +1,1092 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1696610748.cfg"
+		},
+		{
+			"background": "res://art/Background/Factory Production Floor.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/Factory.wav",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Glass Bottles Rattle.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Industrial Metal.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/squawk.mp3",
+			"volume": 3
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Ranting",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "[tornado radius=10.0 freq=1.0 connected=1]Compatriots! A blessed morn to you all!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Good Morning, Miss Odiche!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I hope you’re feeling okay today? I know you fainted yesterday—that can’t be good for you."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Orven, well with you!\nMy body could not be better, as I have gained the acknowledgment of Mister Avidine himself!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Miss Odiche, as the Production Manager, I would expect that Mister Avidine knows you?\nDon’t you guys have meetings?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "Monthly!\nHowever, he acknowledged me to the[i] entire factory.\nNow everyone knows that we are in relation!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I don’t think that’s what he said…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Ranting",
+			"question": "Perhaps not yet, but soon. Willamina will be an Avidine yet!"
+		},
+		{
+			"choice": "Is your goal really to be a homewrecker?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Miss Odiche, I’ve been told that people like you are called [rainbow freq=1.0 sat=0.8 val=0.8]“homewreckers”."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Don’t you want to start your own family?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/squawk.mp3",
+			"volume": 3
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Ranting",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "An ABSURD title: do not lump me in with unsavory and dishonorable wretches!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "If anything, [i]she[/i] is the homewrecker!\nShe has stolen what is rightfully mine and Mister Avidine’s to share!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Miss Odiche…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Be careful slinging such accusations around!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"choice": "Why are you so fixated on the Avidines?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Miss Odiche, when did you start liking Mister Avidine so much?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "When, indeed!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Believe it or not, it was not at first sight!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Really?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Years went by when he was simply my boss!\nBut then he started taking on increasingly prestigious and impressive projects.  \nAnd his wife also held office in the church!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "And then, as I saw his true potential, I realized that I had yet to reach mine!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "But with him by my side, I would become great as well!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Miss Odiche…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So, anticipate greatness from Willamina!\nIt is an inevitable future!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I mean, I think you’re already pretty great, Miss Odiche…\nI don’t think you need to wait for that to happen."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/squawk.mp3",
+			"volume": 3
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Euphoric",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "This single manager will marry the most renowned man in the city!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"choice": "......",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Has such a dazzling future rendered you speechless?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Uh...No, I just…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I just hope you’ll be happy, Miss Odiche."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Euphoric",
+			"text": "Of course!\nEvery day, I wait in a giddy state awaiting a future of pure bliss with Mister Avidine."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So long as you’re happy…"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "back_in_down.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.5
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b]ORVEN."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nagging",
+			"text": "Come here, child."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/Factory Floor Intro.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, Mrs. Langtree?"
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Let her be, child."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "It feels wrong, Mrs. Langtree…\nI don’t like how she talks about Mrs. Avidine and Mister Avidine, and their kids!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "It feels wrong to leave it be…like, I don’t want it affecting them.\nMister Avidine has to work with her!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "And it can’t be healthy for Miss Odiche, either… "
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laughing",
+			"text": "Sweet Orven...\nThe Boss’ marriage won't be ruined over Willamina."
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "He’s tough—you know that."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nagging",
+			"text": "And she’s got enough sense to not bring this nonsense directly to him."
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disapproval",
+			"text": "She’s infatuated with an idea, not the actual Ret Avidine.\nSo, when she’s actually working with him, she’s pretty normal."
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Or, normal enough for her, nowadays…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "That’s good. I’m glad it doesn’t affect Mister Avidine.\n...But this mindset can’t be good for Miss Odiche."
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nagging",
+			"text": "What is Willamina to you?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "A coworker?"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Wrong. \nShe is your boss. She is our manager.\nYou can’t do this for her."
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disapproval",
+			"text": "You are a recently hired child who wants to remedy the illness of your manager decades older than you."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nagging",
+			"text": "It’s going to take a lot more than you to help her, child."
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Trust me on this one…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "It can’t be good for her to be this delusional…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "It really feels like she’s living in a different world than us…it must be lonely."
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…I’m sure she is."
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disapproval",
+			"text": "But whatever happiness she has is good enough for her. Otherwise, she would’ve given it up, right?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Okay…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](Poor Miss Odiche…)"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Thinking",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Orvooooo!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "HERB!"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "[i]Ahh[/i], Orvo, my head is killing me…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Someone went a little too hard at the Tavern, huh?"
+		},
+		{
+			"animation": "wobble.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Concerned",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "[i]Ughhh..."
+		},
+		{
+			"condition": "",
+			"definition": "1703112716-787",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why were you talking smack on my name???"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Orvennn...don’t yell at meeee."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You deserve this, you know Ms. Gusace almost brought me on the stage!"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You went to the Tavern? I didn’t see you!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I came after you guys had left, but because of all that smack you talked, I was almost humiliated!  \nAnd Ms. Gusace and Mr. Sterling think I’m going to compete against them in some cook-off!"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That sounds rad."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Herb! I’m not that good!"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, yeah, I’m going to ask to put a raincheck on this lecture.\nI feel kinda awful."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nagging",
+			"text": "It’s your own fault, boy! You knew it was a weeknight!"
+		},
+		{
+			"animation": "wobble.gd",
+			"animation_length": 1,
+			"animation_repeat": 2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Concerned",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mrs. Langtree, pleaseee don’t speak that loud...my head is [i]killing[/i] me."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610712.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Why don’t we switch places today, Herb?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "The hot shop is…you know, hot and loud."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "The boxing station will be cooler, darker, and less noisy. Hopefully, a lot less things will bother you."
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thumbs Up",
+			"text": "Okay, doc! Look at you!\nThanks, man, I’ll take you up on that."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Orven?\nDon’t like the “doc” nickname?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "Let’s just stick with Orvo…"
+		},
+		{
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Say less, Orvo, sorry, man.\nDidn’t mean anything by it?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "No! Of course not, no, don’t worry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Let’s get working!"
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "5-fade_out_down.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611985.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 3,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Industrial Metal.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Flamethrower.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Water Sizzling.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1703111338.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1703000463.json",
+		"name": "Day 1 Morning 3-3"
+	}
+}

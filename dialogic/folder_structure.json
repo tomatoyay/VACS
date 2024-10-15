@@ -1,0 +1,519 @@
+{
+	"files": [
+
+	],
+	"folders": {
+		"Characters": {
+			"files": [
+				"character-1722205277.json",
+				"character-1699209600.json"
+			],
+			"folders": {
+				"Important Characters": {
+					"files": [
+						"character-1702941621.json",
+						"character-1696616454.json",
+						"character-1710121062.json",
+						"character-1696627430.json",
+						"character-1717790227.json",
+						"character-1717790787.json",
+						"character-1717790399.json",
+						"character-1710615664.json",
+						"character-1703179971.json",
+						"character-1709775894.json",
+						"character-1709774732.json",
+						"character-1709778347.json",
+						"character-1709774740.json",
+						"character-1709778291.json",
+						"character-1725253879.json",
+						"character-1725254170.json",
+						"character-1725253959.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Items": {
+					"files": [
+						"character-1717791035.json",
+						"character-1713652692.json",
+						"character-1725242270.json",
+						"character-1725573328.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"NPCs": {
+					"files": [
+						"character-1702944833.json",
+						"character-1700950888.json",
+						"character-1696610712.json",
+						"character-1712972726.json",
+						"character-1696611985.json",
+						"character-1696611993.json",
+						"character-1696792578.json",
+						"character-1702940519.json",
+						"character-1703141317.json",
+						"character-1703141570.json",
+						"character-1703141748.json",
+						"character-1725213224.json",
+						"character-1703141320.json",
+						"character-1703141571.json",
+						"character-1703141749.json",
+						"character-1725213231.json",
+						"character-1709864658.json",
+						"character-1709864668.json",
+						"character-1709869783.json",
+						"character-1709869792.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"PCs": {
+					"files": [
+						"character-1696610736.json",
+						"character-1699214589.json",
+						"character-1709870783.json",
+						"character-1709775358.json",
+						"character-1709779158.json",
+						"character-1696792581.json",
+						"character-1699666970.json",
+						"character-1702940434.json",
+						"character-1700267410.json",
+						"character-1702954318.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Definitions": {
+			"files": [
+				"1703114167-146",
+				"1703204287-366",
+				"1703209169-787",
+				"1716264663-918",
+				"1716264658-787",
+				"1716264626-648",
+				"1716264661-146",
+				"1716264681-483",
+				"1716264683-970"
+			],
+			"folders": {
+				"Day 0": {
+					"files": [
+						"1700958672-423",
+						"1714798549-929",
+						"1703313038-233",
+						"1702933074-648",
+						"1703180778-179",
+						"1703189150-191",
+						"1703189964-364",
+						"1703112716-787",
+						"1699740301-648",
+						"1702945488-787",
+						"1702999789-648",
+						"1722199629-648",
+						"1723065174-648",
+						"1723308340-648",
+						"1723308756-787",
+						"1725216320-787"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Day 1": {
+					"files": [
+						"1703049542-648",
+						"1703117479-918",
+						"1703197543-470",
+						"1703279733-648",
+						"1707100537-787",
+						"1703189361-247",
+						"1703290078-787",
+						"1725217814-366"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Day 2": {
+					"files": [
+						"1707098351-648",
+						"1707104924-146",
+						"1707103942-366",
+						"1709414229-366",
+						"1707707754-648",
+						"1707708036-787",
+						"1707708212-366",
+						"1709413875-648",
+						"1715314321-648",
+						"1715314491-146",
+						"1715314431-366",
+						"1715314362-787",
+						"1715322050-918",
+						"1710983287-648",
+						"1710987068-787",
+						"1710549906-787",
+						"1709782700-648",
+						"1725213849-648",
+						"1709865846-787",
+						"1710549734-648"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": true
+			}
+		},
+		"Themes": {
+			"files": [
+				"theme-1703193861.cfg",
+				"theme-1703127736.cfg",
+				"theme-1702951105.cfg",
+				"theme-1710551927.cfg",
+				"theme-1699215652.cfg",
+				"theme-1699214759.cfg",
+				"theme-1696610748.cfg",
+				"theme-1711303614.cfg"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": true
+			}
+		},
+		"Timelines": {
+			"files": [
+
+			],
+			"folders": {
+				"Day 0": {
+					"files": [
+						"timeline-1696610699.json",
+						"timeline-1700960317.json",
+						"timeline-1700960333.json",
+						"timeline-1702938824.json",
+						"timeline-1715112770.json",
+						"timeline-1696612915.json",
+						"timeline-1700267206.json",
+						"timeline-1702934974.json",
+						"timeline-1724477719.json",
+						"timeline-1722206873.json"
+					],
+					"folders": {
+						"Tootroot 0": {
+							"files": [
+								"timeline-1722200127.json",
+								"timeline-1722202482.json",
+								"timeline-1722200224.json",
+								"timeline-1722200306.json",
+								"timeline-1722200309.json",
+								"timeline-1722200311.json",
+								"timeline-1722200310.json",
+								"timeline-1722200432.json",
+								"timeline-1722200430.json",
+								"timeline-1722200429.json",
+								"timeline-1722202409.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": true
+							}
+						}
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Day 1": {
+					"files": [
+						"timeline-1702945970.json",
+						"timeline-1703000457.json",
+						"timeline-1703048525.json",
+						"timeline-1703000463.json",
+						"timeline-1703111338.json",
+						"timeline-1703113703.json",
+						"timeline-1703125831.json",
+						"timeline-1703124941.json",
+						"timeline-1705341579.json",
+						"timeline-1703130937.json",
+						"timeline-1703125875.json",
+						"timeline-1715148440.json",
+						"timeline-1715149389.json",
+						"timeline-1715131331.json",
+						"timeline-1703146457.json",
+						"timeline-1723308209.json",
+						"timeline-1703146608.json",
+						"timeline-1703194798.json",
+						"timeline-1703146256.json",
+						"timeline-1703207702.json"
+					],
+					"folders": {
+						"Denial Letter": {
+							"files": [
+								"timeline-1705341507.json",
+								"timeline-1705342078.json",
+								"timeline-1705342082.json",
+								"timeline-1705342187.json",
+								"timeline-1705342263.json",
+								"timeline-1705342265.json",
+								"timeline-1705342325.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": true
+							}
+						}
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"Day 2": {
+					"files": [
+						"timeline-1703208401.json",
+						"timeline-1704669927.json",
+						"timeline-1707104571.json",
+						"timeline-1707705022.json",
+						"timeline-1707104748.json",
+						"timeline-1707703337.json",
+						"timeline-1709415593.json",
+						"timeline-1709416365.json",
+						"timeline-1709419208.json",
+						"timeline-1709698065.json",
+						"timeline-1709698073.json",
+						"timeline-1709698079.json",
+						"timeline-1707689842.json",
+						"timeline-1707701477.json",
+						"timeline-1707691789.json",
+						"timeline-1707704021.json",
+						"timeline-1707704536.json",
+						"timeline-1709774690.json",
+						"timeline-1710726383.json",
+						"timeline-1710726391.json",
+						"timeline-1710727432.json",
+						"timeline-1709414956.json",
+						"timeline-1709419177.json",
+						"timeline-1709776451.json"
+					],
+					"folders": {
+						"Gungand Office": {
+							"files": [
+								"timeline-1707711133.json",
+								"timeline-1724536759.json",
+								"timeline-1707710655.json",
+								"timeline-1709413847.json",
+								"timeline-1709414021.json",
+								"timeline-1709414130.json",
+								"timeline-1709414748.json",
+								"timeline-1709414859.json"
+							],
+							"folders": {
+								"Babinski Letter": {
+									"files": [
+										"timeline-1715152633.json",
+										"timeline-1715152697.json",
+										"timeline-1715152776.json",
+										"timeline-1715152778.json",
+										"timeline-1715152850.json",
+										"timeline-1715152635.json"
+									],
+									"folders": {
+
+									},
+									"metadata": {
+										"color": null,
+										"folded": true
+									}
+								},
+								"Church Rejection Letter": {
+									"files": [
+										"timeline-1715310844.json",
+										"timeline-1715310871.json",
+										"timeline-1715310902.json",
+										"timeline-1715310903.json",
+										"timeline-1715310904.json",
+										"timeline-1715310996.json",
+										"timeline-1715310997.json",
+										"timeline-1715310998.json",
+										"timeline-1715311000.json",
+										"timeline-1715311179.json"
+									],
+									"folders": {
+
+									},
+									"metadata": {
+										"color": null,
+										"folded": true
+									}
+								},
+								"Grant Letter": {
+									"files": [
+										"timeline-1715313482.json",
+										"timeline-1715313488.json",
+										"timeline-1715313491.json",
+										"timeline-1715313562.json",
+										"timeline-1715313632.json"
+									],
+									"folders": {
+
+									},
+									"metadata": {
+										"color": null,
+										"folded": true
+									}
+								},
+								"Maud Note": {
+									"files": [
+										"timeline-1715314278.json",
+										"timeline-1715314694.json"
+									],
+									"folders": {
+
+									},
+									"metadata": {
+										"color": null,
+										"folded": true
+									}
+								},
+								"Throckmorton Letter": {
+									"files": [
+										"timeline-1715151585.json",
+										"timeline-1715151646.json",
+										"timeline-1715151657.json",
+										"timeline-1715151730.json",
+										"timeline-1715151732.json",
+										"timeline-1715152454.json"
+									],
+									"folders": {
+
+									},
+									"metadata": {
+										"color": null,
+										"folded": true
+									}
+								}
+							},
+							"metadata": {
+								"color": null,
+								"folded": true
+							}
+						},
+						"Hallway Herb": {
+							"files": [
+								"timeline-1707710303.json",
+								"timeline-1707710383.json",
+								"timeline-1707710408.json",
+								"timeline-1707710456.json",
+								"timeline-1707710477.json",
+								"timeline-1707710528.json",
+								"timeline-1707710560.json",
+								"timeline-1715528790.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": true
+							}
+						},
+						"Hallway Miss Odiche": {
+							"files": [
+								"timeline-1707706863.json",
+								"timeline-1707706929.json",
+								"timeline-1707707005.json",
+								"timeline-1707707043.json",
+								"timeline-1707707332.json",
+								"timeline-1707707809.json",
+								"timeline-1707708004.json",
+								"timeline-1707708190.json"
+							],
+							"folders": {
+
+							},
+							"metadata": {
+								"color": null,
+								"folded": true
+							}
+						}
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Day 3": {
+					"files": [
+						"timeline-1710213961.json",
+						"timeline-1710553046.json",
+						"timeline-1709419232.json",
+						"timeline-1709872463.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		}
+	}
+}

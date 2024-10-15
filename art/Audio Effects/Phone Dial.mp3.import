@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Phone Dial.mp3-9e8374d6e72ee267ced569bb3faaaf0d.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Phone Dial.mp3"
+dest_files=[ "res://import/Phone Dial.mp3-9e8374d6e72ee267ced569bb3faaaf0d.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

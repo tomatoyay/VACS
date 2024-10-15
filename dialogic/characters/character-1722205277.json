@@ -1,0 +1,105 @@
+{
+	"color": "#ffffffff",
+	"description": "Your pet tootroot.",
+	"display_name": "  Tootroot",
+	"display_name_bool": true,
+	"id": "character-1722205277.json",
+	"mirror_portraits": false,
+	"name": "Tootroot",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -170,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Items/Tootroot Neutral.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://art/Items/Tootroot Happy.png"
+		},
+		{
+			"name": "Tootroot Lettuce Seedling Neutral",
+			"path": "res://art/Items/Tootroot Lettuce Seedling Neutral.png"
+		},
+		{
+			"name": "Tootroot Lettuce Seedling Happy",
+			"path": "res://art/Items/Tootroot Lettuce Seedling Happy.png"
+		},
+		{
+			"name": "Tootroot Lettuce Neutral",
+			"path": "res://art/Items/Tootroot Lettuce Neutral.png"
+		},
+		{
+			"name": "Tootroot Lettuce Happy",
+			"path": "res://art/Items/Tootroot Lettuce Happy.png"
+		},
+		{
+			"name": "Tootroot Peach Seedling Neutral",
+			"path": "res://art/Items/Tootroot Peach Seedling Neutral.png"
+		},
+		{
+			"name": "Tootroot Peach Seedling Happy",
+			"path": "res://art/Items/Tootroot Peach Seedling Happy.png"
+		},
+		{
+			"name": "Tootroot Peach Neutral",
+			"path": "res://art/Items/Tootroot Peach Neutral.png"
+		},
+		{
+			"name": "Tootroot Peach Happy",
+			"path": "res://art/Items/Tootroot Peach Happy.png"
+		},
+		{
+			"name": "Tootroot Tomato Seedling Neutral",
+			"path": "res://art/Items/Tootroot Tomato Seedling Neutral.png"
+		},
+		{
+			"name": "Tootroot Tomato Seedling Happy",
+			"path": "res://art/Items/Tootroot Tomato Seedling Happy.png"
+		},
+		{
+			"name": "Tootroot Tomato Neutral",
+			"path": "res://art/Items/Tootroot Tomato Neutral.png"
+		},
+		{
+			"name": "Tootroot Tomato Happy",
+			"path": "res://art/Items/Tootroot Tomato Happy.png"
+		},
+		{
+			"name": "Tootroot Higher",
+			"path": "res://art/Items/Tootroot Neutral Higher.png"
+		},
+		{
+			"name": "Concerned",
+			"path": "res://art/Items/Tootroot Concerned.png"
+		},
+		{
+			"name": "Concerned Lettuce",
+			"path": "res://art/Items/Tootroot Lettuce Concerned.png"
+		},
+		{
+			"name": "Concerned Peach",
+			"path": "res://art/Items/Tootroot Peach Concerned.png"
+		},
+		{
+			"name": "Concerned Tomato",
+			"path": "res://art/Items/Tootroot Tomato Concerned.png"
+		},
+		{
+			"name": "Concerned Lettuce Seedling",
+			"path": "res://art/Items/Tootroot Lettuce Seedling Concerned.png"
+		},
+		{
+			"name": "Concerned Peach Seedling",
+			"path": "res://art/Items/Tootroot Peach Seedling Concerned.png"
+		},
+		{
+			"name": "Concerned Tomato Seedling",
+			"path": "res://art/Items/Tootroot Tomato Seedling Concerned.png"
+		}
+	],
+	"scale": 25,
+	"theme": ""
+}

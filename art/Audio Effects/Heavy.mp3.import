@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Heavy.mp3-d68963e229f169ba7fea1f0d7e260d45.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Heavy.mp3"
+dest_files=[ "res://import/Heavy.mp3-d68963e229f169ba7fea1f0d7e260d45.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

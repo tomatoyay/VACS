@@ -1,0 +1,65 @@
+{
+	"color": "#ffffffff",
+	"description": "Orven's gramma.",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1702944833.json",
+	"mirror_portraits": false,
+	"name": "Gramma",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 300,
+	"offset_y": -180,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Gramma/Gramma.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Gramma/Angry Gramma.png"
+		},
+		{
+			"name": "Concerned",
+			"path": "res://art/Characters/Gramma/Concerned Gramma.png"
+		},
+		{
+			"name": "Confused",
+			"path": "res://art/Characters/Gramma/Confused Gramma.png"
+		},
+		{
+			"name": "Full Anger",
+			"path": "res://art/Characters/Gramma/Full Anger Gramma.png"
+		},
+		{
+			"name": "Irritated",
+			"path": "res://art/Characters/Gramma/Irritated Gramma.png"
+		},
+		{
+			"name": "Laugh",
+			"path": "res://art/Characters/Gramma/Laugh Gramma.png"
+		},
+		{
+			"name": "Serious",
+			"path": "res://art/Characters/Gramma/Serious Gramma.png"
+		},
+		{
+			"name": "Sleeping",
+			"path": "res://art/Characters/Gramma/Sleeping Gramma.png"
+		},
+		{
+			"name": "Smug",
+			"path": "res://art/Characters/Gramma/Smug Gramma.png"
+		},
+		{
+			"name": "Warm",
+			"path": "res://art/Characters/Gramma/Gramma.png"
+		},
+		{
+			"name": "Worried",
+			"path": "res://art/Characters/Gramma/Worried Gramma.png"
+		}
+	],
+	"scale": 16,
+	"theme": ""
+}

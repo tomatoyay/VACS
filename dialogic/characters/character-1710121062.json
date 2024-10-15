@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "The wife of Ret Avidine.",
+	"display_name": "Flaire Avidine",
+	"display_name_bool": true,
+	"id": "character-1710121062.json",
+	"mirror_portraits": false,
+	"name": "Flaire Avidine",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 850,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Flaire/Flaire.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

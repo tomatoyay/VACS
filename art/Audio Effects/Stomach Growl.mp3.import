@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Stomach Growl.mp3-1e101975dfdb7b6315280c0a7b92be11.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Stomach Growl.mp3"
+dest_files=[ "res://import/Stomach Growl.mp3-1e101975dfdb7b6315280c0a7b92be11.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

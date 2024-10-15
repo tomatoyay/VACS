@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Crowd yay.mp3-bacdcbae8680090699d69dd1cb611e70.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Crowd yay.mp3"
+dest_files=[ "res://.import/Crowd yay.mp3-bacdcbae8680090699d69dd1cb611e70.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

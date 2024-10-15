@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/squawk.mp3-67cb5de6d017a4383fb8f3319280ceec.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/squawk.mp3"
+dest_files=[ "res://import/squawk.mp3-67cb5de6d017a4383fb8f3319280ceec.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

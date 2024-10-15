@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "Fake Orven.",
+	"display_name": "OrBo?",
+	"display_name_bool": true,
+	"id": "character-1699214589.json",
+	"mirror_portraits": false,
+	"name": "OrBo?",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -135,
+	"offset_y": 40,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Orven/Warm Orven.png"
+		}
+	],
+	"scale": 18,
+	"theme": ""
+}

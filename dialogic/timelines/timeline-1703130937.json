@@ -1,0 +1,2714 @@
+{
+	"events": [
+		{
+			"background": "res://art/Background/Factory Floor Intro.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/quiet.wav",
+			"volume": 5
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "[color=#ffed29](Oh, man, this is getting real.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](But, it’s so nice reading TANGIBLE THINGS that need to be done!)\n[color=#ffed29](Why did management keep things vague, when there are very real things outlined that we need to do?)\n…..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Should I talk with the Jones brothers?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Wait…)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Isn’t that going over people’s heads?)"
+		},
+		{
+			"definition": "1703204287-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Sad",
+			"question": "[color=#ffed29](Can I do that? I’m just some guy on production that’s been here a month...)"
+		},
+		{
+			"choice": "I can do it.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](All that may be true, but I’m some guy who was raised by the best Gramma in the galaxy.)\n[color=#ffed29](I’m some guy who is just trying to find out the truth.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](I’m not trying to cause trouble.)\n[color=#ffed29](I’m trying to understand.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I can do this.)\n[color=#ffed29](I’m not wrong. I can do this.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](It’s time to go.)"
+		},
+		{
+			"choice": "I need to do it.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](Whether or not I believe I CAN do this…I think I NEED to do this.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[color=#ffed29](I think I gotta do it for [b]Remedium[/b]. For all the people that need it.)\n[color=#ffed29](The Jones brothers must have a better idea on what we can do to make sure [b]Remedium[/b] is safe.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](I need to ask them.)\n[color=#ffed29](It’s not a matter of me: it’s a matter of what’s right.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](It’s time to go.)"
+		},
+		{
+			"choice": "I can’t do it.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1703114167-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](No, I’m just some guy.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](What am I doing?)\n[color=#ffed29](I found a confidential piece of paper and am being a total snoop.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](I gotta return this and forget about it.)"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Miss Odiche?"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Young Orvo!\nWhat news do you have for your reigning manager?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I found this…"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I didn’t think it had anything to do with me, so I’m giving it to you."
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Correct, you are, Orven! This does not pertain to you in the slightest!"
+		},
+		{
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_001",
+			"portrait": "Ranting",
+			"text": "Well done! And good work!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Thanks, Miss. Odiche."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696611993.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1703125875.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking on Hardwood Floor.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking in Town.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/Apotheca Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Nervous",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"definition": "1703189361-247",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "B&T Apotheca…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](I’m assuming it stands for Babinski and Throckmorton.)\n[color=#ffed29](I’m about to meet the people with the coolest names I’ve ever heard…and who are magic certified.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Super magic dudes.)\n[color=#ffed29](And these guys are going to take the time out of their day to explain magic bureaucracy stuff to ME?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "[color=#ffed29](A guy who doesn’t understand Mister Avidine’s door?!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Gramma, I’m trying…\n...Grampa, help me."
+		},
+		{
+			"background": "res://art/Background/Apotheca Interior.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/March of the Jones.wav",
+			"volume": -8
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141317.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Eyes Closed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141320.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141317.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So, is the idea that you are horse to, like, the bone?\nOr is it that the body is shiftin’ and shakin’ to become the horse?"
+		},
+		{
+			"character": "character-1703141320.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, that’s the debate that wizards have been having for decades, right?"
+		},
+		{
+			"character": "character-1703141320.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "It just depends on whether you align with the “Naturalist” camp or the “Intellectual” camp."
+		},
+		{
+			"character": "character-1703141317.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Right, right, right, right, right, right, right."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1703141320.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141317.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50.0 freq=5.0 connected=1]Right."
+		},
+		{
+			"character": "character-1703141317.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "Is the horse from the earth, or did our minds make the idea of the horse, which then made the horse real?"
+		},
+		{
+			"character": "character-1703141317.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Well, I’ll say on my end, if the horse is a shift and shaker, it’s much easier."
+		},
+		{
+			"character": "character-1703141317.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "A lot less power to shift things around to be a horse than to change them entirely to horse."
+		},
+		{
+			"character": "character-1703141320.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "Throck, you absolute madman.\nWe’re going through with this?"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141317.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141570.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141570.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, yeah.\nNo more horsing around, Babs."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](I should probably get their attention, they seem pretty into…horses?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Uh, excuse me?"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141320.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey there! Welcome to Babinski and Throckmorton’s Apotheca.\nWe promise to meet all your medicinal needs with or without magic!"
+		},
+		{
+			"character": "character-1703141570.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, what ails you, my friend? \nI’m Throckmorton, but you can call me, \"Throck,\" for short."
+		},
+		{
+			"character": "character-1703141571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "And I’m Babinski—We’re the Jones brothers!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Sorry to bother you both—my name’s Orven, and I’m from the Avidine Factory."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "I noticed that you two were the apothecaries in charge of [b]Remedium’s[/b] review, and I wanted to ask you guys a couple questions?"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141570.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "Hold your horses.\nDid Sion send you? He want someone new to yell at us?"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Serious",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Yes, we have detailed the requirements and offered our guidance on how to get [b]Remedium[/b] up to par, but Sion has rejected and rebuffed and ridiculed all such offers."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh, uh. Mr. Gungand never told us that. He never even mentioned you guys.\nI’m here by myself...\nSent from myself."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "They probably wouldn’t even like that...\nI’m…here, right now…"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "So, if not a representative of your company, then why have you come here?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Worried",
+			"question": "I wanted to hear what was wrong with [b]Remedium[/b] for myself."
+		},
+		{
+			"choice": "Straightforward.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "I wanted to hear it directly from the source."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "People at the factory are weirdly secretive about the review, and I just wanted to know tangible ways I could help."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "Well, I’m truly sorry, Orven, I’m afraid this project is going to be very difficult going forward."
+		},
+		{
+			"choice": "Straight from the horse’s mouth?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I wanted to hear it…"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Horse Whinny.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": " ...straight from the horse's mouth?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Throck Horse Whinny.wav",
+			"volume": -3
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Eyes Wide",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Enlightened",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "!!!!!!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Directly from the muzzle, huh?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You like him, don’t you."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Neigh, whether I like him or not is irrelevant.\nI am kindred with him. We are of the same soul."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I will make sure he is herd."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Oh, boy."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "But, sorry buckaroo, you’re backing the wrong horse."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "What do you mean…"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Honestly, [b]Remedium[/b] is weird from the jump.\nAnd that elusiveness your bosses have about the product is persistent throughout the entire process."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Orven, [b]Remedium[/b] needs more time to be proven to be safe for people to use.\nAnd your bosses probably didn’t think that fact was great optics to maintaining morale."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "They had to have a tight rein on the information they disclosed, so you all weren’t discouraged."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "But, we were very clear with what adjustments needed to be made so that this product could be safely approved.\nBut knowing Sion…"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "A nod is as good as a wink to a blind horse."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](What??? I’ll just ignore that.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "I read it!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "This document, right?"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yessir, that’s the ticket."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Do you have questions about it?"
+		},
+		{
+			"choice": "About the Insufficient Ages...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "What’s the first part about?\nNot having enough data from subjects twenty years and older?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "It’s exactly that.\nIf you look at the research papers Sion has given us…it’s highly unusual."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "So, you’re saying we have a lot of data on people nineteen and…younger?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "So, like kids? AND BABIES???"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Not enough for anyone younger than two years of age, but from three to nineteen, there is plenty."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Enough to choke a horse."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Everything about this is weird!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "There isn’t any way around asking why your subjects tend to be so young."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Did Mr. Gungand say anything about that???"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "Something along the lines of the data being early.\nThey’d test more on adults in later stages."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Which is unusual, because usually it’s the reverse.\nWe make sure things are safe for adults before children.\nBut not immediately unethical.\nSome diseases are more prevalent in children, so it makes sense that those studies are primarily performed on children."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "But [b]Devil’s Lung[/b] doesn’t only affect kids, right?\nI’m pretty sure anyone can get it…"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Bingo!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "I imagine this would be very difficult to explain to their workers, so they avoid mentioning it at all."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "Until we get numbers in other age groups, submitting these reviews and appeals is all just horse hockey."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "So, we’re wayyy out from public distribution!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Why are we even making products???"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Seems like your team has put the cart before the horse."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I came for answers, but I feel like I’m even more confused…"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "I can answer more questions, if that’ll help?"
+		},
+		{
+			"choice": "About the Forensics...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "So what’s the part about forensics?\nAin’t that about dead people???"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "Forensic pathology, which is about finding out how people died."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "So you found…dead people parts...\nin [b]Remedium[/b]???"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Wide",
+			"text": "Steady, there."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "We aren’t implying that, no.\nIf you’re telling us that, then that is highly irregular and [b]Remedium[/b] must be shut down."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "No! No, I just thought that’s what you guys were saying."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "The papers don’t say that there are dead people parts in those potions. "
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Wide",
+			"text": "The problem is that the papers don’t say what [b]Remedium[/b] is, at all!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yes…we’re saying that the Avidine research as to how to eradicate the [b]Devil’s Lung[/b] started as autopsies, which is fine, Orven.\nThat sort of process is not unheard of."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Okay..."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "It is just confusing as to how the medication came to be [i]from[/i] these experiments."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "Is it a plant horse, or is it a magic horse?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](He’s stretching it now.)"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Exactly, is the [b]Remedium[/b] potion botanical in nature or magical?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Don’t they write that it’s primarily made of [b]Gungandium[/b]?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "I heard it was an organism Mr. Gungand found that could kill the disease."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "[b]Gungandium[/b] is the thing we’re trying to identify."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "What IS [b]Gungandium[/b]?\n“Organism” isn’t specific enough; “disease” isn’t specific enough."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Wide",
+			"text": "Do you know?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No, the compound is already made by the time it gets to me…"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "But can’t you test it? To see what it’s made of?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "We will, we must!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But we are required to know what the nature of the substance is, first.\nThe tests performed on magical materials are different from organic materials, which have their own procedures dependent on classification."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "And these are, unfortunately, expensive.\nThe government will not grant our use of these procedures without a ballpark of what the material is, first."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Can’t be wasteful."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Indeed, this block is very reasonable."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "So, until we get answers for this as well, we cannot approve its use."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Sion’s beating a dead horse."
+		},
+		{
+			"choice": "I'm good.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "This is all so messed up…"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "I am sorry that your managers have not been honest with you."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "About the Forensics...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "So what’s the part about forensics?\nAin’t that about dead people???"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "Forensic pathology, which is about finding out how people died."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "So you found…dead people parts...\nin [b]Remedium[/b]???"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Wide",
+			"text": "Steady, there."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "We aren’t implying that, no.\nIf you’re telling us that, then that is highly irregular and [b]Remedium[/b] must be shut down."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "No! No, I just thought that’s what you guys were saying."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "The papers don’t say that there are dead people parts in those potions. "
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Wide",
+			"text": "The problem is that the papers don’t say what [b]Remedium[/b] is, at all!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yes…we’re saying that the Avidine research as to how to eradicate the [b]Devil’s Lung[/b] started as autopsies, which is fine, Orven.\nThat sort of process is not unheard of."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Okay..."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "It is just confusing as to how the medication came to be [i]from[/i] these experiments."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "Is it a plant horse, or is it a magic horse?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](He’s stretching it now.)"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Exactly, is the [b]Remedium[/b] potion botanical in nature or magical?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Don’t they write that it’s primarily made of [b]Gungandium[/b]?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "I heard it was an organism Mr. Gungand found that could kill the disease."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "[b]Gungandium[/b] is the thing we’re trying to identify."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "What IS [b]Gungandium[/b]?\n“Organism” isn’t specific enough; “disease” isn’t specific enough."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Wide",
+			"text": "Do you know?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No, the compound is already made by the time it gets to me…"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "But can’t you test it? To see what it’s made of?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "We will, we must!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But we are required to know what the nature of the substance is, first.\nThe tests performed on magical materials are different from organic materials, which have their own procedures dependent on classification."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "And these are, unfortunately, expensive.\nThe government will not grant our use of these procedures without a ballpark of what the material is, first."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Can’t be wasteful."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Indeed, this block is very reasonable."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "So, until we get answers for this as well, we cannot approve its use."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Sion’s beating a dead horse."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I feel like I only have more questions…"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "I can answer more questions, if that’ll help?"
+		},
+		{
+			"choice": "About the Insufficient Ages...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "What’s the first part about?\nNot having enough data from subjects twenty years and older?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "It’s exactly that.\nIf you look at the research papers Sion has given us…it’s highly unusual."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "So, you’re saying we have a lot of data on people nineteen and…younger?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "So, like kids? AND BABIES???"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Not enough for anyone younger than two years of age, but from three to nineteen, there is plenty."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Enough to choke a horse."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Everything about this is weird!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "There isn’t any way around asking why your subjects tend to be so young."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Did Mr. Gungand say anything about that???"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "Something along the lines of the data being early.\nThey’d test more on adults in later stages."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Which is unusual, because usually it’s the reverse.\nWe make sure things are safe for adults before children.\nBut not immediately unethical.\nSome diseases are more prevalent in children, so it makes sense that those studies are primarily performed on children."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "But [b]Devil’s Lung[/b] doesn’t only affect kids, right?\nI’m pretty sure anyone can get it…"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Bingo!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "I imagine this would be very difficult to explain to their workers, so they avoid mentioning it at all."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "Until we get numbers in other age groups, submitting these reviews and appeals is all just horse hockey."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "So, we’re wayyy out from public distribution!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Why are we even making products???"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Seems like your team has put the cart before the horse."
+		},
+		{
+			"choice": "I'm good.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "This is all so messed up…"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "I am sorry that your managers have not been honest with you."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "I’m good.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "I think I’m good.\nIt’d all go over my head, I’m sure."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Even still, did you not come to us for answers and knowledge?"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Curiosity never killed a horse."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Is that how the saying goes?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "It killed the cat, after all."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Hmm, feels like you’re reaching."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "If wishes were horses, beggars would ride."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Wow, that might be even crazier than the blinking, nodding horse."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Chomping at the bit for more?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Do you ever run out?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "He doesn’t."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "This has been a lot."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "The linguistic horseplay?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Nah, that’s just impressive…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I just don’t get why [b]Remedium[/b] is so [i]weird.   "
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "And does Mister Avidine know about this???"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "Our correspondence has been with Sion Gungand, so it is unclear how Ret Avidine is involved with [b]Remedium[/b]."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Just letting you know, we’re all on the same page."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I don’t think that’s true at all!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "What he means is that we [i]all[/i] want a viable and safe treatment for the [b]Devil’s Lung[/b]."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "We’re not trying to burden anyone by denying [b]Remedium[/b] repeatedly."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "If you can get them to release information regarding the contents of the compound used in [b]Remedium[/b]…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "[b]Gungandium[/b]."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "Yes."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "And if you can get more data on subjects 20 years and older…"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "And finally, if you can get the follow up data from the test subjects used in previous rounds of testing, we’ll be happy to let the public have a treatment for this plague."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "And also wait ten years?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "On the contrary, if we know the compound and get more data on subjects 20 years and older, the process can be vastly expedited."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "We will still need follow-ups each month until around a year out, but this is obviously much faster than ten years."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "That would be awesome!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "It’s because if we know the compound’s elemental composition, it’s a much more well tread path, and less discovery needs to be done."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Which also means less long-term studies."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "You gotta know the long-term effects of these sorts of things.\nWe can’t have this be a stalking horse."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "You’re just making these up now, aren’t you."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "Surprisingly, not that time."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Once these are all settled, then we’ll be happy to clear [b]Remedium.\nBut these requirements cannot budge."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Wide",
+			"text": "Wild horses won’t drag us away."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I understand…"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Maybe people will listen to your advice, since you’re an Avidine employee?"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "You can lead a horse to water, but you can’t make it drink."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "You’re right, Throck, but I don’t know. Orven’s arrival was unexpected.\nPerhaps there’s hope?"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Maybe if Sion wasn’t a horse doctor."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "He’s a vet?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Enlightened",
+			"text": "Throck, you GENIUS!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Again, we are trying to help the best we can.\nPerhaps some advice from a doctor would be beneficial to this production!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Doctor?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Yes, specifically a Somatic Practitioner, as the [b]Devil’s Lung[/b] does not have any magical components."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I don’t know, I feel like they’ll just tell us stuff we already know.\nOr they’ll tell us they don’t know, just like we don’t."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "And I’m like, isn’t this your job?"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "This is a surprising opinion, Orven.\nI thought that, since you are interested in medicinal magic, you would be fond of practitioners."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Throck Horse Whinny.wav",
+			"volume": -5
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Eyes Wide",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "You’re stirrup-set."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Horse Snort.wav",
+			"volume": -5
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry Confused",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m not [i]stirrup-set."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I’m cool, I just have experience with doctors wanting to take my Gramma’s money.\nAnd not really feeling better when that happened."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Well, then I think it even more appropriate that you meet this doctor.\nHer name is Doctor Akilie Eclaire—the Southsiders call her, Dr. Ki."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Southsiders?\nShe’s in the south of town?"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yup, doing great work.\nShe’s a real…"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Horse Whinny.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Workhorse?"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Throck Horse Whinny.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Wide",
+			"text": "Your last name is Jones now."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Enlightened",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[i]Haha![/i] Wonderful to have another mind for banter!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "I’ll always be a Zanry, so long as my Gramma’s alive!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](But Orven Jones doesn’t sound too bad…)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Horse Whinny.wav",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Ah! I got caught up in the canter…I mean, banter!)\nUh, so, back to Dr. Ki?"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Right, here’s her address.\nIt is best to go to her in the [b]evening[/b], as she has clinic in the morning and afternoon."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "And I would advise you go tomorrow evening. \nObviously, we want you to go as fast as possible, but I recall she’s out of her office this evening.\nI believe she’s doing some house visits."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Don’t spare the horse."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I’m assuming that means that I should be fast and not that I should kill a horse?"
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Wide",
+			"text": "DO NOT KILL HORSES."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Understood!"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Orven, please, go to Dr. Ki.\nJust as you went out of your jurisdiction to talk to us, please go against your biases and go to Dr. Ki.\nShe is a wonderful woman."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "No, I understand, Mr. Babinski.\nI’ll go."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Thank you, Orven.\nI hope this has been an enlightening conversation!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "For sure, without a doubt.\nThank you, guys."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Although, I don’t think I feel better. In fact, I think I feel worse."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Throck Horse Whinny.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Suspicious",
+			"text": "You’re looking a little [i]horse[/i] for wear."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Horse Snort.wav",
+			"volume": -5
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[i]Worse[/i] for wear, stretching again."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "But at least I know now…"
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Truth is often hard to hear. But we won’t be able to move forward without it."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I’m glad you asked hard questions."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Grimace",
+			"text": "And now, I get to go to the doctors…It's my lucky day."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Chin up, Orven."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Disappointed",
+			"text": "There’s no going back to ignorance."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You gotta make hay while the sun shines."
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Actually, when the sun is down: remember, she’ll be free to talk in the evening.\nShe’s working during the day."
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laugh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Haha[/i], I got it, guys."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Thanks, again."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Proud of you, buckaroo."
+		},
+		{
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_001",
+			"portrait": "Eyes Closed",
+			"text": "Here’s our number if you need anything."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "And visit anytime!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141748.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1703141749.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"background": "res://art/Background/Apotheca Exterior Day.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Wow…that was so much information.)"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking in Town.wav",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"change_timeline": "timeline-1703125875.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1703130937.json",
+		"name": "Day 1 Apothecary"
+	}
+}

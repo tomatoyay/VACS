@@ -1,0 +1,45 @@
+{
+	"color": "#ff125a0e",
+	"description": "kunikage.",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1702941621.json",
+	"mirror_portraits": false,
+	"name": "Mister Avidine",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Ret/Ret Avidine.png"
+		},
+		{
+			"name": "Neutral",
+			"path": "res://art/Characters/Ret/Neutral Ret.png"
+		},
+		{
+			"name": "Serious Angled",
+			"path": "res://art/Characters/Ret/Serious Angled Ret.png"
+		},
+		{
+			"name": "Serious Straight",
+			"path": "res://art/Characters/Ret/Serious Straight Ret.png"
+		},
+		{
+			"name": "Warm",
+			"path": "res://art/Characters/Ret/Warm Ret.png"
+		},
+		{
+			"name": "Serious Straight Ret Bigger",
+			"path": "res://art/Characters/Ret/Serious Straight Ret Bigger.png"
+		},
+		{
+			"name": "Serious Straight Ret Biggest",
+			"path": "res://art/Characters/Ret/Serious Straight Ret Biggest.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

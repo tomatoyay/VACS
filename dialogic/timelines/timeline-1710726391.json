@@ -1,0 +1,6733 @@
+{
+	"events": [
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking in Town.wav",
+			"volume": 0
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/Audio Effects/Town Ambience.wav",
+			"volume": -15
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://art/Background/ABP Exterior Night.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"condition": "",
+			"definition": "1702933074-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I’ve seen a bunch of ABPs around town, but I’ve never actually been inside one.)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "[color=#ffed29](Now that we’re at a turning point with [b]Remedium[/b], I think it’s the perfect time to finally treat myself.)"
+		},
+		{
+			"background": "res://art/Background/ABP.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/ABP-music.ogg",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Deep Boom.wav",
+			"volume": -5
+		},
+		{
+			"animation": "bouncing_in.gd",
+			"animation_length": 2,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702940434.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 6,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702940519.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 6,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1702940434.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[shake rate=80.0 level=8 connected=6]WELCOME TO ALL BREAD PATISSERIE!!![/shake]"
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](What a welcome!)\n[color=#ffed29](But, it’s kind of a lot for every time someone enters the cafe?)"
+		},
+		{
+			"character": "character-1702940434.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See how you breathe with your gut?\nAnd you speak it out with all of your chest!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](Wait, they're practicing?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Also, DANG! When that man slapped his chest, I could feel the vibrations from here!)"
+		},
+		{
+			"character": "character-1702940519.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Boss, you have the biggest chest I have seen in all of humanity. \nIf auditory output is measured by chest volume, you must therefore conclude that I cannot and can never match you."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Not Angry Confused",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702940434.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1699666970.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Excited",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1699666970.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do not be intimidated!!!"
+		},
+		{
+			"character": "character-1699666970.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I will hand all of my power to you, so you have our combined strength!"
+		},
+		{
+			"character": "character-1699666970.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "Come on, let’s try a welcome!"
+		},
+		{
+			"character": "character-1702940519.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "[shake rate=20.0 level=5 connected=2]WELCOME TO...ALL BREAD PATISSERIE.[/shake]"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](It certainly was…something?)\n[color=#ffed29](And I’ve never seen someone with gills before, I wonder where he’s from?)"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Not Angry Confused",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1699666970.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laugh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1699666970.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See, Blight! Your words punch harder every day!"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1702940519.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Looking Away",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I do not understand how that is desirable."
+		},
+		{
+			"character": "character-1699666970.json",
+			"event_id": "dialogic_001",
+			"portrait": "Reminisce",
+			"text": "“Rondeau, if you have a good idea—an idea you’ve thought about and you really believe in—it’s important that people hear [i]you[/i] speak that idea.”"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Are you now in conversation with yourself?\nThis is very confusing. I thought verbal communication was mainly used interpersonally.  \nPlease do not switch between the two."
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1699666970.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "That’s a quote from my brother! \nAnd I believe the same for you, Blight! I want to make sure that people hear you!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "I have had no complaints about the audio of my person."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "And with continued practice, you never will!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Boss, I fear that if we keep this customer waiting, they will leave, and the very thin margins of profit we manage to obtain will diminish."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Flutter Horn Laugh.wav",
+			"volume": -5
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laugh",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "[i]HAHAHA!!  \nBlight, we don’t have a profit margin!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "I take pride in my calculations. Every quarter we break even!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](How is this place open???)"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Hi, friend! Sorry for the delay!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "The name’s Rondeau Impoli, and I’m the owner of All Bread Patisseries."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "What’s your name? Are you new here?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I’m Orven, and I’ve been in Ventreville around a month?\nBut it’s my first time at an ABP."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "Great to meet you!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Since you’re new, here’s a meal on the house!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trumpet Fanfare Success.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "Blight, give ’em… [wave amp=50.0 freq=5.0 connected=1][rainbow freq=1.0 sat=0.8 val=0.8]\"The Special.\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trumpet Fanfare Fail.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[rainbow freq=1.0 sat=0.8 val=0.8]“The Special?”"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Close! But you gotta add more oomph to it!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trumpet Fanfare Success.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "[wave amp=50.0 freq=5.0 connected=1][rainbow freq=1.0 sat=0.8 val=0.8]\"The Special.\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trumpet Fanfare Success.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "[wave amp=50.0 freq=5.0 connected=1][rainbow freq=1.0 sat=0.8 val=0.8]\"The Special.\""
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "Perfect!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "The special has been labeled \"Spicy Bread.\""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Hmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Spicy Bread\" is a bread with a spice of your choosing on it."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I see how it got its name?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It was a collaborative effort between the Boss and myself."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](Both of you?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "And it tastes…good?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I learned from the best, so it can’t not be good!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Nervous",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Please select from the designated list of spices to put on your bread. The selections change daily to promote returning customers."
+		},
+		{
+			"choice": "Cinnamon",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Cinnamon?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "The correct choice."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](The other choices were insane!!)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Magic.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cinnamon",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Imma need some water after this.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!!!!!!\nSomehow, [wave amp=50.0 freq=5.0 connected=1]it’s better than I expected?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cinnamon",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 1
+		},
+		{
+			"choice": "Cumin",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Cumin?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "The savory choice."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](It’s still weird, but it’s not the dashi.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Magic.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cumin",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "[color=#ffed29](I’ve never put cumin on anything aside from meat.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!!!!!!\nSomehow, [wave amp=50.0 freq=5.0 connected=1]it’s better than I expected?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cinnamon",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 1
+		},
+		{
+			"choice": "Paprika",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Paprika?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "The red choice."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I feel like with all of these, I can more-or-less guess what it’ll taste like.)\n[color=#ffed29](They should definitely include a complimentary drink with this, though.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Magic.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Paprika",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Nervous",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I made the bread red."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!!!!!!\nSomehow, [wave amp=50.0 freq=5.0 connected=1]it’s better than I expected?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cinnamon",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 1
+		},
+		{
+			"choice": "Salt",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Salt?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "The saltiest choice."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](I’d assume so???)"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "The worst choice."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "The other options are just too crazy.\nPlease don’t put too much salt on, I don’t wanna burn my tongue."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Nervous",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Salt",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Magic.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "There is a [wave amp=50.0 freq=5.0 connected=1]mound of salt[/wave] on this bread."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Oh no… I don’t wanna eat this. But it’s free…)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!!!!!!\nSomehow, [wave amp=50.0 freq=5.0 connected=1]it’s better than I expected?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cinnamon",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 1
+		},
+		{
+			"choice": "Dashi",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Dashi?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "My preferred choice."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](THE DASHI???)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Magic.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Dashi",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Nervous",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I’m coming in like a mortician, trying to figure out what the damage is for this monstrosity.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](What the???)\n[color=#ffed29](No way???)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!!!!!!\nSomehow, [wave amp=50.0 freq=5.0 connected=1]it’s better than I expected?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cinnamon",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Shocked",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](I finished the bread???)"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Spicy Bread may rotate spice options, but the quality and satisfaction remain constant."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "HOW???"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Proprietary."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[color=#ffed29](What in Gramma’s kitchen happened to make a slice of white bread with a random spice and NOTHING ELSE taste good???)\n[color=#ffed29](And that was surprisingly filling???)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](…Wait…)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](What’s wrong with me…why can’t I just take a good thing and leave it alone?)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Ah, sorry, didn’t mean to pry. It’s a good dish!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Please do not involve yourself with our super secretive inner workings."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](You!!! You’re intentionally baiting me! I won’t take it!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "I won’t, I won’t! I promise.\nI used to have a bad habit about stuff like that, but…not anymore."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "???\nWhy?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Why, like, why’d I stop being nosy?\nI was causing trouble, getting cocky. You know, stuff like that."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "The desire to understand is an inherent trait of humanoids.\nWhy would you forfeit it?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "That’s…a nice way to think of it. But practically, you have to draw the line.\nSometimes there are just things bigger than you, you know? And you just gotta let those be."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Boss is bigger than me."
+		},
+		{
+			"animation": "bouncing_in.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Excited",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Significantly!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I am continually baffled by him, but I continue to experiment."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Experiment???"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "The more important the thing, the more important it is to know."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "I do not agree with your mindlessness."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Hey, you were the one who told me to stop prying!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "And that is enough to satiate yourself and your humanity?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "DOES THAT MATTER?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "This is disappointing."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Blight!"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1699214759.cfg"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "we’ll talk later."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1696610748.cfg"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "I do not understand. I am trying to understand."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I know.\nBut there’s a time and place for things.\nCan you go check on the bread for me?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "I will leave because you desire that I go, as the bread has already been checked on."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I apologize if I caused you pain, Orven.\nI do not apologize for criticizing your incorrect worldview."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Blight Slide.wav",
+			"volume": 0
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 6,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "I’m sorry, Orven.\nI think Blight is trying to help you in his own way."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Listen, I’m not trying to start anything or get in any trouble.\nWhat’s wrong with thinking that other people know better???"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Nothing! I know that most people know more than me about most things."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "But I think there’s a difference in how we’re going about things."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "How so?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "You just met Blight, but you’ve been eating for your whole life.\nAnd also, do you cook?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Yeah, a decent bit."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "There it is."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "So you know food pretty well! Why would you take all that experience and knowledge you have and ignore it?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Just because a stranger told you to?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Then what’s the deal with the bread???"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "…Love."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "It’s love. That’s why it tastes so good!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "[color=#ffed29](There’s no way.)"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You don’t believe me? It’s okay to say you don’t."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "…but you guys [i]make[/i] the bread."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That’s true. So, you’ll have to decide for yourself if that’s enough for you."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I’m a pretty trusting guy, so it would be for me.\nBut you and Blight are curious people. You want to understand, and to know more fully.\nThat’s not a bad thing."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "It feels like a bad thing."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "Does it feel [i]bad[/i] or does it feel [i]difficult[/i]?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "......"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Reminisce",
+			"text": "My brother used to say that, \"there’s a difference between curiosity and cynicism; similarly, there’s a difference between trusting and not thinking.\""
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "He leaned cynical, and I leaned towards not thinking, [i]haha[/i]. We’ve all got our things."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But, sorry for the speech! I was just trying to help you see where Blight’s coming from.\nHe really means no harm."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "For listening to us, here’s another [i]Spicy Bread[/i] on the house!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Thanks, man, I appreciate it. All of it.\nI just think a lot of people wouldn’t agree with you."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "And it’s important to think about [i]why[/i] they wouldn’t agree with me!\nI think I’m right, but you might not, and that’s for you to decide."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "That’s understanding, and if you understand, you can make better choices."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "And I hope you understand Blight and me better and choose to come back to ABP!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[i]Haha[/i], I will, man.\nThanks, I appreciate you—Blight, too."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m glad to hear!\nTake care, Orven."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Take care, Mr. Impoli!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": " Rondeau!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Take care, Mr. Rondeau!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/ABP Exterior Night.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Sad",
+			"question": "......"
+		},
+		{
+			"choice": "It feels difficult. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1710987068-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "[color=#ffed29](It feels difficult…But they make me feel bad.)"
+		},
+		{
+			"choice": "It feels bad.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "[color=#ffed29](I know it feels bad. People wouldn’t be that upset if it wasn’t bad.)"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Walking in Town.wav",
+			"volume": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"change_timeline": "timeline-1710727432.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">",
+			"definition": "1702933074-648",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#ffed29](Time to celebrate at my favorite cafe!)"
+		},
+		{
+			"background": "res://art/Background/ABP.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/ABP-music.ogg",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "instant_in.gd",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Hey, everyone!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "Orven!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Orven Zanry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Rondeau! Blight!"
+		},
+		{
+			"condition": "",
+			"definition": "1702933074-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "No Tangeau tonight? "
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "He came earlier!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You seem…different."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "The word is happy!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "That is NOT the word I am looking for."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "What’s got you in such a good mood?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Delirious."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Rude!\nAnd I think the Avidine Factory has gotten over a pretty big hurdle."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Party Favor.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[rainbow freq=1.0 sat=0.8 val=0.8]Congrats!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Congratulatory words will be said if the hurdle is truly impressive."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Thanks!\nBasically, we’ve been having a hard time with our current apothecaries...\nAnd I can’t say too much, but I think that’s going to change very soon!\nBecause THEY’RE going to change very soon."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Ah, that sucks that your apothecaries didn’t work out."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Yeah, I don’t think we could see eye-to-eye."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "Actually, a friend of mine was also having similar issues.\nExcept the opposite!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Yeah? You’re friends with an apothecary?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "[i]Mhmm![/i] Brothers, in fact!\nBut they’re working with a new product and the production people just…won’t listen to them.\nThey keep submitting the same things, and leaving out the important stuff."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "Babs and Throck are trying to reach out, but I dunno if the company is ignoring their suggestions or if the people there don’t care."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": " Dang, that’s frustrating."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Proud",
+			"question": "Maybe they can do the review for your thing if you haven’t found one yet! They’re really good apothecaries."
+		},
+		{
+			"choice": "That’d be great!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "That’d be awesome!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Their names are Babinksi and Throckmorton Jones, and they run the B&T Apotheca.\nReally good guys, really care about what they do."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Proud",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks, man, I’m sure they’ll make great additions to the team!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": " If you enjoy horses."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "Throck adores horses. You’ll see, he’s a ton of fun to talk to."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I’m looking forward to it!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "I look forward to you purchasing food. It is always a lengthy process."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha[/i], sorry, man."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Please choose from the menu the item that you wish to put in your mouth."
+		},
+		{
+			"choice": "Cheese Three Ways",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "[color=#ffed29](I’m going to regret this. But I love cheese!)"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "What’s “Cheese Three Ways\"?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "It is Mac and Cheese, Grilled cheese, and Cheese and Broccoli soup.\nEach item has three cheeses in them."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Oh, I’m DEFINITELY going to regret this.)"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "The bathroom code is 0000."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "How’d you know?\nAnd that’s not much of a code…"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I have consistently gotten the request for the bathroom code for this menu item.\nSo, I have taken the initiative to include it with the purchase to save time and effort."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "The simple code is because of the urgency with which people need the bathroom."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "[color=#ffed29](Oh boy.)"
+		},
+		{
+			"animation": "bouncing_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Proud",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "Babs, the apothecary I recommended to you, would probably recommend something to help with the dairy.\nI’m pretty sure there’s like a pill or something to help."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "When he explains it, I get kinda lost, though.\nBut basically, it gives you what you need to defeat the dairy."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Why invent a product that most humanoids are incapable of digesting?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[b]Because it’s delicious."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "It really is good."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "So, I’m excited to try this, and I’ll do you the favor of going home before I need the bathroom!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Human excrement does not phase me.\nBut it is preferable if you aim for the toilet."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Dude, I’m not [i]nasty."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Food Plop.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725573328.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cheese Three Ways",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Here the food you choose, but your intestines reject."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trombone Yum.wav",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[i]Mmm!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s all pretty good! It’s a lot of cheese, though. Could use something to cut that fat."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725573328.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cheese Three Ways",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 2
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Why would you criticize the cheese amount when you purchased the cheese?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha[/i], you’re right. I asked for this."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "Who doesn’t love cheese?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "My butt won’t love it in a couple hours."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "Seriously, if you stop by B&T Apotheca, they can whip something up for you."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Nah, I’m good. You just deal with it, you know?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Foolish."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "Sometimes, people just wanna tough it out!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Thanks for the cheese!\nI gotta go, but I’ll see you guys later!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Do not faint on the toilet."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Take care of yourself, Orven!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"change_timeline": "timeline-1710727432.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Bread Soup",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Who doesn’t love soup?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Today’s soup is ball soup."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh, so the soup isn’t in a bowl of bread."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "......"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Food Plop.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725573328.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Bread Soup",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "You just put a small sourdough loaf in a bowl of soup…"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "An island in a sea of liquid chicken."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Broth, then.\n[color=#ffed29](Well, time to try the sea of liquid chicken?)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Utensils Clinking.wav",
+			"volume": -3
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Oh yeah, this is wedding soup.\nIt’s good! But like, normal good!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Normal is good.\n“Be normal” is my prerogative."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Honestly, with what work has been telling me, it’s mine, too."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": -3
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "???"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Mmm",
+			"text": "Mmm, these meatballs are decent. The chives are always nice."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Decent is my favorite compliment."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Not sure how much the bread adds?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "I mean, now I got a wet sourdough…\nCan I get it on the side next time?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "No, then it would not be “Bread Soup.”"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725573328.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cheese Three Ways",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 2
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh, okay..."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Are you not normal?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": -3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Before, you said that your goal is to be normal as well."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Oh, that.\nDon’t worry about it. I’m just mumbling to myself."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Rondeau!"
+		},
+		{
+			"animation": "bouncing_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah?"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Why is the bread [i]in[/i] the soup?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "Because it’s bread soup! Isn’t it cute?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "But it’s all soggy…"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "If you eat it fast enough, it isn’t!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Rondeau inhales his food."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Ohhh, don’t give yourself a stomachache!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "Food is good!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I get that."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "About being normal—"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Oh shoot, I gotta get back!\nSee you guys next time!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "See you!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Perhaps, I do need to work on the audio of my person."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "With your whole chest, Blight!\nDon’t worry, you can ask next time."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": -5
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1710727432.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Crunchy Crouton Salad",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "I guess, I’ll get the salad?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "It is mostly crouton."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "??????"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "You are at a store called, “All Bread Patisseries.”\nThe salad must also be bread."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "Um…Okay."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I made sure the bread was stale before it was crouton."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "I know that that’s how you’re supposed to do it, but “stale” isn’t really appetizing for most people."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "You have already purchased the item, whether you perceive it as appetizing or not is no longer my concern."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "What if I ask for my money back?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "You won’t."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Yeah…I wouldn’t."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Utensils Clinking.wav",
+			"volume": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725573328.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Crunchy Crouton Salad",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Enjoy."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "[color=#ffed29](Wow, this really is a bowl of croutons with some salad nestled between them.)"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Crunchy Bite.wav",
+			"volume": 5
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "WOW.\nThis is definitely the loudest meal I’ve ever eaten."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725573328.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Cheese Three Ways",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 2
+		},
+		{
+			"animation": "bouncing_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Proud",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "That was the goal!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "It is an auditory and gustatory experience."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Wow, my jaw hurts."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A meal to strengthen musculature. "
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "Another goal of the meal!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Wow, I’ve definitely never thought about food in those ways before."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sly",
+			"text": "Return for continued education."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "Yeah! There are many more things to try on the menu.\nBlight and I are always cooking up new ideas."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Baking up new ideas."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I look forward to it!\nI’ll see you guys soon, thanks again for the apothecary recommendations!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Anytime! See you, Orven!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Purchase more food."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha[/i], will do!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"change_timeline": "timeline-1710727432.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "“The Special”...yes, again.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1710987068-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sly",
+			"text": "You return to the beating."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": " I’m here for the special, and I’m just going to enjoy it this time!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "???"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Your curiosity has been sated?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Resigned."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Disappointing."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "(Don't change)",
+			"question": "Please select from the designated list of spices to put on your bread. The selections change daily to promote returning customers."
+		},
+		{
+			"choice": "Mint",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1710983287-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Parsley",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1710983287-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"choice": "Chives",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1710983287-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"choice": "Rosemary",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1710983287-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "4"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Does it even matter which spice I’ll pick?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "A good question.\nDo you want the answer?"
+		},
+		{
+			"condition": "",
+			"definition": "1710983287-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No, I…I’m good. I'll take the Mint."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710983287-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No, I…I’m good. I'll take the Parsley."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710983287-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No, I…I’m good. I'll take the Chives."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710983287-648",
+			"event_id": "dialogic_012",
+			"value": "4"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No, I…I’m good. I'll take the Rosemary."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "I hope it piques your interest."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Well, I know what the result will be anyways, the “how” doesn’t matter much, does it?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "What happened to you in the time between our last encounter and now?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Your brain has drastically changed."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "I guess you gotta grow?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "This is regression."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "No, it’s not??\nEveryone at work is like this, and they’ve all been there a lot longer than me."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Your workplace makes me sad."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Why would you forfeit your innate desire for understanding?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "What’s the point???\nYou’re not going to tell me the recipe, right?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I tell you it is bread and a spice of your choosing."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Right, so you’re not going to tell me what’s going on with it.\nSo, what’s the point in getting upset and thinking about it?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Because you know it’s not true."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "So, what is it???"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sly",
+			"text": "Bread and a spice of your choosing."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Trumpet Fail.mp3",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "[i]ARGHH!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So you are still curious."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Here is your “Spicy Bread.”\nMaybe this time you’ll crack it."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Magic.mp3",
+			"volume": 0
+		},
+		{
+			"condition": "",
+			"definition": "1710983287-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mint",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710983287-648",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Parsley",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710983287-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Chives",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1710983287-648",
+			"event_id": "dialogic_012",
+			"value": "4"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Rosemary",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "I doubt that…"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Munch.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mmm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"animation": "rubber_band.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "!!!!!!\nSomehow, [wave amp=50.0 freq=5.0 connected=1]it’s better than I expected?"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Rosemary",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 2
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sly",
+			"text": "As expected."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I don’t get it."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Keep coming back until you do."
+		},
+		{
+			"animation": "bouncing_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Serious Open Mouth",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The secret is love."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "DUDE."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "[b]Never."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "It SHOULD be love, BLIGHT!!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "ONE DAY, the answer WILL be love! Continue eating!!!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sly",
+			"text": "Orven Zanry, the answer will never be love, continue searching."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "…I will, [i]haha[/i], I will.\nThanks, guys."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Have a good night!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Return to guess again."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I will! I promise.\nSee you guys soon!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"change_timeline": "timeline-1710727432.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "I’ll get their info for Mr. Gungand and Miss Odiche!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Thanks, man!\nI’ll let Mr. Gungand and Miss Odiche know!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised Side Eye",
+			"text": "!!!!!!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Gungand."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "…That’s your manager?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Yeah, why?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Advocate for yourself.\nWhy do you believe your apothecaries are insufficient?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "??????\nWhoa, guys, do you know our apothecaries?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "I know a lot of people in Ventreville, Orven.\nBut, can I ask why you aren’t seeing eye-to-eye with your apothecaries?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Come on, man, you can’t put me on trial like this after you’ve been talking with them.\nOf course, they’re going to talk smack about us!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "You are defensive."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Well, yeah, you guys suddenly stopped believing me!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Which is why I asked you to advocate for yourself.\nI do not have sufficient data to conclude."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "I want to hear your side, Orven."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Well, Mr. Gungand said that we’ve been denied three times, right?\nAnd this doesn’t make sense unless someone has it out for us!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Continue."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I mean…what more is there to say?\nWe’ve all been doing our jobs the best we can, so the product should be fine!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Untrue, there are many reasons to deny the approval of public distribution of a medicinal or magical item."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Like biases!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "None of which are biased.\nPublic safety must be stringent to prevent mass extermination."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "We’re trying to SAVE people, not EXTERMINATE them???\nWhat are you guys on?!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": " I…\nOrven, do you know [i]why[/i] the product is being denied?\nLike, did your managers tell you [i]exactly[/i] what the apothecary was requesting?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I…\nI mean, I’m just a production worker, Rondeau.\nI just blow the glass…I don’t even work [i]with[/i] the product itself.\nWhy should I know that information?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Everyone has a right to know what’s going on in a project they’re putting their time and effort into."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "Do you even know who your apothecaries are?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I..."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Angry",
+			"question": "Why do you give our “Spicy Bread” such scrutiny, but not your own products."
+		},
+		{
+			"choice": "Because your stuff doesn’t make sense!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Because “Spicy Bread” is weird!\nHow can it be made of two ingredients and end up tasting like NEITHER ingredient???"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "What are the components of your product?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Uh, it’s mainly made of a component that Mr. Gungand found."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "And what is that component?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "…That’s proprietary!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Fair, but do [b]you[/b] know what it is?\nNot the name, but what the actual component [b]is."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "But that’s not for ME to know!\nThat’s for Mr. Gungand to figure it out, and I trust him!\nWhy shouldn’t I trust him???"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "For the same reason you shouldn’t trust your product.\nYou don’t know anything about either of them."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know he’s my BOSS.\nI trust HIM like you trust RONDEAU."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "I do not trust Rondeau."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Hey!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "Rondeau is clumsy, too trusting, and too caring.\nHe does not care to profit, only to have this cafe to continue indefinitely."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "He cares more than anything for his nephew whose goal is to reveal as little about himself to others as possible, which is rendered difficult because his uncle reveals everything to everyone."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "I’m trying not to! I have some things I keep to myself…"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "And still, I do not trust Rondeau entirely.\nI still think for myself.\nI still deny his ideas that I think are in poor taste or taste poorly."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "And I’m grateful you do!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Can you describe your manager in more detail than I?\nI have been very diligent with my observations."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "......"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Humanoids are interesting because they are interested in things.\nTo suppress this inherent desire is to dilute your humanity."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "I did not take you as being tepid, Orven Zanry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I’m NOT."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I just…don’t want any trouble."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Well, I get that, Orven.\nTruly, I do."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Conflict and hardship are both scary…and you have to be strong to face them."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "But I can’t defend when I’m a coward, you know?\nAnd Tangeau and Blight will call me out when I’m being cowardly."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"UNCLE. Why won’t you tell me about what happened? What are you afraid of?\""
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "\"BOSS. You are correct, the customer is being belligerent. Do not reward this behavior.\""
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "You were going to give them a free meal for their harassment."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "They were yelling at you, I wanted them to stop…"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Words against you are not painful when you know you are correct.\nI was unshaken."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Reminisce",
+			"text": "And you’re great for that, Blight. Truly, you and Tangeau are [i]so[/i] strong.\nSo, Orven, I get wanting to live peacefully and make people happy.\nBut…I dunno, I just think Tangeau and Blight are cool, you know?\nI want to be like them."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "I believe in your humanity, Orven Zanry. \nHave a free “Spicy Bread” and think about your innate desire to understand."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mint",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Apply it."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sly",
+			"text": "The spice will be Mint. Distinct in flavor."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "You know what it [i]should[/i] taste like."
+		},
+		{
+			"choice": "Thanks, Blight.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1710987068-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Thanks, Blight, appreciate it.\nI’m sure it’ll be better than I expected."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mint",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "It always is."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "That’s a lot coming from Blight!\nHe always complains when I give away free food!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "We do not profit. Profiting is the point of a business."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "Not this one!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "I do not understand."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha[/i]!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "But I hope you know we’re being hard because we care about you, Orven.\nThis isn’t about Babs or Throck. It’s about you."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Are those the apothecaries?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Babinski and Throckmorton Jones, yeah.\nSo, you really didn’t know them…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No…"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Sorry, Orven."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "No, no, I understand, Rondeau, don’t worry.\nI appreciate you guys looking out for me. I just don’t know if I can be strong."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You [i]are[/i] strong, Orven.\nWhen I see you, I see Tangeau and Blight."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Really? I dunno about that."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Incorrect assessment."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "I swear! You got it in you, don’t worry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Thanks, guys. Really, I’ll think about it."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I’ll see you guys soon."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "See you, Orven!\nGood luck with everything!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sly",
+			"text": "Return and order more food to compensate for all the free food you have received."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha[/i], will do."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"change_timeline": "timeline-1710727432.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "No thanks.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "…I...\n...I don’t want it, Blight."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Thanks, but no thanks."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mint",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised Side Eye",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "You came here for food."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m not hungry anymore."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised Side Eye",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "What do you gain by doing this?"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I’m just tired, Blight."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Concerned",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "This is disappointing."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m sorry."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I am the one that feels sorry for you."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s okay, Orven.\nIt sounds like it’s been stressful, and I’m sure there’s a lot of pressure for you to keep your head down at work."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But ABP will always be here! If you want a warm meal and some friendly faces, we’re here."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Thanks, man. I appreciate you both.\nI just wanna be excited for our project, you know?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I know.\nWell…I hope it’ll really save the city like everyone hopes it will."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "It will."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Come back soon, okay, Orven?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Sure, man, have a good one."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "......"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See you!"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"change_timeline": "timeline-1710727432.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Because I have people above me to make those decisions!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Because that’s not MY JOB???\nBecause people SMARTER than me and WHO HAVE BEEN THERE LONGER are in charge of that???"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Serious",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Their job is to think for you."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "No, but it’s to think about the product and its safety?!\nI just work in production. I just blow glass."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Is Orven Zanry only his job description?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "…At my job, yes."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "They request that you forsake your humanity?\nA poor job."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "They’ve been telling you to keep your head down at work?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I just…want to do my job well.\nAnd that’s what they’ve told me is doing a good job.\nPlus, I’m not being paid for that, you know?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "There is a monetary value for your understanding?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "No, no, it’s more like…thinking deeply about these things costs time and energy."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "It always takes effort to understand."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Angry Confused",
+			"question": "You’re lucky! Rondeau is a cool and nice guy who cares what you think! Mr. Gungand isn’t like that."
+		},
+		{
+			"choice": "But Mr. Gungand does his job well.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "But, at the very least, Mr. Gungand does his job well.\nI can trust him with that much."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Everyone at work is trying their best."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "......"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Why does he not communicate with or about the apothecaries then?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "What?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do you know your apothecaries associated with your project?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No..."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "This should not be proprietary to those working on the project.\nWhy do you not know them?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "Do I NEED to?\nWill that help me do a good job?"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It will help you be a good Orven Zanry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "They don’t [i]want[/i] or [i]need[/i] a good Orven Zanry—they [i]need[/i] a good worker."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Your disregard for yourself is confusing.\nWhy is your workplace prioritized above your sense of self?"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "IT'S NOT! It’s…"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Sad",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Looking Away",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "It's...I just don’t want to get fired."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "If I want to continue working on something I’m passionate about, if I want to work with Mister Avidine, if I want to eat and sleep in this city...\nI NEED to be a good worker.\nI don’t want to ruin a good thing."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "You have a lot going on."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Yeah."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "…This planet is broken. It's sad."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "That’s life…"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Reminisce",
+			"text": "But there are good things, too."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Agreed."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I’m gonna go, guys. Thanks, though."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Wait, what about your meal?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": " I’m not hungry."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Please return and inquire about Spicy Bread."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[i]Haha[/i], sure."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Take care of yourself, Orven, and come back soon!"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "See you guys around."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"change_timeline": "timeline-1710727432.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "I wish Mr. Gungand were more like Rondeau.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1710987068-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Scrunched Pout",
+			"text": "Of course I wish Mr. Gungand was okay with me asking questions and looking into things.\nI wish it was encouraged that I be more than a “guy on production.”"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "But, if I push too much, I’m afraid of being fired…"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Concerned",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Mr. Gungand does not sound fit for his position.\nWho monitors him?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I think Mister Avidine?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I don’t know how he gets away with it…"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Negligence. Why do you wish to continue to work there?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I mean, we’re doing good work, and I do really care about people being healthy."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "That’s a great thing to care about!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "There must be other means of accomplishing this."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I dunno…I also really owe Mister Avidine a lot.\nHe made this product that helped me a lot when I was younger."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Understood."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "Can you tell Ret about this?"
+		},
+		{
+			"condition": "",
+			"definition": "1703180778-179",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "You call Mister Avidine by his first name?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yeah, he was closer with Bongeau than me, though."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1703180778-179",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "It’s always weird when you call Mister Avidine, “Ret.”\nI don’t know if I’ve heard anyone else call him that."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "Bongeau called him that, so I followed him!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "But Ret’s a reasonable guy.\nI feel like if you talk to him about it, he’ll hear you out."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Yeah…I think I just don’t wanna cause trouble."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "Well, I get that, Orven.\nTruly, I do."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Conflict and hardship are both scary…and you have to be strong to face them."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Open Mouth",
+			"text": "But I can’t defend when I’m a coward, you know? And Tangeau and Blight will call me out when I’m being cowardly."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "\"UNCLE. Why won’t you tell me about what happened? What are you afraid of?\""
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious",
+			"text": "\"BOSS. You are correct, the customer is being belligerent. Do not reward this behavior.\""
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "You were going to give them a free meal for their harassment."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "They were yelling at you, I wanted them to stop…"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Words against you are not painful when you know you are correct.\nI was unshaken."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Reminisce",
+			"text": "And you’re great for that, Blight. Truly, you and Tangeau are [i]so[/i] strong.\nSo, Orven, I get wanting to live peacefully and make people happy.\nBut…I dunno, I just think Tangeau and Blight are cool, you know?\nI want to be like them."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "I believe in your humanity, Orven Zanry. \nHave a free “Spicy Bread” and think about your innate desire to understand."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Irritated",
+			"text": "Apply it."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The spice will be Mint. Distinct in flavor.\nYou know what it [i]should[/i] taste like."
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Mint",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Thanks, Blight, appreciate it.\nI’m sure it’ll be better than I expected."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1725242270.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Rosemary",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 2
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "It always is."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Excited",
+			"text": "That’s a lot coming from Blight!\nHe always complains when I give away free food!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "We do not profit. Profiting is the point of a business."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Proud",
+			"text": "Not this one!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking Away",
+			"text": "I do not understand."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha!"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "But I hope you know we’re being hard because we care about you, Orven.\nThis isn’t about Babs or Throck. It’s about you."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Are those the apothecaries?"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Confused",
+			"text": "Babinski and Throckmorton Jones, yeah.\nSo, you really didn’t know them…"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "No…"
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Concerned",
+			"text": "Sorry, Orven."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "No, no, I understand, Rondeau, don’t worry.\nI appreciate you guys looking out for me. I just don’t know if I can be strong."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You [i]are[/i] strong.\nWhen I see you, I see Tangeau and Blight."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Really? I dunno about that."
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Incorrect assessment."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "I swear! You got it in you, don’t worry."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "Thanks, guys. Really, I’ll think about it."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I’ll see you guys soon."
+		},
+		{
+			"character": "character-1696792581.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "See you, Orven!\nGood luck with everything!"
+		},
+		{
+			"character": "character-1696792578.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sly",
+			"text": "Return and order more food to compensate for all the free food you have received."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Laugh",
+			"text": "[i]Haha[/i], will do."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 2,
+			"file": "",
+			"volume": -5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Shop Door Bell.mp3",
+			"volume": -3
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": -3
+		},
+		{
+			"change_timeline": "timeline-1710727432.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1710726391.json",
+		"name": "ABP Devout"
+	}
+}

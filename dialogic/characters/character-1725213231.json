@@ -1,0 +1,37 @@
+{
+	"color": "#ffffffff",
+	"description": "On the phone.",
+	"display_name": "Babinski",
+	"display_name_bool": true,
+	"id": "character-1725213231.json",
+	"mirror_portraits": false,
+	"name": "Babs Phone",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 300,
+	"offset_y": -180,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Babinski Jones/Babinski Phone.png"
+		},
+		{
+			"name": "Confused",
+			"path": "res://art/Characters/Babinski Jones/Confused Babinski Phone.png"
+		},
+		{
+			"name": "Enlightened",
+			"path": "res://art/Characters/Babinski Jones/Enlightened Babinski Phone.png"
+		},
+		{
+			"name": "Serious",
+			"path": "res://art/Characters/Babinski Jones/Serious Babinski Phone.png"
+		},
+		{
+			"name": "Disappointed",
+			"path": "res://art/Characters/Babinski Jones/Disappointed Babinski Phone.png"
+		}
+	],
+	"scale": 16,
+	"theme": ""
+}

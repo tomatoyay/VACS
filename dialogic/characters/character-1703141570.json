@@ -1,0 +1,29 @@
+{
+	"color": "#ffffffff",
+	"description": "Throck.",
+	"display_name": "\"Throck\"",
+	"display_name_bool": true,
+	"id": "character-1703141570.json",
+	"mirror_portraits": false,
+	"name": "Throck",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 700,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Throckmorton Jones/Throckmorton.png"
+		},
+		{
+			"name": "Suspicious",
+			"path": "res://art/Characters/Throckmorton Jones/Suspicious Throck.png"
+		},
+		{
+			"name": "Eyes Closed",
+			"path": "res://art/Characters/Throckmorton Jones/Eyes Closed Throck.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

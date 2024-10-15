@@ -1,0 +1,45 @@
+{
+	"color": "#ffffffff",
+	"description": "A human woman in her 40s. Ardent believer of Ret Avidine.",
+	"display_name": "Miss Odiche",
+	"display_name_bool": true,
+	"id": "character-1696611993.json",
+	"mirror_portraits": false,
+	"name": "Willamina Odiche",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 650,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Miss Odiche/Miss Odiche.png"
+		},
+		{
+			"name": "Euphoric",
+			"path": "res://art/Characters/Miss Odiche/Euphoric Odiche.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Miss Odiche/Angry Odiche.png"
+		},
+		{
+			"name": "Ranting",
+			"path": "res://art/Characters/Miss Odiche/Ranting Odiche.png"
+		},
+		{
+			"name": "Surprised",
+			"path": "res://art/Characters/Miss Odiche/Surprised Odiche.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://art/Characters/Miss Odiche/Sad Odiche.png"
+		},
+		{
+			"name": "Crying",
+			"path": "res://art/Characters/Miss Odiche/Crying Odiche.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

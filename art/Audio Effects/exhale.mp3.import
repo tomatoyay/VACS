@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Exhale.mp3-5ac1dea308c2bbde444a8c53ac4da7d6.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Exhale.mp3"
+dest_files=[ "res://.import/Exhale.mp3-5ac1dea308c2bbde444a8c53ac4da7d6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Phone Hangup.mp3-4096457dcc0f590a92eb0df3106894a4.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Phone Hangup.mp3"
+dest_files=[ "res://import/Phone Hangup.mp3-4096457dcc0f590a92eb0df3106894a4.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

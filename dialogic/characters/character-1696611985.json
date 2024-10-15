@@ -1,0 +1,57 @@
+{
+	"color": "#ffffffff",
+	"description": "20yo Dwarf guy. Orven's friend (Herwin Tamboor)",
+	"display_name": "Herb",
+	"display_name_bool": true,
+	"id": "character-1696611985.json",
+	"mirror_portraits": false,
+	"name": "Herwin Tamboor",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 570,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Herb/Herb.png"
+		},
+		{
+			"name": "Relaxed",
+			"path": "res://art/Characters/Herb/Relaxed Herb.png"
+		},
+		{
+			"name": "Thinking",
+			"path": "res://art/Characters/Herb/Thinking Herb.png"
+		},
+		{
+			"name": "Surprised",
+			"path": "res://art/Characters/Herb/Surprised Herb.png"
+		},
+		{
+			"name": "Frowning",
+			"path": "res://art/Characters/Herb/Frowning Herb.png"
+		},
+		{
+			"name": "Shrug",
+			"path": "res://art/Characters/Herb/Herb.png"
+		},
+		{
+			"name": "Thumbs Up",
+			"path": "res://art/Characters/Herb/Thumbs Up Herb.png"
+		},
+		{
+			"name": "Concerned",
+			"path": "res://art/Characters/Herb/Concerned Herb.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Herb/Angry Herb.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://art/Characters/Herb/Concerned Herb.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Trombone Slide.mp3-a6250034596621020efbb623aaff36af.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Trombone Slide.mp3"
+dest_files=[ "res://.import/Trombone Slide.mp3-a6250034596621020efbb623aaff36af.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

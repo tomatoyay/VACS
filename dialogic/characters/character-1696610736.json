@@ -1,0 +1,85 @@
+{
+	"color": "#ffffffff",
+	"description": "A young happy man",
+	"display_name": "Orven",
+	"display_name_bool": true,
+	"id": "character-1696610736.json",
+	"mirror_portraits": false,
+	"name": "Orven Zanry",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -135,
+	"offset_y": 40,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Orven/Neutral Orven.png"
+		},
+		{
+			"name": "Angry Confused",
+			"path": "res://art/Characters/Orven/Angry Confused Orven.png"
+		},
+		{
+			"name": "Determined",
+			"path": "res://art/Characters/Orven/Determined Orven.png"
+		},
+		{
+			"name": "Grimace",
+			"path": "res://art/Characters/Orven/Grimace Orven.png"
+		},
+		{
+			"name": "Scrunched Pout",
+			"path": "res://art/Characters/Orven/Scrunched Pout Orven.png"
+		},
+		{
+			"name": "Shocked",
+			"path": "res://art/Characters/Orven/Shocked Orven.png"
+		},
+		{
+			"name": "Smug",
+			"path": "res://art/Characters/Orven/Smug Orven.png"
+		},
+		{
+			"name": "Warm",
+			"path": "res://art/Characters/Orven/Warm Orven.png"
+		},
+		{
+			"name": "Worried",
+			"path": "res://art/Characters/Orven/Worried Orven.png"
+		},
+		{
+			"name": "Crying",
+			"path": "res://art/Characters/Orven/Crying Orven.png"
+		},
+		{
+			"name": "Hmm",
+			"path": "res://art/Characters/Orven/Hmm Orven.png"
+		},
+		{
+			"name": "Laugh",
+			"path": "res://art/Characters/Orven/Laugh Orven.png"
+		},
+		{
+			"name": "Mmm",
+			"path": "res://art/Characters/Orven/Mmm Orven.png"
+		},
+		{
+			"name": "Nervous",
+			"path": "res://art/Characters/Orven/Nervous Orven.png"
+		},
+		{
+			"name": "Not Angry Confused",
+			"path": "res://art/Characters/Orven/Not Angry Confused Orven.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://art/Characters/Orven/Sad Orven.png"
+		},
+		{
+			"name": "Surprised",
+			"path": "res://art/Characters/Orven/Surprised Orven.png"
+		}
+	],
+	"scale": 18,
+	"theme": ""
+}

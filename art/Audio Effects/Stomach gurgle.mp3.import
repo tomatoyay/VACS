@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Stomach gurgle.mp3-862660e1aea0eec99249204808d5197f.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Stomach gurgle.mp3"
+dest_files=[ "res://import/Stomach gurgle.mp3-862660e1aea0eec99249204808d5197f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

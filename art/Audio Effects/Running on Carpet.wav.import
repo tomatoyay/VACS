@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Running on Carpet.wav-26fe0aa94bdafe8f82bf1a1b91d8861b.sample"
+
+[deps]
+
+source_file="res://art/Audio Effects/Running on Carpet.wav"
+dest_files=[ "res://.import/Running on Carpet.wav-26fe0aa94bdafe8f82bf1a1b91d8861b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

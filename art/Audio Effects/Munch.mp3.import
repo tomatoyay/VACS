@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Munch.mp3-1e6a7f30bd5eb58825eb3ca054302ee8.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Munch.mp3"
+dest_files=[ "res://import/Munch.mp3-1e6a7f30bd5eb58825eb3ca054302ee8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

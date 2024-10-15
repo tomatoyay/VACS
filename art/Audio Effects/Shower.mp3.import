@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Shower.mp3-86f55854f0db8e563b78b927922f4fd2.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Shower.mp3"
+dest_files=[ "res://import/Shower.mp3-86f55854f0db8e563b78b927922f4fd2.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

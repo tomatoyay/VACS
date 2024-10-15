@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://import/Blight Whoosh.mp3-a2f7e88a6a6a381d0fe0272d5cd21391.mp3str"
+
+[deps]
+
+source_file="res://art/Audio Effects/Blight Whoosh.mp3"
+dest_files=[ "res://import/Blight Whoosh.mp3-a2f7e88a6a6a381d0fe0272d5cd21391.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

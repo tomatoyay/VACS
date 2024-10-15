@@ -1,0 +1,49 @@
+{
+	"color": "#ffac4500",
+	"description": "The beloved nephew of Rondeau Impoli.",
+	"display_name": "Tangeau",
+	"display_name_bool": true,
+	"id": "character-1703179971.json",
+	"mirror_portraits": false,
+	"name": "Tangeau Impoli",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 650,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/Characters/Tangeau/Tangeau.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://art/Characters/Tangeau/Angry Tangeau.png"
+		},
+		{
+			"name": "Disappointed",
+			"path": "res://art/Characters/Tangeau/Disappointed Tangeau.png"
+		},
+		{
+			"name": "Intimidating",
+			"path": "res://art/Characters/Tangeau/Intimidating Tangeau.png"
+		},
+		{
+			"name": "Irritated",
+			"path": "res://art/Characters/Tangeau/Irritated Tangeau.png"
+		},
+		{
+			"name": "Scared",
+			"path": "res://art/Characters/Tangeau/Scared Tangeau.png"
+		},
+		{
+			"name": "Suspicious",
+			"path": "res://art/Characters/Tangeau/Suspicious Tangeau.png"
+		},
+		{
+			"name": "Warm",
+			"path": "res://art/Characters/Tangeau/Warm Tangeau.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

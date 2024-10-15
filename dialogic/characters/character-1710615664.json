@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "Bongeau",
+	"display_name_bool": true,
+	"id": "character-1710615664.json",
+	"mirror_portraits": false,
+	"name": "Bongeau Impoli",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://art/NPC/bongeau.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

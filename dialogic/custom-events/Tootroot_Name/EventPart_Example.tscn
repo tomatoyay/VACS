@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://dialogic/custom-events/Tootroot_Name/EventPart_Example.gd" type="Script" id=2]
+
+[node name="EventPart_Example" type="HBoxContainer"]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 1.00103, 1.00191 )
+script = ExtResource( 2 )
+
+[node name="HBox" type="HBoxContainer" parent="."]
+margin_right = 94.0
+margin_bottom = 40.0
+
+[node name="Equals" type="HBoxContainer" parent="HBox"]
+margin_right = 80.0
+margin_bottom = 40.0
+
+[node name="Label" type="Label" parent="HBox/Equals"]
+margin_top = 13.0
+margin_right = 80.0
+margin_bottom = 27.0
+text = "= User Input"
+
+[node name="Spacer" type="Control" parent="HBox"]
+margin_left = 84.0
+margin_right = 94.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 10, 0 )

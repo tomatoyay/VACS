@@ -1,0 +1,1121 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1696610748.cfg"
+		},
+		{
+			"background": "res://art/Background/Factory Exterior Night.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 3
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://art/OST/White Noise.wav",
+			"volume": -50
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Crickets Chirping.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": false
+		},
+		{
+			"definition": "1700958672-423",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We will be sitting on the steps, is that alright with you?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course! I eat with Herb here every day.  "
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I’m more surprised you’re okay with this. I hope this doesn’t ruin your pants?"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Trailer 0",
+			"text": "The tailor we hire is from the Valentine Mill, and she is very talented. A little dirt won’t hurt these fabrics."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking at You",
+			"text": "I think…"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cheeky",
+			"text": "Though, don’t tell my wife, she knows more about this than me. Sometimes ignorance is bliss."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Neutral",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Yeah, when I was younger, once I started running outside, I wouldn’t stop.\nI think every single one of my pants when I was 12 had some sort of grass or dirt stain on them.  "
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "I didn’t even think of all the scrubbing Gramma had to do to get them to look remotely wearable again…\n...All I knew is that I smelled like vinegar."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Ret Laugh.wav",
+			"volume": -3
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "[i]chuckle"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Crickets Chirping.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Why do you and Herwin choose to eat here?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Well, it won’t be good weather forever, so I wanna enjoy the outside for as long as I can."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "And my food can get a little stinky."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Neutral",
+			"text": "I’m jealous—that usually means that the food is well seasoned."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "All thanks to Gramma!\nI gotta keep her legacy alive. I don’t think I could consider myself her son if I didn’t cook well."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Do you cook, Mister Avidine?"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Neutral",
+			"text": "Occasionally. \nI don’t think my palate is abysmal, but with nobility and money comes the perk of saving time and energy on cooking.\nOur head maid, Niini, is quite adept."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "One of these days, I’ll bring you lunch!\nI’ve got a great stew for the winter, and in the summer I love pan frying fish."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking at You",
+			"text": "And for the Autumn?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hmm",
+			"text": "Probably something with sweet potatoes?"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Neutral",
+			"text": "I’m not partial to the casserole.\nThough my children are; they love marshmallows."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "Nah, I don’t like that either. It’s all just mush, and if I’m eating potato mush, it better be mashed potatoes. "
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "I’ll think about it, Mister Avidine.\nOn my Gramma’s honor, it’ll be a good sweet potato dish."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I have no doubt."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking at You",
+			"text": "I do have another question."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Go for it."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You seem to really like the outdoors.\nI’m surprised you would want to work in a place as confining as a factory.\nWhy did you apply?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Well, it wasn’t just for [i]any[/i] factory. It was for yours!"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Angled",
+			"text": "And why my factory?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "......"
+		},
+		{
+			"choice": "You",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "I’m not going to lie, boss, you’re kind of my hero."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Ret Ding.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking at You",
+			"text": "???"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Crickets Chirping.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "When I was young, I was really sick. Like, I couldn’t get out of bed sick."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "And a lot of doctors, magical and not magical, came by, and they had some stuff that would help, but they were all so expensive.\nAnd the cost was okay when my Gramma had my Grampa, but when he passed, we couldn’t keep up.\nBut then, we heard about Avidine’s Elixirs and how you were mass producing these potions so that they could be cheaper for people like me."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "We weren’t sure if it would work. I mean, this was over a decade ago when the idea was new.\nWe bought some and my Gramma prayed hard, and here I am."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "...You cured me, man."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Trailer 0",
+			"text": "......"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And I always wanted to thank you for that."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "I didn’t cure you; there is no thanks needed. \nThe elixirs were made by skilled wizards and technicians. Your Grandmother was the one to care for you.\nAnd it was your body that was able to fight through the disease that was keeping you down."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking at You",
+			"text": "I’m glad I was able to help, in some remote way. But your admiration is misplaced."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Trailer 0",
+			"text": "I’m just a businessman."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Confused",
+			"text": "But you help people!"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Angled",
+			"text": "Ideally, yes."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Orven Zanry."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Straight",
+			"text": "You are not a businessman."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Looking at You",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I mean, yeah."
+		},
+		{
+			"choice": "Your work",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "This might sound weird, but this factory kinda gave me the life I have now."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Ret Ding.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking at You",
+			"text": "???"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Crickets Chirping.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "When I was young, I was really sick. Like, I couldn’t get out of bed sick."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "And a lot of magical and non-magical doctors came by, and they had some stuff that would help, but they were all so expensive.\nAnd the cost was okay when my Gramma had my Grampa, but when he passed, we couldn’t keep up.\nBut then, we heard about Avidine’s Elixirs and how you were mass producing these potions so that they could be cheaper for people like me."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "We weren’t sure if it would work. I mean, this was over a decade ago when the idea was new.\nWe bought some and my Gramma prayed hard, and here I am.\n...You cured me, man."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Trailer 0",
+			"text": "I didn’t cure you; there is no thanks needed. \nThe elixirs were made by skilled wizards and technicians. Your Grandmother was the one to care for you.\nAnd it was your body that was able to fight through the disease that was keeping you down. "
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Looking at You",
+			"text": "I’m glad my products were able to help, and I as well in some remote way.\nYou mentioned Avidine’s Elixirs in your application."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": " I mean, I had to. I wanted to work in [i]this[/i] factory."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "And Gramma said that it was good to distinguish each application from the rest, but I swear I wasn’t lying when I said all the nice things I did.\nTo other places, yeah, but not for here."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Determined",
+			"text": "This was always my first choice."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Straight",
+			"text": "Orven, I accepted your application because your resume was moving, and I wanted to grant you the opportunities of this city."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Angled",
+			"text": "But I do not want you to stay in my factory."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Shocked",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "??????"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"audio_bus": "Music",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 3,
+			"file": "res://art/OST/Orven to the stars!.wav",
+			"volume": -15
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Straight",
+			"text": "You are intelligent. You are compassionate. You are driven.\nYou are extremely hard working. You are young."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "These can all be better used elsewhere."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Sir, am I being fired???"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Neutral",
+			"text": "No. You will stay as long as [i]you[/i] see fit."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Straight",
+			"text": "And that should be for as long as you are learning and growing here."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Neutral",
+			"text": "If you recall, I said production’s assets were their strength and dexterity."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Yours is your mind and heart.\nSeek other opportunities, Orven."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "…Mister Avidine, I’ve only been here a month!  "
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Not Angry Confused",
+			"text": "How are you so sure you know me?\nIf I’m this good, why would you want to get rid of me?"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Trailer 0",
+			"text": "I do not want to get rid of you."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…..."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Angled",
+			"text": "I have two young children. \nLunette and Matty.\nAs a father, I would feel it to be a disservice to you if no one told you how much potential you have."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Straight",
+			"text": "I would hate to be the cage that keeps you from greatness."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Trailer 0",
+			"text": "I don’t know you like your Grandmother does, nor am I claiming to.\nThough I had not formally introduced myself, I have been looking over your work."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Neutral",
+			"text": "I quickly heard about the young man who accompanied Mrs. Langtree and helped with her tasks."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Angled",
+			"text": "Miss Odiche rarely has anything to talk about aside from herself, but she did not fail to mention how quickly you picked up skills,\nand how eager and respectful you were to work here with the workers around you."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Straight",
+			"text": "And Herwin has never been this focused, likely because you have given him an example of a young person with a goal in mind.  "
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "......"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I do not know what you would want to pursue, but I suggest you think about what it is that you really want.\nBecause I know that with your mind and heart and body, you can achieve whatever you set out to do."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Nervous",
+			"text": "Then why not the lab technicians?\nOr I could move up to administration?"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cheeky",
+			"text": "You would want to work in administration?"
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "...No."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Trailer 0",
+			"text": "Obviously, if either of these positions are what you desire, then pursue them.\nBut somehow I doubt that any of these positions would be what you desired to do if my name or factory were not attached to them."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "......"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Serious Straight",
+			"text": "Orven Zanry, look at me."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Wow Ding!.wav",
+			"volume": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Surprised",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "......"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "You are an exceptional young man. I’m very proud to work with you.\nBut I’m even more excited to see where you go in the future."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cheeky",
+			"text": "And I advise that you not drag your feet waiting for your future to meet up with you."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Warm",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hand Out",
+			"text": "Opportunity will be here before you know it."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Chime.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Worried",
+			"text": "…Suddenly, the sky looks dark."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Trailer 0",
+			"text": "We have been talking for awhile, my apologies."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shocked",
+			"text": "No! No, not at all."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Worried",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Neutral",
+			"text": "I believe the sky only looks dark because the sun is setting. The stars, the clouds, and the sky is still there."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "You might even find that the sky, when everything clears and brightens, is even more beautiful than what you could’ve imagined."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Surprised",
+			"text": "You sound like my Gramma."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "That is high praise.\nWait, Orven Zanry, your sky will brighten soon."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cheeky",
+			"text": "And when it does, I doubt it will shine on my little factory."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Hand Out",
+			"text": "But until then, we are happy to have you here."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Thank you, Mister Avidine.\nI mean, it’s a lot to think about, but I’m really grateful for all of your thoughts and advice."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Neutral",
+			"text": "It is late, you should get some dinner."
+		},
+		{
+			"condition": "",
+			"definition": "1703313038-233",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Since you mentioned cafes earlier..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "I would suggest All Bread Patisserie for a quick meal."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Are you heading out, too?"
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Trailer 0",
+			"text": "Unfortunately, there are things that must be settled before the review tomorrow."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Oh, okay. I’ll see you later then, Mister Avidine."
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Let me know when you’re visiting production! I’ll get that sweet potato dish for you."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "SFX",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://art/Audio Effects/Ret Laugh.wav",
+			"volume": -3
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cheeky",
+			"text": "I look forward to it."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Goodnight, Mister Avidine."
+		},
+		{
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_001",
+			"portrait": "Warm",
+			"text": "Goodnight, Orven."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696610736.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1696616454.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://art/Background/black.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3
+		},
+		{
+			"change_timeline": "timeline-1702938824.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5",
+		"file": "timeline-1700960333.json",
+		"name": "Day 0 Outside"
+	}
+}
