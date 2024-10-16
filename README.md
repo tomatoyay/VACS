@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![dialogic-cover](https://user-images.githubusercontent.com/2206700/156223574-5052c607-408e-4143-80b5-c4aed1cf29a2.png)
 
 Create dialogs, characters and scenes to display conversations in your Godot games. 
@@ -92,3 +93,7 @@ Jacquelinett
 Support me on [Patreon https://www.patreon.com/coppolaemilio](https://www.patreon.com/coppolaemilio)
 
 [MIT License](https://github.com/coppolaemilio/dialogic/blob/main/LICENSE)
+=======
+# VACS
+Ventreville: A Cure For Sorrow Version Control
+>>>>>>> 18fcf48d650badb8fda8c6c8aede6a1cba7da11f
